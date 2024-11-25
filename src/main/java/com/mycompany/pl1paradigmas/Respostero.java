@@ -26,7 +26,7 @@ public class Respostero extends Thread{
     //Constructor
     public Respostero(String idRespostero, Horno[] hornos) {
         this.idRespostero = idRespostero;
-        this.hornos = hornos;
+        this.hornos = hornos;  
     }
 
     //Metodos
