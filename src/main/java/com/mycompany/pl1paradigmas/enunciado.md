@@ -1,123 +1,81 @@
-# **Simulación de una fábrica de galletas**
+# **LABORATORIO DE PARADIGMAS DE LA PROGRAMACIÓN**
 
-## **Programación Concurrente**
+## **PARADIGMAS DE LA PROGRAMACIÓN**
 
-Se desea modelar el funcionamiento de una fábrica de galletas. La fábrica comienza con **cinco reposteros**, **tres hornos** y **tres empaquetadores**. Los **reposteros** se encargan de producir **tandas de galletas**, mientras que los **hornos** hornean las galletas cuando alcanzan su capacidad máxima. Los **empaquetadores** son responsables de llevar las **galletas horneadas al almacén**.
+### **Práctica de Laboratorio (E1)**
+**Convocatoria Ordinaria – 2024/2025**  
+Publicado el 05 de noviembre de 2024
 
----
+### **Simulación de una fábrica de galletas**
 
-### **Roles y Tiempos**
+#### **Programación Concurrente**
 
-#### **Reposteros**
-- **Tareas**:
-    - Producir tandas de galletas (**entre 37 y 45 galletas**).
-    - Depositar las galletas en un horno.
-    - Parar a tomar café después de producir **entre 3 y 5 tandas**.
-- **Tiempos**:
-    - Producción de una tanda: **entre 2 y 4 segundos**.
-    - Preparar café: **2 segundos** (solo un repostero puede usar la cafetera al mismo tiempo).
-    - Descanso tras el café: **entre 3 y 6 segundos**.
+Se desea modelar el funcionamiento de una fábrica de galletas. La fábrica comienza con cinco reposteros, tres hornos y tres empaquetadores. Los reposteros se encargan de producir tandas de galletas, mientras que los hornos hornean las galletas cuando alcanzan su capacidad máxima. Los empaquetadores son responsables de llevar las galletas horneadas al almacén.
 
----
+- Los reposteros tardan entre 2 y 4 segundos en producir una tanda de galletas, que puede ser entre 37 y 45 galletas, y luego las depositan en un horno.
+- Una vez que completan de 3 a 5 tandas de producción, realizan una parada para el café. Durante este descanso, los reposteros se preparan café, pero solo hay una cafetera disponible, por lo que solo un repostero puede prepararse café a la vez.
+    - En preparar café tardan 2 segundos, y, una vez se han preparado el café, descansan entre 3 y 6 segundos.
+- Los hornos tienen una capacidad máxima de 200 galletas y solo comienzan a hornear cuando están llenos, tardando 8 segundos en hornear todas las galletas.
+- Los empaquetadores recogerán las galletas en lotes de 20, lo cual les toma entre 0,5 y 1 segundos por cada lote, y, cuando llegan a 100 galletas, las empaquetarán.
+    - No será hasta entonces cuando las lleven al almacén, lo que les toma entre 2 y 4 segundos.
 
-#### **Hornos**
-- **Tareas**:
-    - Recibir galletas de los reposteros.
-    - Hornear galletas cuando estén llenos.
-- **Capacidad máxima**: **200 galletas**.
-- **Tiempo de horneado**: **8 segundos**.
-- **Condiciones**:
-    - Los hornos solo hornean cuando están **completamente llenos**.
-    - Antes de que los reposteros puedan volver a usar el horno, este debe estar **vacío por completo**.
+El almacén tiene una capacidad máxima de 1000 galletas y contará con un botón que el usuario podrá pulsar para “comer” galletas. Cada pulsación del ratón debe consumir 100 galletas. Mientras el almacén esté lleno, los empaquetadores no podrán depositar más galletas, por lo que el usuario deberá vaciar el almacén regularmente para permitir nuevas entregas.
 
----
-
-#### **Empaquetadores**
-- **Tareas**:
-    - Recoger galletas en lotes de **20**.
-    - Empaquetar lotes de **100 galletas** y llevarlos al almacén.
-- **Tiempos**:
-    - Recoger un lote de 20: **entre 0,5 y 1 segundo**.
-    - Transportar al almacén: **entre 2 y 4 segundos**.
-- **Condiciones**:
-    - Cada empaquetador recoge galletas de un **horno específico** (e.g., empaquetador 1 recoge del horno 1).
-    - El flujo de traslado se detiene si el **almacén está lleno**.
-
----
-
-### **Almacén**
-- **Capacidad máxima**: **1000 galletas**.
-- **Interacción del usuario**:
-    - El usuario podrá "comer" galletas pulsando un botón.
-    - Cada pulsación del botón consume **100 galletas**.
-- **Condiciones**:
-    - Mientras el almacén esté lleno, los empaquetadores no podrán depositar más galletas.
-    - El usuario debe vaciar regularmente el almacén para permitir nuevas entregas.
-
----
-
-### **Requisitos Adicionales**
-- Todos los roles (**reposteros**, **hornos** y **empaquetadores**) deben ser modelados como **hilos**.
+#### **Consideraciones adicionales:**
+- Todos los roles (reposteros, hornos y empaquetadores) serán modelados obligatoriamente como hilos.
 - La fábrica tendrá, en total:
-    - **5 reposteros**
-    - **3 hornos**
-    - **3 empaquetadores**
-- **Identificadores únicos**:
-    - Cada entidad tendrá un identificador único (e.g., "Repostero1", "Horno1", "Empaquetador1").
-- **Reglas de los hornos**:
-    - Los reposteros llenarán los hornos en orden. Si un horno no tiene espacio, probarán con el siguiente.
-    - Si no hay hornos disponibles, los reposteros esperarán.
-    - Los hornos hornean solo cuando están completamente llenos.
-    - Los hornos deben vaciarse completamente antes de aceptar más galletas.
-- **Lógica de desperdicio**:
-    - Si el repostero intenta meter más galletas de las que faltan para completar la capacidad del horno, las galletas sobrantes se **desperdician** y se registran en el log.
+    - 5 reposteros,
+    - 3 hornos, y
+    - 3 empaquetadores.
+- Cada entidad tendrá un identificador único: “Repostero1”, “Empaquetador1”, “Horno1”, etc.
+- Los reposteros irán llenando los hornos en orden.
+    - Cuando en un horno no se puedan meter galletas, probarán con los siguientes hornos hasta que haya uno libre.
+    - Si no hay hornos disponibles, los reposteros esperarán hasta que uno quede libre.
+- Los hornos hornean solo cuando están completamente llenos.
+- El flujo de traslado de galletas del horno al almacén solo se detiene cuando el almacén está lleno.
+- Cada empaquetador solo puede recoger galletas de un horno específico.
+    - El empaquetador 1 recoge galletas del horno 1, el empaquetador 2 del horno 2, y así sucesivamente.
+- Antes de que los reposteros puedan volver a meter galletas después de un horneado, el horno se debe vaciar por completo.
+- Si el repostero va a meter más galletas de las que faltan para completar la capacidad del horno, las galletas restantes se desperdician y se registran en el log.
+
+Los tiempos de los reposteros, hornos y empaquetadores se generarán aleatoriamente mediante las funciones random de Java, y todo el comportamiento del sistema se guardará en un log (un fichero de texto llamado `evolucionGalletas.txt`), además de mostrarse gráficamente por pantalla, de forma que sea sencillo analizar lo sucedido.
+
+El log guardará los eventos que van teniendo lugar, por ejemplo:
+- “Repostero1 deja 40 galletas en el Horno1”,
+- “Repostero2 desecha 25 galletas”,
+- “Empaquetador1 recoge 20 galletas del Horno1”,
+- “Empaquetador1 esperando”, etc.
+
+En cada línea de dicho log deberá constar la marca de tiempo (incluyendo la fecha, la hora, el minuto y el segundo determinado en el que tuvo lugar el evento) y el evento en sí.
 
 ---
 
-### **Log de Eventos**
-- Todos los eventos se registrarán en un archivo de texto llamado `evolucionGalletas.txt`.
-- Cada línea del log debe incluir:
-    - Una **marca de tiempo** (fecha, hora, minuto y segundo).
-    - Una descripción del evento (e.g., "Repostero1 deja 40 galletas en el Horno1", "Repostero2 desecha 25 galletas").
-- Ejemplos de eventos registrados:
-    - "Repostero1 deja 40 galletas en el Horno1".
-    - "Empaquetador1 recoge 20 galletas del Horno1".
-    - "Empaquetador1 esperando".
+#### **Programación Distribuida**
+Basándose en la aplicación concurrente descrita, se incluirá un nuevo módulo capaz de visualizar de forma remota el contenido de la fábrica (usando programación concurrente distribuida). Este módulo permitirá visualizar, mediante una interfaz gráfica, el estado del almacén, de los hornos y del personal.
 
----
+**Se desarrollarán dos programas:**
+1. **Servidor:**
+    - Su código base será el programa desarrollado en el apartado “Programación Concurrente”.
+    - Incluirá una interfaz gráfica y la funcionalidad correspondiente para dar soporte al módulo de visualización distribuida.
 
-## **Programación Distribuida**
-
-Basándose en la aplicación concurrente descrita, se incluirá un nuevo módulo para **visualizar de forma remota** el contenido de la fábrica mediante **programación concurrente distribuida**.
-
-### **Requisitos del Sistema Distribuido**
-1. **Servidor**:
-    - Basado en el programa de programación concurrente desarrollado anteriormente.
-    - Contará con una **interfaz gráfica** que refleje el estado de la fábrica.
-    - Implementará funcionalidad para enviar el estado actual al cliente.
-2. **Cliente**:
-    - Permitirá al usuario **visualizar remotamente** el estado de la fábrica.
+2. **Cliente (Módulo de Visualización):**
+    - Permitirá al usuario visualizar el estado del almacén, los hornos y los reposteros de forma remota a través de una interfaz gráfica.
     - La interfaz mostrará:
         - Número de galletas generadas por los reposteros.
         - Número de galletas desperdiciadas.
         - Galletas horneadas.
-        - Estado de los hornos (si están en proceso de horneado o no).
+        - Si cada horno está actualmente en proceso de horneado o no.
         - Cantidad de galletas en el almacén.
         - Galletas consumidas por el usuario.
-    - Funcionalidad adicional:
-        - **Pausar o reanudar** individualmente a cada repostero.
-    - Actualización automática del estado del sistema cada **1 segundo**.
+    - Proporcionará también la capacidad de pausar o reanudar individualmente a cada uno de los reposteros.
+
+La información mostrada será actualizada automáticamente en la interfaz del cliente con una periodicidad de 1 segundo, reflejando el estado real de la fábrica en todo momento.
 
 ---
 
-### **Ejemplo de Interfaces Gráficas**
-#### **Interfaz del Servidor**
-- Mostrar el estado de la fábrica (hornos, almacén, reposteros y empaquetadores).
-- Botones para iniciar y detener procesos.
+#### **Condiciones de Entrega**
+1. La práctica deberá ser entregada antes de la fecha indicada en el Aula Virtual, incluyendo:
+    - Una memoria explicativa (PDF o DOC).
+    - El proyecto NetBeans comprimido en formato ZIP (no usar `.rar`).
 
-#### **Interfaz del Cliente**
-- Visualización del estado en tiempo real.
-- Botones para pausar o reanudar reposteros.
-- Indicador de cantidad de galletas consumidas.
-
----
+2. El proyecto debe cumplir con las especificaciones de la convocatoria.
