@@ -87,7 +87,13 @@ public class Respostero extends Thread {
 
     //funcion para depositar galletas en un horno
     public void depositarGalletas() {
+
         // Seleccionamos un horno en orden; si llegamos al último, volvemos al primero
+        // si el horno esta disponible quzias deberia preguntarlo primero
+        // porque tenems un bool si podriamos usar el semaforo y bloquear el horno con el semaforo
+        //hacer quizas mejor las variables de tiempo de esperar que sean variables para editarlas desde
+        // la interfaz
+
         do {
             for (int i = 0; i < hornos.length; i++) {
                 Horno horno = hornos[i];
