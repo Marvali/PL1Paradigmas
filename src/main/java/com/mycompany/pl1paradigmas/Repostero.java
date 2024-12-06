@@ -17,9 +17,9 @@ import java.util.concurrent.Semaphore;
  * disponible, por lo que solo un repostero puede prepararse café a la vez. En preparar café tardan 2 segundos,
  * y, una vez se han preparado el café, descansan entre 3 y 6 segundos.
  */
-public class Respostero extends Thread {
+public class Repostero extends Thread {
     //Atributos
-    private String idRespostero;
+    private int idRespostero;
     private Horno[] hornos;
     private Semaphore emCafetera = new Semaphore(1);                     //este semaforo es porque solo hay 1 cafetera
     private Log log = new Log();
@@ -31,7 +31,7 @@ public class Respostero extends Thread {
     private int totalGalletas = 0;                                              //total de galletas producidas
 
     //Constructor
-    public Respostero(String idRespostero, Horno[] hornos) {
+    public Repostero(int idRespostero, Horno[] hornos) {
         this.idRespostero = idRespostero;
         this.hornos = hornos;
     }
@@ -42,7 +42,7 @@ public class Respostero extends Thread {
         try {
             while (true) {
                 //El respostero produce galletas
-                sleep(2000 + 4000 * math.random()); //entre 2 y 4 segundos
+                sleep((long) (2000 + 4000 * Math.random())); //entre 2 y 4 segundos
                 producirGalletas();
 
 
@@ -62,7 +62,7 @@ public class Respostero extends Thread {
                     sleep(2000); //2 segundos
                     emCafetera.release();
                     //El respostero descansa
-                    sleep(3000 + 6000 * math.random()); //entre 3 y 6 segundos
+                    sleep((long) (3000 + 6000 * Math.random())); //entre 3 y 6 segundos
                 }
             }
         } catch (InterruptedException e) {
@@ -87,35 +87,36 @@ public class Respostero extends Thread {
 
     //funcion para depositar galletas en un horno
     public void depositarGalletas() {
-
-        // Seleccionamos un horno en orden; si llegamos al último, volvemos al primero
-        // si el horno esta disponible quzias deberia preguntarlo primero
-        // porque tenems un bool si podriamos usar el semaforo y bloquear el horno con el semaforo
-        //hacer quizas mejor las variables de tiempo de esperar que sean variables para editarlas desde
-        // la interfaz
-
         do {
             for (int i = 0; i < hornos.length; i++) {
                 Horno horno = hornos[i];
-                horno.getLock().lock(); // Bloquea el acceso al horno actual
+                boolean lockAcquired = false;
+                while (!lockAcquired) {
+                    lockAcquired = horno.getLock().tryLock();
+                    if (!lockAcquired) {
+                        // Si no se puede adquirir el lock, pasa al siguiente horno
+                        continue;
+                    }
+                }
                 try {
-                    // Verifica si el horno no está horneando
-                    if (!horno.getHorneo()) {
-                        // Calcula el espacio disponible en el horno
-                        int espacio = horno.getCapacidadMaxima() - horno.getCapacidadActual();
+                    // Calcula el espacio disponible en el horno
+                    int espacio = horno.getCapacidadMaxima() - horno.getCapacidadActual();
 
-                        if (galletasPorTanda <= espacio) {
-                            // Si caben todas las galletas, deposítalas
-                            horno.setCapacidadActual(horno.getCapacidadActual() + galletasPorTanda);
-                            log.escribirLog(idRepostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
-                            galletasPorTanda = 0; // Todas las galletas han sido depositadas
-                            break;
-                        } else {
-                            // Si no caben todas las galletas, llena el horno y guarda las sobrantes
-                            horno.setCapacidadActual(horno.getCapacidadMaxima());
-                            log.escribirLog(idRepostero + " deposita " + espacio + " galletas en " + horno.getId());
-                            galletasPorTanda -= espacio; // Reduce la cantidad de galletas restantes
+                    if (galletasPorTanda <= espacio) {
+                        // Si caben todas las galletas, deposítalas
+                        horno.setCapacidadActual(horno.getCapacidadActual() + galletasPorTanda);
+                        log.escribirLog(idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                        galletasPorTanda = 0; // Todas las galletas han sido depositadas
+                        if (horno.getCapacidadActual() == horno.getCapacidadMaxima()) {
+                            horno.getLleno().signal(); // Señala que el horno está lleno
                         }
+                        break;
+                    } else {
+                        // Si no caben todas las galletas, llena el horno y guarda las sobrantes
+                        horno.setCapacidadActual(horno.getCapacidadMaxima());
+                        log.escribirLog(idRespostero + " deposita " + espacio + " galletas en " + horno.getId());
+                        galletasPorTanda -= espacio; // Reduce la cantidad de galletas restantes
+                        horno.getLleno().signal(); // Señala que el horno está lleno
                     }
                 } finally {
                     horno.getLock().unlock(); // Libera el acceso al horno actual
@@ -137,20 +138,3 @@ public class Respostero extends Thread {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
