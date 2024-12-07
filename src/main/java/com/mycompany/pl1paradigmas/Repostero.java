@@ -62,7 +62,7 @@ public class Repostero extends Thread {
                     sleep(2000); //2 segundos
                     emCafetera.release();
                     //El respostero descansa
-                    sleep((long) (3000 + 6000 * Math.random())); //entre 3 y 6 segundos
+                    sleep((long) (3000 + 3000 * Math.random())); //entre 3 y 6 segundos
                 }
             }
         } catch (InterruptedException e) {
@@ -79,59 +79,71 @@ public class Repostero extends Thread {
     //funcion para producir galletas
     public void producirGalletas() {
         //generamos un numero aleatorio entre 37 y 45
+
         galletasPorTanda = rand.nextInt(45 - 37 + 1) + 37;
+        System.out.println("El repostero " + idRespostero + " ha producido " + galletasPorTanda + " galletas");
         //guardamos las galletas en el total
+
         totalGalletas += galletasPorTanda;
 
     }
 
     //funcion para depositar galletas en un horno
-    public void depositarGalletas() {
+    public void depositarGalletas() throws InterruptedException {
+        // quizas el continue baja al try cuando no deberia
         do {
             for (int i = 0; i < hornos.length; i++) {
                 Horno horno = hornos[i];
                 boolean lockAcquired = false;
-                while (!lockAcquired) {
-                    lockAcquired = horno.getLock().tryLock();
-                    if (!lockAcquired) {
-                        // Si no se puede adquirir el lock, pasa al siguiente horno
-                        continue;
-                    }
-                }
-                try {
-                    // Calcula el espacio disponible en el horno
-                    int espacio = horno.getCapacidadMaxima() - horno.getCapacidadActual();
 
-                    if (galletasPorTanda <= espacio) {
+                // tryLock() intenta adquirir el lock del horno sin bloquear el hilo
+                lockAcquired = horno.getLock().tryLock();
+                if (!lockAcquired) {
+
+
+
+                    continue;
+                }
+
+                try {
+                    // Calcula el espacioVacio disponible en el horno
+                    int espacioVacio = horno.getCapacidadMaxima() - horno.getCantidadGalletasHorno();
+
+                    if (galletasPorTanda <= espacioVacio) {
                         // Si caben todas las galletas, deposítalas
-                        horno.setCapacidadActual(horno.getCapacidadActual() + galletasPorTanda);
-                        log.escribirLog("El repostero "+ idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                        horno.setCantidadGalletasHorno(horno.getCantidadGalletasHorno() + galletasPorTanda);
+                        log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                        System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
                         galletasPorTanda = 0; // Todas las galletas han sido depositadas
-                        if (horno.getCapacidadActual() == horno.getCapacidadMaxima()) {
+                        if (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {
                             horno.getLleno().signal(); // Señala que el horno está lleno
+
                         }
                         break;
                     } else {
                         // Si no caben todas las galletas, llena el horno y guarda las sobrantes
-                        horno.setCapacidadActual(horno.getCapacidadMaxima());
-                        log.escribirLog("El repostero "+ idRespostero + " deposita " + espacio + " galletas en " + horno.getId());
-                        galletasPorTanda -= espacio; // Reduce la cantidad de galletas restantes
+                        // espacioVacio del horno - galletas por tanda = galletas sobrantes
+                        // galletas que entran = espacioVacio
+                        horno.setCantidadGalletasHorno(horno.getCapacidadMaxima());
+                        
+
+                        log.escribirLog("El repostero " + idRespostero + " deposita " + espacioVacio + " galletas en " + horno.getId());
+                        System.out.println("El repostero " + idRespostero + " deposita " + espacioVacio + " galletas en " + horno.getId());
+                        galletasPorTanda -= espacioVacio; // Reduce la cantidad de galletas restantes
                         horno.getLleno().signal(); // Señala que el horno está lleno
                     }
                 } finally {
                     horno.getLock().unlock(); // Libera el acceso al horno actual
+                    sleep(35);
                 }
             }
-
             // Si todavía quedan galletas por depositar, espera un momento antes de reintentar
             if (galletasPorTanda > 0) {
-                try {
-                    Thread.sleep(500); // Espera 500 ms antes de reintentar
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
-                }
+
             }
-        } while (galletasPorTanda > 0);
+        } while (galletasPorTanda >0);
+        System.out.println("El repostero " + idRespostero + " ha terminado de depositar galletas");
+
     }
 
 

@@ -15,7 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Horno extends Thread {
     private int id;                     // Identificador del horno
     private int capacidadMaxima;       // Capacidad máxima del horno
-    private int capacidadActual;       // Cantidad actual de galletas en el horno
+    private int cantidadGalletasHorno;       // Cantidad actual de galletas en el horno
     private Log log;                   // Objeto para registrar eventos
     private ReentrantLock lock;        // Bloqueo para exclusión mutua
     private Condition lleno;           // Condición para indicar que el horno está lleno
@@ -26,7 +26,7 @@ public class Horno extends Thread {
     public Horno(int id, int capacidadMaxima, Log log) {
         this.id = id;
         this.capacidadMaxima = capacidadMaxima;
-        this.capacidadActual = 0;
+        this.cantidadGalletasHorno = 0;
         this.log = log;
         this.lock = new ReentrantLock();
         this.lleno = lock.newCondition();
@@ -41,17 +41,20 @@ public class Horno extends Thread {
     public void hornear() throws InterruptedException {
         lock.lock();
         try {
-            while (capacidadActual < capacidadMaxima) {
+            while (cantidadGalletasHorno < capacidadMaxima) {
                 lleno.await(); // Espera a que el horno esté lleno
             }
             log.escribirLog("El horno " + id + " comienza a hornear");
+            System.out.println("El horno " + id + " comienza a hornear");
             Thread.sleep(8000); // Simula el tiempo de horneado (8 segundos)
 
-            capacidadActual = 0; // Vacía el horno
-            vacio.signalAll(); // Notifica que el horno está vacío
+
+            cantidadGalletasHorno = 0; // Vacía el horno
+
         } finally {
             lock.unlock();
             log.escribirLog("El horno " + id + " ha terminado de hornear");
+            System.out.println("El horno " + id + " ha terminado de hornear");
         }
     }
 
@@ -59,11 +62,11 @@ public class Horno extends Thread {
     public int retirarGalletas(String empaquetadorId) throws InterruptedException {
         lock.lock();
         try {
-            while (capacidadActual == 0 && !enHorneo) {
+            while (cantidadGalletasHorno == 0 && !enHorneo) {
                 vacio.await(); // Espera a que haya galletas horneadas
             }
-            int galletasRetiradas = capacidadActual;
-            capacidadActual = 0;
+            int galletasRetiradas = cantidadGalletasHorno;
+            cantidadGalletasHorno = 0;
             log.escribirLog(empaquetadorId + " retira " + galletasRetiradas + " galletas de " + id);
             return galletasRetiradas;
         } finally {
@@ -94,12 +97,12 @@ public class Horno extends Thread {
         return capacidadMaxima;
     }
 
-    public int getCapacidadActual() {
-        return capacidadActual;
+    public int getCantidadGalletasHorno() {
+        return cantidadGalletasHorno;
     }
 
-    public void setCapacidadActual(int capacidadActual) {
-        this.capacidadActual = capacidadActual;
+    public void setCantidadGalletasHorno(int cantidadGalletasHorno) {
+        this.cantidadGalletasHorno = cantidadGalletasHorno;
     }
 
     public ReentrantLock getLock() {
