@@ -37,19 +37,21 @@ public class Horno extends Thread {
 
 
     // Hornear las galletas
+    // OJO, HAY QUE QUITAR QUE VACIE LAS GALLETAS POR AQUI
     public void hornear() throws InterruptedException {
         lock.lock();
         try {
             while (capacidadActual < capacidadMaxima) {
                 lleno.await(); // Espera a que el horno esté lleno
             }
-            log.escribirLog(id + " comienza a hornear");
+            log.escribirLog("El horno " + id + " comienza a hornear");
             Thread.sleep(8000); // Simula el tiempo de horneado (8 segundos)
-            log.escribirLog(id + " termina de hornear");
+
             capacidadActual = 0; // Vacía el horno
             vacio.signalAll(); // Notifica que el horno está vacío
         } finally {
             lock.unlock();
+            log.escribirLog("El horno " + id + " ha terminado de hornear");
         }
     }
 

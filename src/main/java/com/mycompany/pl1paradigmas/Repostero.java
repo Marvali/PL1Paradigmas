@@ -105,7 +105,7 @@ public class Repostero extends Thread {
                     if (galletasPorTanda <= espacio) {
                         // Si caben todas las galletas, deposítalas
                         horno.setCapacidadActual(horno.getCapacidadActual() + galletasPorTanda);
-                        log.escribirLog(idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                        log.escribirLog("El repostero "+ idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
                         galletasPorTanda = 0; // Todas las galletas han sido depositadas
                         if (horno.getCapacidadActual() == horno.getCapacidadMaxima()) {
                             horno.getLleno().signal(); // Señala que el horno está lleno
@@ -114,7 +114,7 @@ public class Repostero extends Thread {
                     } else {
                         // Si no caben todas las galletas, llena el horno y guarda las sobrantes
                         horno.setCapacidadActual(horno.getCapacidadMaxima());
-                        log.escribirLog(idRespostero + " deposita " + espacio + " galletas en " + horno.getId());
+                        log.escribirLog("El repostero "+ idRespostero + " deposita " + espacio + " galletas en " + horno.getId());
                         galletasPorTanda -= espacio; // Reduce la cantidad de galletas restantes
                         horno.getLleno().signal(); // Señala que el horno está lleno
                     }

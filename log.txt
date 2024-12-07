@@ -1,0 +1,2225 @@
+
+2024-12-07 00:42:48 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 00:42:49 - El repostero 1 deposita 1 galletas en 0
+2024-12-07 00:42:49 - El repostero 1 deposita 43 galletas en 1
+2024-12-07 00:42:49 - El horno 0 comienza a hornear
+2024-12-07 00:43:12 - El repostero 3 deposita 38 galletas en 0
+2024-12-07 00:43:13 - El repostero 2 deposita 7 galletas en 0
+2024-12-07 00:43:13 - El repostero 2 deposita 32 galletas en 1
+2024-12-07 00:43:13 - El horno 0 comienza a hornear
+2024-12-07 00:43:21 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 00:43:21 - El horno 0 ha terminado de hornear
+2024-12-07 00:43:21 - El repostero 1 deposita 2 galletas en 0
+2024-12-07 00:43:21 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:43:21 - El repostero 1 deposita 13 galletas en 1
+2024-12-07 00:43:21 - El horno 0 comienza a hornear
+2024-12-07 00:43:21 - El repostero 1 deposita 30 galletas en 2
+2024-12-07 00:43:21 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:43:21 - El horno 1 comienza a hornear
+2024-12-07 00:43:21 - El repostero 3 deposita 15 galletas en 2
+2024-12-07 00:43:21 - El horno 2 comienza a hornear
+2024-12-07 00:43:21 - El repostero 3 deposita 25 galletas en 3
+2024-12-07 00:43:29 - El horno 0 ha terminado de hornear
+2024-12-07 00:43:29 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 00:43:29 - El horno 2 ha terminado de hornear
+2024-12-07 00:43:29 - El repostero 2 deposita 6 galletas en 0
+2024-12-07 00:43:29 - El horno 1 ha terminado de hornear
+2024-12-07 00:43:29 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:43:29 - El repostero 2 deposita 32 galletas en 1
+2024-12-07 00:43:29 - El horno 0 comienza a hornear
+2024-12-07 00:43:29 - El repostero 1 deposita 13 galletas en 1
+2024-12-07 00:43:29 - El repostero 1 deposita 26 galletas en 2
+2024-12-07 00:43:29 - El horno 1 comienza a hornear
+2024-12-07 00:43:37 - El horno 0 ha terminado de hornear
+2024-12-07 00:43:37 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:43:37 - El horno 1 ha terminado de hornear
+2024-12-07 00:43:37 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 00:43:37 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:43:37 - El repostero 3 deposita 35 galletas en 1
+2024-12-07 00:43:37 - El repostero 2 deposita 10 galletas en 1
+2024-12-07 00:43:37 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:43:37 - El horno 0 comienza a hornear
+2024-12-07 00:43:37 - El repostero 2 deposita 19 galletas en 2
+2024-12-07 00:43:37 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:43:37 - El horno 2 comienza a hornear
+2024-12-07 00:43:37 - El repostero 2 deposita 15 galletas en 3
+2024-12-07 00:43:37 - El horno 1 comienza a hornear
+2024-12-07 00:43:45 - El repostero 1 deposita 43 galletas en 2
+2024-12-07 00:43:45 - El horno 2 ha terminado de hornear
+2024-12-07 00:43:45 - El horno 1 ha terminado de hornear
+2024-12-07 00:43:45 - El horno 0 ha terminado de hornear
+2024-12-07 00:43:47 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:43:49 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 00:43:49 - El horno 0 comienza a hornear
+2024-12-07 00:43:49 - El repostero 3 deposita 39 galletas en 1
+2024-12-07 00:43:57 - El horno 0 ha terminado de hornear
+2024-12-07 00:43:57 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 00:43:57 - El repostero 2 deposita 6 galletas en 0
+2024-12-07 00:43:57 - El horno 0 comienza a hornear
+2024-12-07 00:43:57 - El repostero 2 deposita 6 galletas en 1
+2024-12-07 00:43:57 - El repostero 2 deposita 2 galletas en 2
+2024-12-07 00:43:57 - El horno 1 comienza a hornear
+2024-12-07 00:43:57 - El repostero 2 deposita 5 galletas en 3
+2024-12-07 00:43:57 - El horno 2 comienza a hornear
+2024-12-07 00:43:57 - El horno 3 comienza a hornear
+2024-12-07 00:44:05 - El horno 1 ha terminado de hornear
+2024-12-07 00:44:05 - El repostero 2 deposita 25 galletas en 0
+2024-12-07 00:44:05 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:05 - El horno 2 ha terminado de hornear
+2024-12-07 00:44:05 - El repostero 3 deposita 20 galletas en 0
+2024-12-07 00:44:05 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:44:05 - El repostero 3 deposita 18 galletas en 1
+2024-12-07 00:44:05 - El repostero 1 deposita 27 galletas en 1
+2024-12-07 00:44:05 - El horno 0 comienza a hornear
+2024-12-07 00:44:05 - El repostero 1 deposita 16 galletas en 2
+2024-12-07 00:44:05 - El horno 3 ha terminado de hornear
+2024-12-07 00:44:05 - El horno 1 comienza a hornear
+2024-12-07 00:44:13 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:13 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 00:44:13 - El horno 1 ha terminado de hornear
+2024-12-07 00:44:16 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:44:16 - El repostero 3 deposita 42 galletas en 1
+2024-12-07 00:44:16 - El horno 0 comienza a hornear
+2024-12-07 00:44:24 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 00:44:24 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:24 - El repostero 1 deposita 5 galletas en 0
+2024-12-07 00:44:24 - El repostero 1 deposita 3 galletas en 1
+2024-12-07 00:44:24 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:44:24 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:44:24 - El repostero 1 deposita 29 galletas en 2
+2024-12-07 00:44:24 - El horno 0 comienza a hornear
+2024-12-07 00:44:24 - El repostero 1 deposita 2 galletas en 3
+2024-12-07 00:44:24 - El horno 1 comienza a hornear
+2024-12-07 00:44:24 - El horno 2 comienza a hornear
+2024-12-07 00:44:32 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:32 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:44:32 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:44:32 - El repostero 3 deposita 39 galletas en 2
+2024-12-07 00:44:32 - El horno 1 ha terminado de hornear
+2024-12-07 00:44:32 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 00:44:32 - El horno 2 ha terminado de hornear
+2024-12-07 00:44:32 - El horno 0 comienza a hornear
+2024-12-07 00:44:40 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:44:40 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:40 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:44:40 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 00:44:40 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:44:40 - El repostero 0 deposita 6 galletas en 2
+2024-12-07 00:44:40 - El horno 0 comienza a hornear
+2024-12-07 00:44:40 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:44:40 - El repostero 0 deposita 20 galletas en 3
+2024-12-07 00:44:40 - El horno 2 comienza a hornear
+2024-12-07 00:44:40 - El horno 1 comienza a hornear
+2024-12-07 00:44:48 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:48 - El repostero 0 deposita 38 galletas en 0
+2024-12-07 00:44:48 - El repostero 1 deposita 40 galletas en 2
+2024-12-07 00:44:48 - El repostero 2 deposita 7 galletas en 0
+2024-12-07 00:44:48 - El horno 1 ha terminado de hornear
+2024-12-07 00:44:48 - El repostero 2 deposita 34 galletas en 1
+2024-12-07 00:44:48 - El horno 2 ha terminado de hornear
+2024-12-07 00:44:48 - El horno 0 comienza a hornear
+2024-12-07 00:44:56 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:44:56 - El horno 0 ha terminado de hornear
+2024-12-07 00:44:56 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:44:56 - El repostero 3 deposita 11 galletas en 1
+2024-12-07 00:44:56 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:44:56 - El repostero 3 deposita 5 galletas en 2
+2024-12-07 00:44:56 - El horno 1 comienza a hornear
+2024-12-07 00:44:56 - El horno 0 comienza a hornear
+2024-12-07 00:44:56 - El repostero 3 deposita 22 galletas en 3
+2024-12-07 00:44:56 - El horno 2 comienza a hornear
+2024-12-07 00:45:04 - El repostero 1 deposita 40 galletas en 1
+2024-12-07 00:45:04 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:04 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:45:04 - El horno 2 ha terminado de hornear
+2024-12-07 00:45:04 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:04 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:45:04 - El horno 0 comienza a hornear
+2024-12-07 00:45:04 - El repostero 0 deposita 5 galletas en 1
+2024-12-07 00:45:04 - El repostero 0 deposita 27 galletas en 2
+2024-12-07 00:45:04 - El horno 1 comienza a hornear
+2024-12-07 00:45:12 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:12 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:12 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:45:12 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:45:12 - El repostero 3 deposita 31 galletas en 1
+2024-12-07 00:45:12 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:45:12 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:45:12 - El repostero 0 deposita 14 galletas en 1
+2024-12-07 00:45:12 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:45:12 - El repostero 0 deposita 18 galletas en 2
+2024-12-07 00:45:12 - El horno 0 comienza a hornear
+2024-12-07 00:45:12 - El repostero 0 deposita 1 galletas en 3
+2024-12-07 00:45:12 - El horno 2 comienza a hornear
+2024-12-07 00:45:12 - El horno 3 comienza a hornear
+2024-12-07 00:45:12 - El horno 1 comienza a hornear
+2024-12-07 00:45:20 - El repostero 1 deposita 42 galletas en 2
+2024-12-07 00:45:20 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:20 - El repostero 2 deposita 42 galletas en 0
+2024-12-07 00:45:20 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:20 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 00:45:20 - El repostero 3 deposita 37 galletas en 1
+2024-12-07 00:45:20 - El horno 3 ha terminado de hornear
+2024-12-07 00:45:20 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:45:20 - El repostero 0 deposita 8 galletas en 1
+2024-12-07 00:45:20 - El horno 2 ha terminado de hornear
+2024-12-07 00:45:20 - El repostero 0 deposita 3 galletas en 2
+2024-12-07 00:45:20 - El horno 0 comienza a hornear
+2024-12-07 00:45:20 - El horno 1 comienza a hornear
+2024-12-07 00:45:20 - El horno 2 comienza a hornear
+2024-12-07 00:45:28 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:28 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 00:45:28 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:28 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:45:28 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:45:28 - El repostero 3 deposita 38 galletas en 1
+2024-12-07 00:45:28 - El horno 2 ha terminado de hornear
+2024-12-07 00:45:28 - El repostero 1 deposita 7 galletas en 1
+2024-12-07 00:45:28 - El horno 0 comienza a hornear
+2024-12-07 00:45:28 - El repostero 1 deposita 32 galletas en 2
+2024-12-07 00:45:28 - El horno 1 comienza a hornear
+2024-12-07 00:45:36 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:36 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 00:45:36 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:36 - El horno 0 comienza a hornear
+2024-12-07 00:45:44 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 00:45:44 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:45:44 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:44 - El repostero 3 deposita 37 galletas en 1
+2024-12-07 00:45:44 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:45:44 - El repostero 0 deposita 8 galletas en 1
+2024-12-07 00:45:44 - El horno 0 comienza a hornear
+2024-12-07 00:45:44 - El repostero 0 deposita 13 galletas en 2
+2024-12-07 00:45:44 - El horno 1 comienza a hornear
+2024-12-07 00:45:44 - El horno 2 comienza a hornear
+2024-12-07 00:45:44 - El repostero 0 deposita 20 galletas en 3
+2024-12-07 00:45:52 - El horno 1 ha terminado de hornear
+2024-12-07 00:45:52 - El horno 0 ha terminado de hornear
+2024-12-07 00:45:52 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 00:45:52 - El repostero 1 deposita 2 galletas en 0
+2024-12-07 00:45:52 - El horno 2 ha terminado de hornear
+2024-12-07 00:45:52 - El repostero 1 deposita 39 galletas en 1
+2024-12-07 00:45:52 - El horno 0 comienza a hornear
+2024-12-07 00:46:00 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:00 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 00:46:00 - El repostero 0 deposita 1 galletas en 0
+2024-12-07 00:46:00 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:46:00 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 00:46:00 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:46:00 - El repostero 0 deposita 36 galletas en 2
+2024-12-07 00:46:00 - El horno 0 comienza a hornear
+2024-12-07 00:46:00 - El horno 1 comienza a hornear
+2024-12-07 00:46:00 - El repostero 2 deposita 9 galletas en 2
+2024-12-07 00:46:00 - El repostero 2 deposita 25 galletas en 3
+2024-12-07 00:46:00 - El horno 2 comienza a hornear
+2024-12-07 00:46:00 - El horno 3 comienza a hornear
+2024-12-07 00:46:08 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:46:08 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 00:46:08 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:08 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:46:08 - El repostero 1 deposita 35 galletas en 1
+2024-12-07 00:46:08 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:46:08 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 00:46:08 - El horno 3 ha terminado de hornear
+2024-12-07 00:46:08 - El repostero 3 deposita 5 galletas en 1
+2024-12-07 00:46:08 - El horno 2 ha terminado de hornear
+2024-12-07 00:46:08 - El horno 1 ha terminado de hornear
+2024-12-07 00:46:08 - El repostero 3 deposita 33 galletas en 2
+2024-12-07 00:46:08 - El horno 0 comienza a hornear
+2024-12-07 00:46:08 - El horno 1 comienza a hornear
+2024-12-07 00:46:16 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:16 - El repostero 0 deposita 44 galletas en 0
+2024-12-07 00:46:16 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 00:46:16 - El horno 1 ha terminado de hornear
+2024-12-07 00:46:16 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:46:16 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:46:16 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:46:16 - El repostero 2 deposita 4 galletas en 1
+2024-12-07 00:46:16 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:46:16 - El repostero 2 deposita 12 galletas en 2
+2024-12-07 00:46:16 - El horno 0 comienza a hornear
+2024-12-07 00:46:16 - El horno 1 comienza a hornear
+2024-12-07 00:46:16 - El repostero 1 deposita 0 galletas en 2
+2024-12-07 00:46:16 - El repostero 2 deposita 29 galletas en 3
+2024-12-07 00:46:16 - El repostero 1 deposita 16 galletas en 3
+2024-12-07 00:46:16 - El horno 2 comienza a hornear
+2024-12-07 00:46:16 - El horno 3 comienza a hornear
+2024-12-07 00:46:24 - El horno 1 ha terminado de hornear
+2024-12-07 00:46:24 - El repostero 1 deposita 21 galletas en 0
+2024-12-07 00:46:24 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:24 - El horno 3 ha terminado de hornear
+2024-12-07 00:46:24 - El repostero 0 deposita 24 galletas en 0
+2024-12-07 00:46:24 - El repostero 0 deposita 16 galletas en 1
+2024-12-07 00:46:24 - El horno 2 ha terminado de hornear
+2024-12-07 00:46:24 - El horno 0 comienza a hornear
+2024-12-07 00:46:32 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:32 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:46:32 - El repostero 0 deposita 8 galletas en 0
+2024-12-07 00:46:32 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:46:32 - El repostero 0 deposita 29 galletas en 1
+2024-12-07 00:46:32 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:46:32 - El repostero 0 deposita 7 galletas en 2
+2024-12-07 00:46:32 - El horno 0 comienza a hornear
+2024-12-07 00:46:32 - El repostero 2 deposita 38 galletas en 2
+2024-12-07 00:46:32 - El horno 1 comienza a hornear
+2024-12-07 00:46:32 - El repostero 2 deposita 4 galletas en 3
+2024-12-07 00:46:32 - El horno 2 comienza a hornear
+2024-12-07 00:46:40 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:46:40 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:40 - El horno 1 ha terminado de hornear
+2024-12-07 00:46:40 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:46:40 - El horno 2 ha terminado de hornear
+2024-12-07 00:46:40 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 00:46:40 - El horno 0 comienza a hornear
+2024-12-07 00:46:48 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 00:46:48 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:48 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:46:48 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:46:48 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 00:46:48 - El horno 0 comienza a hornear
+2024-12-07 00:46:48 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:46:48 - El repostero 0 deposita 26 galletas en 2
+2024-12-07 00:46:48 - El horno 1 comienza a hornear
+2024-12-07 00:46:48 - El repostero 1 deposita 19 galletas en 2
+2024-12-07 00:46:48 - El repostero 1 deposita 24 galletas en 3
+2024-12-07 00:46:48 - El horno 2 comienza a hornear
+2024-12-07 00:46:56 - El repostero 0 deposita 37 galletas en 0
+2024-12-07 00:46:56 - El horno 0 ha terminado de hornear
+2024-12-07 00:46:56 - El horno 2 ha terminado de hornear
+2024-12-07 00:46:56 - El repostero 2 deposita 8 galletas en 0
+2024-12-07 00:46:56 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:46:56 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:46:56 - El horno 0 comienza a hornear
+2024-12-07 00:46:56 - El repostero 3 deposita 40 galletas en 1
+2024-12-07 00:46:56 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 00:46:56 - El horno 1 ha terminado de hornear
+2024-12-07 00:46:56 - El repostero 2 deposita 31 galletas en 2
+2024-12-07 00:46:56 - El horno 1 comienza a hornear
+2024-12-07 00:47:04 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 00:47:04 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:04 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 00:47:04 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:47:04 - El repostero 1 deposita 37 galletas en 1
+2024-12-07 00:47:04 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:04 - El horno 0 comienza a hornear
+2024-12-07 00:47:04 - El repostero 0 deposita 8 galletas en 1
+2024-12-07 00:47:04 - El repostero 0 deposita 14 galletas en 2
+2024-12-07 00:47:04 - El horno 1 comienza a hornear
+2024-12-07 00:47:04 - El horno 2 comienza a hornear
+2024-12-07 00:47:04 - El repostero 0 deposita 17 galletas en 3
+2024-12-07 00:47:04 - El horno 3 comienza a hornear
+2024-12-07 00:47:12 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:12 - El repostero 0 deposita 2 galletas en 0
+2024-12-07 00:47:12 - El repostero 3 deposita 37 galletas en 1
+2024-12-07 00:47:12 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:47:12 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:12 - El repostero 2 deposita 3 galletas en 0
+2024-12-07 00:47:12 - El horno 3 ha terminado de hornear
+2024-12-07 00:47:12 - El repostero 2 deposita 8 galletas en 1
+2024-12-07 00:47:12 - El horno 2 ha terminado de hornear
+2024-12-07 00:47:12 - El horno 0 comienza a hornear
+2024-12-07 00:47:12 - El repostero 2 deposita 27 galletas en 2
+2024-12-07 00:47:12 - El horno 1 comienza a hornear
+2024-12-07 00:47:20 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:20 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:47:20 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:47:20 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:20 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:47:20 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:47:20 - El repostero 2 deposita 4 galletas en 1
+2024-12-07 00:47:20 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:47:20 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:47:20 - El repostero 2 deposita 18 galletas en 2
+2024-12-07 00:47:20 - El horno 0 comienza a hornear
+2024-12-07 00:47:20 - El repostero 0 deposita 0 galletas en 2
+2024-12-07 00:47:20 - El repostero 2 deposita 21 galletas en 3
+2024-12-07 00:47:20 - El horno 1 comienza a hornear
+2024-12-07 00:47:20 - El repostero 0 deposita 24 galletas en 3
+2024-12-07 00:47:20 - El horno 2 comienza a hornear
+2024-12-07 00:47:20 - El horno 3 comienza a hornear
+2024-12-07 00:47:28 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:28 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:47:28 - El repostero 1 deposita 7 galletas en 0
+2024-12-07 00:47:28 - El horno 2 ha terminado de hornear
+2024-12-07 00:47:28 - El repostero 1 deposita 32 galletas en 1
+2024-12-07 00:47:28 - El horno 3 ha terminado de hornear
+2024-12-07 00:47:28 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:47:28 - El repostero 0 deposita 13 galletas en 1
+2024-12-07 00:47:28 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:28 - El repostero 0 deposita 1 galletas en 2
+2024-12-07 00:47:28 - El horno 1 comienza a hornear
+2024-12-07 00:47:28 - El horno 0 comienza a hornear
+2024-12-07 00:47:36 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:36 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:36 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 00:47:36 - El repostero 0 deposita 2 galletas en 0
+2024-12-07 00:47:36 - El repostero 0 deposita 38 galletas en 1
+2024-12-07 00:47:36 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:47:36 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:47:36 - El repostero 1 deposita 7 galletas en 1
+2024-12-07 00:47:36 - El repostero 1 deposita 31 galletas en 2
+2024-12-07 00:47:36 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:47:36 - El horno 0 comienza a hornear
+2024-12-07 00:47:36 - El repostero 3 deposita 13 galletas en 2
+2024-12-07 00:47:36 - El horno 1 comienza a hornear
+2024-12-07 00:47:36 - El repostero 3 deposita 29 galletas en 3
+2024-12-07 00:47:36 - El horno 2 comienza a hornear
+2024-12-07 00:47:44 - El repostero 0 deposita 37 galletas en 0
+2024-12-07 00:47:44 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:44 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:44 - El repostero 1 deposita 8 galletas en 0
+2024-12-07 00:47:44 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:47:44 - El repostero 1 deposita 35 galletas en 1
+2024-12-07 00:47:44 - El horno 2 ha terminado de hornear
+2024-12-07 00:47:44 - El repostero 2 deposita 10 galletas en 1
+2024-12-07 00:47:44 - El horno 0 comienza a hornear
+2024-12-07 00:47:44 - El repostero 2 deposita 31 galletas en 2
+2024-12-07 00:47:44 - El horno 1 comienza a hornear
+2024-12-07 00:47:52 - El horno 0 ha terminado de hornear
+2024-12-07 00:47:52 - El repostero 1 deposita 39 galletas en 0
+2024-12-07 00:47:52 - El repostero 2 deposita 6 galletas en 0
+2024-12-07 00:47:52 - El horno 1 ha terminado de hornear
+2024-12-07 00:47:52 - El repostero 2 deposita 31 galletas en 1
+2024-12-07 00:47:52 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:47:52 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:47:52 - El repostero 0 deposita 14 galletas en 1
+2024-12-07 00:47:52 - El repostero 0 deposita 14 galletas en 2
+2024-12-07 00:47:52 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:47:52 - El horno 0 comienza a hornear
+2024-12-07 00:47:52 - El repostero 0 deposita 14 galletas en 3
+2024-12-07 00:47:52 - El horno 2 comienza a hornear
+2024-12-07 00:47:52 - El horno 1 comienza a hornear
+2024-12-07 00:48:00 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:48:00 - El repostero 3 deposita 39 galletas en 2
+2024-12-07 00:48:00 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:00 - El repostero 2 deposita 3 galletas en 0
+2024-12-07 00:48:00 - El horno 1 ha terminado de hornear
+2024-12-07 00:48:00 - El horno 2 ha terminado de hornear
+2024-12-07 00:48:00 - El repostero 2 deposita 38 galletas en 1
+2024-12-07 00:48:00 - El horno 0 comienza a hornear
+2024-12-07 00:48:08 - El repostero 1 deposita 39 galletas en 0
+2024-12-07 00:48:08 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:08 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:48:08 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:48:08 - El repostero 0 deposita 7 galletas en 1
+2024-12-07 00:48:08 - El repostero 0 deposita 6 galletas en 2
+2024-12-07 00:48:08 - El horno 0 comienza a hornear
+2024-12-07 00:48:08 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:48:08 - El horno 1 comienza a hornear
+2024-12-07 00:48:08 - El repostero 0 deposita 2 galletas en 3
+2024-12-07 00:48:08 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 00:48:08 - El repostero 3 deposita 0 galletas en 3
+2024-12-07 00:48:08 - El horno 2 comienza a hornear
+2024-12-07 00:48:08 - El horno 3 comienza a hornear
+2024-12-07 00:48:16 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:16 - El repostero 0 deposita 18 galletas en 0
+2024-12-07 00:48:16 - El horno 3 ha terminado de hornear
+2024-12-07 00:48:16 - El horno 1 ha terminado de hornear
+2024-12-07 00:48:16 - El repostero 1 deposita 27 galletas en 0
+2024-12-07 00:48:16 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:48:16 - El repostero 1 deposita 17 galletas en 1
+2024-12-07 00:48:16 - El horno 2 ha terminado de hornear
+2024-12-07 00:48:16 - El repostero 2 deposita 28 galletas en 1
+2024-12-07 00:48:16 - El repostero 2 deposita 17 galletas en 2
+2024-12-07 00:48:16 - El horno 0 comienza a hornear
+2024-12-07 00:48:16 - El horno 1 comienza a hornear
+2024-12-07 00:48:24 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:48:24 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:24 - El horno 1 ha terminado de hornear
+2024-12-07 00:48:24 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 00:48:24 - El repostero 3 deposita 42 galletas en 1
+2024-12-07 00:48:24 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:48:24 - El repostero 1 deposita 3 galletas en 1
+2024-12-07 00:48:24 - El horno 0 comienza a hornear
+2024-12-07 00:48:24 - El repostero 1 deposita 28 galletas en 2
+2024-12-07 00:48:24 - El horno 1 comienza a hornear
+2024-12-07 00:48:24 - El horno 2 comienza a hornear
+2024-12-07 00:48:24 - El repostero 1 deposita 6 galletas en 3
+2024-12-07 00:48:32 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 00:48:32 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:32 - El horno 2 ha terminado de hornear
+2024-12-07 00:48:32 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 00:48:32 - El repostero 3 deposita 31 galletas en 1
+2024-12-07 00:48:32 - El horno 1 ha terminado de hornear
+2024-12-07 00:48:32 - El horno 0 comienza a hornear
+2024-12-07 00:48:40 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:40 - El repostero 1 deposita 38 galletas en 0
+2024-12-07 00:48:40 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:48:40 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:48:40 - El repostero 3 deposita 14 galletas en 1
+2024-12-07 00:48:40 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:48:40 - El repostero 3 deposita 20 galletas en 2
+2024-12-07 00:48:40 - El horno 0 comienza a hornear
+2024-12-07 00:48:40 - El repostero 2 deposita 25 galletas en 2
+2024-12-07 00:48:40 - El horno 1 comienza a hornear
+2024-12-07 00:48:40 - El repostero 2 deposita 15 galletas en 3
+2024-12-07 00:48:40 - El horno 2 comienza a hornear
+2024-12-07 00:48:48 - El repostero 0 deposita 41 galletas en 0
+2024-12-07 00:48:48 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:48 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:48:48 - El horno 2 ha terminado de hornear
+2024-12-07 00:48:48 - El repostero 3 deposita 35 galletas en 1
+2024-12-07 00:48:48 - El horno 1 ha terminado de hornear
+2024-12-07 00:48:48 - El horno 0 comienza a hornear
+2024-12-07 00:48:56 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:48:56 - El horno 0 ha terminado de hornear
+2024-12-07 00:48:56 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 00:48:56 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:48:56 - El repostero 3 deposita 10 galletas en 1
+2024-12-07 00:48:56 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:48:56 - El repostero 3 deposita 28 galletas en 2
+2024-12-07 00:48:56 - El horno 0 comienza a hornear
+2024-12-07 00:48:56 - El repostero 2 deposita 17 galletas en 2
+2024-12-07 00:48:56 - El horno 1 comienza a hornear
+2024-12-07 00:48:56 - El repostero 2 deposita 20 galletas en 3
+2024-12-07 00:48:56 - El horno 2 comienza a hornear
+2024-12-07 00:49:04 - El repostero 1 deposita 43 galletas en 0
+2024-12-07 00:49:04 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:04 - El horno 2 ha terminado de hornear
+2024-12-07 00:49:04 - El repostero 0 deposita 2 galletas en 0
+2024-12-07 00:49:04 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:04 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:49:04 - El repostero 0 deposita 40 galletas en 1
+2024-12-07 00:49:04 - El repostero 3 deposita 5 galletas en 1
+2024-12-07 00:49:04 - El horno 0 comienza a hornear
+2024-12-07 00:49:04 - El repostero 3 deposita 36 galletas en 2
+2024-12-07 00:49:04 - El horno 1 comienza a hornear
+2024-12-07 00:49:12 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:12 - El repostero 2 deposita 42 galletas en 0
+2024-12-07 00:49:12 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:12 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 00:49:12 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 00:49:12 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:49:12 - El repostero 1 deposita 11 galletas en 1
+2024-12-07 00:49:12 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:49:12 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:49:12 - El horno 0 comienza a hornear
+2024-12-07 00:49:12 - El repostero 1 deposita 9 galletas en 2
+2024-12-07 00:49:12 - El repostero 1 deposita 4 galletas en 3
+2024-12-07 00:49:12 - El horno 1 comienza a hornear
+2024-12-07 00:49:12 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 00:49:12 - El repostero 3 deposita 0 galletas en 3
+2024-12-07 00:49:12 - El horno 2 comienza a hornear
+2024-12-07 00:49:12 - El horno 3 comienza a hornear
+2024-12-07 00:49:20 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:49:20 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:20 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:49:20 - El horno 2 ha terminado de hornear
+2024-12-07 00:49:20 - El repostero 0 deposita 36 galletas en 1
+2024-12-07 00:49:20 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:20 - El horno 0 comienza a hornear
+2024-12-07 00:49:20 - El horno 3 ha terminado de hornear
+2024-12-07 00:49:28 - El repostero 0 deposita 37 galletas en 0
+2024-12-07 00:49:28 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:28 - El repostero 1 deposita 8 galletas en 0
+2024-12-07 00:49:28 - El repostero 1 deposita 9 galletas en 1
+2024-12-07 00:49:28 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:49:28 - El repostero 1 deposita 3 galletas en 2
+2024-12-07 00:49:28 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:49:28 - El horno 0 comienza a hornear
+2024-12-07 00:49:28 - El repostero 3 deposita 42 galletas en 2
+2024-12-07 00:49:28 - El horno 1 comienza a hornear
+2024-12-07 00:49:28 - El repostero 3 deposita 1 galletas en 3
+2024-12-07 00:49:28 - El horno 2 comienza a hornear
+2024-12-07 00:49:36 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:36 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:49:36 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:36 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:49:36 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:49:36 - El repostero 0 deposita 35 galletas en 1
+2024-12-07 00:49:36 - El horno 2 ha terminado de hornear
+2024-12-07 00:49:36 - El repostero 1 deposita 10 galletas en 1
+2024-12-07 00:49:36 - El horno 0 comienza a hornear
+2024-12-07 00:49:36 - El repostero 1 deposita 31 galletas en 2
+2024-12-07 00:49:36 - El horno 1 comienza a hornear
+2024-12-07 00:49:44 - El repostero 2 deposita 42 galletas en 0
+2024-12-07 00:49:44 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 00:49:44 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:44 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:44 - El repostero 3 deposita 40 galletas en 1
+2024-12-07 00:49:44 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:49:44 - El repostero 1 deposita 5 galletas en 1
+2024-12-07 00:49:44 - El horno 0 comienza a hornear
+2024-12-07 00:49:44 - El repostero 1 deposita 14 galletas en 2
+2024-12-07 00:49:44 - El horno 1 comienza a hornear
+2024-12-07 00:49:44 - El repostero 1 deposita 20 galletas en 3
+2024-12-07 00:49:44 - El horno 2 comienza a hornear
+2024-12-07 00:49:52 - El horno 0 ha terminado de hornear
+2024-12-07 00:49:52 - El horno 2 ha terminado de hornear
+2024-12-07 00:49:52 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 00:49:52 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:49:52 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:49:52 - El repostero 0 deposita 38 galletas en 1
+2024-12-07 00:49:52 - El horno 0 comienza a hornear
+2024-12-07 00:49:52 - El repostero 3 deposita 7 galletas en 1
+2024-12-07 00:49:52 - El horno 1 ha terminado de hornear
+2024-12-07 00:49:52 - El repostero 3 deposita 31 galletas en 2
+2024-12-07 00:49:52 - El horno 1 comienza a hornear
+2024-12-07 00:50:00 - El repostero 0 deposita 40 galletas en 0
+2024-12-07 00:50:00 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:00 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 00:50:00 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:00 - El repostero 3 deposita 34 galletas en 1
+2024-12-07 00:50:00 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:50:00 - El horno 0 comienza a hornear
+2024-12-07 00:50:00 - El repostero 2 deposita 11 galletas en 1
+2024-12-07 00:50:00 - El repostero 2 deposita 14 galletas en 2
+2024-12-07 00:50:00 - El horno 1 comienza a hornear
+2024-12-07 00:50:00 - El repostero 2 deposita 15 galletas en 3
+2024-12-07 00:50:00 - El horno 2 comienza a hornear
+2024-12-07 00:50:08 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 00:50:08 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 00:50:08 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:08 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:50:08 - El horno 0 comienza a hornear
+2024-12-07 00:50:08 - El horno 2 ha terminado de hornear
+2024-12-07 00:50:08 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:16 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:16 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:50:16 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:50:16 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:50:16 - El repostero 3 deposita 4 galletas en 1
+2024-12-07 00:50:16 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:50:16 - El repostero 3 deposita 33 galletas en 2
+2024-12-07 00:50:16 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:50:16 - El repostero 0 deposita 12 galletas en 2
+2024-12-07 00:50:16 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:50:16 - El horno 0 comienza a hornear
+2024-12-07 00:50:16 - El repostero 0 deposita 9 galletas en 3
+2024-12-07 00:50:16 - El repostero 1 deposita 0 galletas en 2
+2024-12-07 00:50:16 - El horno 1 comienza a hornear
+2024-12-07 00:50:16 - El repostero 1 deposita 0 galletas en 3
+2024-12-07 00:50:16 - El horno 2 comienza a hornear
+2024-12-07 00:50:16 - El horno 3 comienza a hornear
+2024-12-07 00:50:24 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 00:50:24 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:24 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 00:50:24 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:24 - El repostero 0 deposita 15 galletas en 1
+2024-12-07 00:50:24 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:50:24 - El horno 3 ha terminado de hornear
+2024-12-07 00:50:24 - El repostero 2 deposita 30 galletas en 1
+2024-12-07 00:50:24 - El horno 2 ha terminado de hornear
+2024-12-07 00:50:24 - El horno 0 comienza a hornear
+2024-12-07 00:50:24 - El repostero 2 deposita 12 galletas en 2
+2024-12-07 00:50:24 - El horno 1 comienza a hornear
+2024-12-07 00:50:32 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:32 - El repostero 3 deposita 40 galletas en 0
+2024-12-07 00:50:32 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 00:50:32 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:32 - El repostero 0 deposita 32 galletas en 1
+2024-12-07 00:50:32 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:50:32 - El repostero 1 deposita 13 galletas en 1
+2024-12-07 00:50:32 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:50:32 - El repostero 1 deposita 25 galletas en 2
+2024-12-07 00:50:32 - El horno 0 comienza a hornear
+2024-12-07 00:50:32 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:50:32 - El repostero 2 deposita 8 galletas en 2
+2024-12-07 00:50:32 - El horno 1 comienza a hornear
+2024-12-07 00:50:32 - El repostero 2 deposita 37 galletas en 3
+2024-12-07 00:50:32 - El horno 2 comienza a hornear
+2024-12-07 00:50:40 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:40 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:50:40 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:50:40 - El horno 2 ha terminado de hornear
+2024-12-07 00:50:40 - El repostero 3 deposita 38 galletas en 1
+2024-12-07 00:50:40 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:40 - El horno 0 comienza a hornear
+2024-12-07 00:50:48 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:48 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:50:48 - El repostero 2 deposita 8 galletas en 0
+2024-12-07 00:50:48 - El repostero 2 deposita 7 galletas en 1
+2024-12-07 00:50:48 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:50:48 - El repostero 2 deposita 30 galletas en 2
+2024-12-07 00:50:48 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:50:48 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:50:48 - El horno 0 comienza a hornear
+2024-12-07 00:50:48 - El repostero 0 deposita 15 galletas en 2
+2024-12-07 00:50:48 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:50:48 - El repostero 0 deposita 8 galletas en 3
+2024-12-07 00:50:48 - El horno 1 comienza a hornear
+2024-12-07 00:50:48 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 00:50:48 - El repostero 3 deposita 0 galletas en 3
+2024-12-07 00:50:48 - El horno 2 comienza a hornear
+2024-12-07 00:50:48 - El horno 3 comienza a hornear
+2024-12-07 00:50:56 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 00:50:56 - El horno 0 ha terminado de hornear
+2024-12-07 00:50:56 - El repostero 0 deposita 1 galletas en 0
+2024-12-07 00:50:56 - El horno 3 ha terminado de hornear
+2024-12-07 00:50:56 - El horno 2 ha terminado de hornear
+2024-12-07 00:50:56 - El repostero 0 deposita 15 galletas en 1
+2024-12-07 00:50:56 - El horno 1 ha terminado de hornear
+2024-12-07 00:50:56 - El horno 0 comienza a hornear
+2024-12-07 00:51:04 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 00:51:04 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:04 - El horno 0 comienza a hornear
+2024-12-07 00:51:12 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 00:51:12 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:12 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 00:51:12 - El repostero 3 deposita 30 galletas en 1
+2024-12-07 00:51:12 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:51:12 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:51:12 - El horno 0 comienza a hornear
+2024-12-07 00:51:12 - El repostero 3 deposita 5 galletas en 2
+2024-12-07 00:51:12 - El repostero 0 deposita 40 galletas en 2
+2024-12-07 00:51:12 - El horno 1 comienza a hornear
+2024-12-07 00:51:12 - El repostero 0 deposita 1 galletas en 3
+2024-12-07 00:51:12 - El horno 2 comienza a hornear
+2024-12-07 00:51:20 - El horno 1 ha terminado de hornear
+2024-12-07 00:51:20 - El horno 2 ha terminado de hornear
+2024-12-07 00:51:20 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:20 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:51:20 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:51:20 - El repostero 0 deposita 36 galletas en 1
+2024-12-07 00:51:20 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:51:20 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 00:51:20 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:51:20 - El horno 0 comienza a hornear
+2024-12-07 00:51:20 - El repostero 3 deposita 29 galletas en 2
+2024-12-07 00:51:20 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:51:20 - El repostero 2 deposita 16 galletas en 2
+2024-12-07 00:51:20 - El horno 1 comienza a hornear
+2024-12-07 00:51:20 - El repostero 2 deposita 28 galletas en 3
+2024-12-07 00:51:20 - El horno 2 comienza a hornear
+2024-12-07 00:51:28 - El repostero 1 deposita 39 galletas en 0
+2024-12-07 00:51:28 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:28 - El repostero 2 deposita 6 galletas en 0
+2024-12-07 00:51:28 - El horno 1 ha terminado de hornear
+2024-12-07 00:51:28 - El horno 2 ha terminado de hornear
+2024-12-07 00:51:28 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:51:28 - El repostero 2 deposita 33 galletas en 1
+2024-12-07 00:51:28 - El horno 0 comienza a hornear
+2024-12-07 00:51:28 - El repostero 3 deposita 12 galletas en 1
+2024-12-07 00:51:28 - El repostero 3 deposita 31 galletas en 2
+2024-12-07 00:51:28 - El horno 1 comienza a hornear
+2024-12-07 00:51:36 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:36 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 00:51:36 - El repostero 1 deposita 8 galletas en 0
+2024-12-07 00:51:36 - El horno 1 ha terminado de hornear
+2024-12-07 00:51:36 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:51:36 - El repostero 1 deposita 33 galletas en 1
+2024-12-07 00:51:36 - El horno 0 comienza a hornear
+2024-12-07 00:51:36 - El repostero 3 deposita 12 galletas en 1
+2024-12-07 00:51:36 - El horno 1 comienza a hornear
+2024-12-07 00:51:36 - El repostero 3 deposita 14 galletas en 2
+2024-12-07 00:51:36 - El repostero 3 deposita 16 galletas en 3
+2024-12-07 00:51:36 - El horno 2 comienza a hornear
+2024-12-07 00:51:36 - El horno 3 comienza a hornear
+2024-12-07 00:51:44 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:51:44 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:44 - El horno 2 ha terminado de hornear
+2024-12-07 00:51:44 - El repostero 2 deposita 8 galletas en 0
+2024-12-07 00:51:44 - El repostero 2 deposita 31 galletas en 1
+2024-12-07 00:51:44 - El horno 1 ha terminado de hornear
+2024-12-07 00:51:44 - El horno 0 comienza a hornear
+2024-12-07 00:51:44 - El horno 3 ha terminado de hornear
+2024-12-07 00:51:52 - El repostero 2 deposita 42 galletas en 0
+2024-12-07 00:51:52 - El horno 0 ha terminado de hornear
+2024-12-07 00:51:52 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 00:51:52 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:51:52 - El repostero 1 deposita 14 galletas en 1
+2024-12-07 00:51:52 - El repostero 1 deposita 26 galletas en 2
+2024-12-07 00:51:52 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:51:52 - El horno 0 comienza a hornear
+2024-12-07 00:51:52 - El repostero 0 deposita 19 galletas en 2
+2024-12-07 00:51:52 - El horno 1 comienza a hornear
+2024-12-07 00:51:52 - El repostero 0 deposita 18 galletas en 3
+2024-12-07 00:51:52 - El horno 2 comienza a hornear
+2024-12-07 00:52:00 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:00 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 00:52:00 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:00 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 00:52:00 - El repostero 1 deposita 2 galletas en 0
+2024-12-07 00:52:00 - El horno 2 ha terminado de hornear
+2024-12-07 00:52:00 - El repostero 1 deposita 40 galletas en 1
+2024-12-07 00:52:00 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:52:00 - El horno 0 comienza a hornear
+2024-12-07 00:52:00 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 00:52:00 - El horno 1 comienza a hornear
+2024-12-07 00:52:00 - El repostero 2 deposita 33 galletas en 2
+2024-12-07 00:52:08 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:08 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 00:52:08 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:08 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 00:52:08 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:52:08 - El repostero 3 deposita 29 galletas en 1
+2024-12-07 00:52:08 - El horno 0 comienza a hornear
+2024-12-07 00:52:08 - El repostero 0 deposita 16 galletas en 1
+2024-12-07 00:52:08 - El repostero 0 deposita 12 galletas en 2
+2024-12-07 00:52:08 - El horno 1 comienza a hornear
+2024-12-07 00:52:08 - El repostero 0 deposita 14 galletas en 3
+2024-12-07 00:52:08 - El horno 2 comienza a hornear
+2024-12-07 00:52:16 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:16 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:52:16 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 00:52:16 - El horno 2 ha terminado de hornear
+2024-12-07 00:52:16 - El repostero 0 deposita 35 galletas en 1
+2024-12-07 00:52:16 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:16 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:52:16 - El horno 0 comienza a hornear
+2024-12-07 00:52:16 - El repostero 3 deposita 10 galletas en 1
+2024-12-07 00:52:16 - El horno 1 comienza a hornear
+2024-12-07 00:52:16 - El repostero 3 deposita 35 galletas en 2
+2024-12-07 00:52:24 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:24 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:52:24 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:24 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:52:24 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:52:24 - El repostero 3 deposita 36 galletas en 1
+2024-12-07 00:52:24 - El horno 0 comienza a hornear
+2024-12-07 00:52:24 - El repostero 0 deposita 9 galletas en 1
+2024-12-07 00:52:24 - El repostero 0 deposita 10 galletas en 2
+2024-12-07 00:52:24 - El horno 1 comienza a hornear
+2024-12-07 00:52:24 - El repostero 0 deposita 13 galletas en 3
+2024-12-07 00:52:24 - El horno 2 comienza a hornear
+2024-12-07 00:52:24 - El horno 3 comienza a hornear
+2024-12-07 00:52:32 - El repostero 1 deposita 38 galletas en 0
+2024-12-07 00:52:32 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:32 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:52:32 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:32 - El horno 2 ha terminado de hornear
+2024-12-07 00:52:32 - El repostero 0 deposita 5 galletas en 1
+2024-12-07 00:52:32 - El horno 3 ha terminado de hornear
+2024-12-07 00:52:32 - El horno 0 comienza a hornear
+2024-12-07 00:52:40 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:40 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 00:52:40 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 00:52:40 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 00:52:40 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:52:40 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:52:40 - El repostero 2 deposita 6 galletas en 1
+2024-12-07 00:52:40 - El repostero 2 deposita 37 galletas en 2
+2024-12-07 00:52:40 - El horno 1 comienza a hornear
+2024-12-07 00:52:40 - El horno 0 comienza a hornear
+2024-12-07 00:52:48 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:48 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:52:48 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 00:52:48 - El repostero 0 deposita 1 galletas en 0
+2024-12-07 00:52:48 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:48 - El repostero 0 deposita 4 galletas en 1
+2024-12-07 00:52:48 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:52:48 - El horno 0 comienza a hornear
+2024-12-07 00:52:48 - El repostero 0 deposita 8 galletas en 2
+2024-12-07 00:52:48 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:52:48 - El horno 2 comienza a hornear
+2024-12-07 00:52:48 - El repostero 0 deposita 28 galletas en 3
+2024-12-07 00:52:48 - El horno 1 comienza a hornear
+2024-12-07 00:52:56 - El horno 2 ha terminado de hornear
+2024-12-07 00:52:56 - El horno 1 ha terminado de hornear
+2024-12-07 00:52:56 - El repostero 0 deposita 41 galletas en 0
+2024-12-07 00:52:56 - El horno 0 ha terminado de hornear
+2024-12-07 00:52:56 - El repostero 2 deposita 44 galletas en 2
+2024-12-07 00:52:56 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:52:56 - El repostero 3 deposita 37 galletas en 1
+2024-12-07 00:52:56 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:52:56 - El repostero 1 deposita 8 galletas en 1
+2024-12-07 00:52:56 - El horno 0 comienza a hornear
+2024-12-07 00:52:56 - El repostero 1 deposita 1 galletas en 2
+2024-12-07 00:52:56 - El horno 1 comienza a hornear
+2024-12-07 00:52:56 - El repostero 1 deposita 17 galletas en 3
+2024-12-07 00:52:56 - El horno 2 comienza a hornear
+2024-12-07 00:52:56 - El horno 3 comienza a hornear
+2024-12-07 00:53:04 - El repostero 1 deposita 15 galletas en 0
+2024-12-07 00:53:04 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:04 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:04 - El repostero 2 deposita 30 galletas en 0
+2024-12-07 00:53:04 - El repostero 2 deposita 15 galletas en 1
+2024-12-07 00:53:04 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:53:04 - El horno 2 ha terminado de hornear
+2024-12-07 00:53:04 - El repostero 3 deposita 30 galletas en 1
+2024-12-07 00:53:04 - El horno 3 ha terminado de hornear
+2024-12-07 00:53:04 - El repostero 3 deposita 8 galletas en 2
+2024-12-07 00:53:04 - El horno 0 comienza a hornear
+2024-12-07 00:53:04 - El horno 1 comienza a hornear
+2024-12-07 00:53:12 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:12 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:53:12 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:53:12 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:12 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:53:12 - El repostero 3 deposita 39 galletas en 1
+2024-12-07 00:53:12 - El repostero 2 deposita 6 galletas en 1
+2024-12-07 00:53:12 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:53:12 - El horno 0 comienza a hornear
+2024-12-07 00:53:12 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:53:12 - El repostero 2 deposita 35 galletas en 2
+2024-12-07 00:53:12 - El repostero 0 deposita 2 galletas en 2
+2024-12-07 00:53:12 - El horno 1 comienza a hornear
+2024-12-07 00:53:12 - El repostero 0 deposita 43 galletas en 3
+2024-12-07 00:53:12 - El horno 2 comienza a hornear
+2024-12-07 00:53:20 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:20 - El repostero 1 deposita 38 galletas en 0
+2024-12-07 00:53:20 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:53:20 - El horno 2 ha terminado de hornear
+2024-12-07 00:53:20 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:20 - El repostero 0 deposita 38 galletas en 1
+2024-12-07 00:53:20 - El horno 0 comienza a hornear
+2024-12-07 00:53:28 - El repostero 3 deposita 42 galletas en 0
+2024-12-07 00:53:28 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:28 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 00:53:28 - El repostero 1 deposita 7 galletas en 1
+2024-12-07 00:53:28 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:53:28 - El repostero 1 deposita 29 galletas en 2
+2024-12-07 00:53:28 - El horno 1 comienza a hornear
+2024-12-07 00:53:28 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:53:28 - El horno 0 comienza a hornear
+2024-12-07 00:53:36 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:36 - El repostero 3 deposita 41 galletas en 0
+2024-12-07 00:53:36 - El repostero 2 deposita 38 galletas en 1
+2024-12-07 00:53:36 - El repostero 0 deposita 7 galletas en 1
+2024-12-07 00:53:36 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:36 - El repostero 1 deposita 4 galletas en 0
+2024-12-07 00:53:36 - El repostero 0 deposita 16 galletas en 2
+2024-12-07 00:53:36 - El horno 1 comienza a hornear
+2024-12-07 00:53:36 - El repostero 0 deposita 2 galletas en 3
+2024-12-07 00:53:36 - El horno 0 comienza a hornear
+2024-12-07 00:53:36 - El horno 3 comienza a hornear
+2024-12-07 00:53:36 - El horno 2 comienza a hornear
+2024-12-07 00:53:44 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:44 - El repostero 1 deposita 41 galletas en 1
+2024-12-07 00:53:44 - El repostero 3 deposita 38 galletas en 0
+2024-12-07 00:53:44 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:44 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:53:44 - El horno 2 ha terminado de hornear
+2024-12-07 00:53:44 - El horno 3 ha terminado de hornear
+2024-12-07 00:53:44 - El repostero 0 deposita 4 galletas en 1
+2024-12-07 00:53:44 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:53:44 - El horno 1 comienza a hornear
+2024-12-07 00:53:44 - El repostero 0 deposita 1 galletas en 2
+2024-12-07 00:53:44 - El horno 0 comienza a hornear
+2024-12-07 00:53:52 - El horno 1 ha terminado de hornear
+2024-12-07 00:53:52 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 00:53:52 - El horno 0 ha terminado de hornear
+2024-12-07 00:53:52 - El repostero 2 deposita 42 galletas en 1
+2024-12-07 00:53:52 - El repostero 0 deposita 1 galletas en 0
+2024-12-07 00:53:52 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:53:52 - El repostero 0 deposita 3 galletas en 1
+2024-12-07 00:53:52 - El horno 0 comienza a hornear
+2024-12-07 00:53:52 - El repostero 0 deposita 33 galletas en 2
+2024-12-07 00:53:52 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:53:52 - El horno 1 comienza a hornear
+2024-12-07 00:53:52 - El repostero 3 deposita 11 galletas en 2
+2024-12-07 00:53:52 - El horno 2 comienza a hornear
+2024-12-07 00:53:52 - El repostero 3 deposita 28 galletas en 3
+2024-12-07 00:54:01 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:01 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 00:54:01 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 00:54:01 - El horno 2 ha terminado de hornear
+2024-12-07 00:54:01 - El repostero 3 deposita 33 galletas en 1
+2024-12-07 00:54:01 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:01 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:54:01 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:54:01 - El repostero 1 deposita 12 galletas en 1
+2024-12-07 00:54:01 - El repostero 1 deposita 26 galletas en 2
+2024-12-07 00:54:01 - El horno 0 comienza a hornear
+2024-12-07 00:54:01 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:54:01 - El horno 1 comienza a hornear
+2024-12-07 00:54:01 - El repostero 0 deposita 19 galletas en 2
+2024-12-07 00:54:01 - El horno 2 comienza a hornear
+2024-12-07 00:54:01 - El repostero 0 deposita 17 galletas en 3
+2024-12-07 00:54:01 - El horno 3 comienza a hornear
+2024-12-07 00:54:09 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:09 - El horno 2 ha terminado de hornear
+2024-12-07 00:54:09 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:09 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:54:09 - El horno 3 ha terminado de hornear
+2024-12-07 00:54:09 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:54:09 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:54:09 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:54:09 - El repostero 2 deposita 4 galletas en 1
+2024-12-07 00:54:09 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:54:09 - El horno 0 comienza a hornear
+2024-12-07 00:54:09 - El repostero 2 deposita 41 galletas en 2
+2024-12-07 00:54:09 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:54:09 - El repostero 0 deposita 4 galletas en 2
+2024-12-07 00:54:09 - El horno 1 comienza a hornear
+2024-12-07 00:54:09 - El horno 2 comienza a hornear
+2024-12-07 00:54:17 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:54:17 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:17 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 00:54:17 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:17 - El repostero 0 deposita 37 galletas en 1
+2024-12-07 00:54:17 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:54:17 - El horno 2 ha terminado de hornear
+2024-12-07 00:54:17 - El repostero 3 deposita 8 galletas en 1
+2024-12-07 00:54:17 - El horno 0 comienza a hornear
+2024-12-07 00:54:17 - El repostero 3 deposita 30 galletas en 2
+2024-12-07 00:54:17 - El horno 1 comienza a hornear
+2024-12-07 00:54:25 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:25 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 00:54:25 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:25 - El repostero 2 deposita 1 galletas en 0
+2024-12-07 00:54:25 - El repostero 2 deposita 44 galletas en 1
+2024-12-07 00:54:25 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:54:25 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:54:25 - El repostero 0 deposita 1 galletas en 1
+2024-12-07 00:54:25 - El horno 0 comienza a hornear
+2024-12-07 00:54:25 - El repostero 0 deposita 15 galletas en 2
+2024-12-07 00:54:25 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:54:25 - El repostero 0 deposita 26 galletas en 3
+2024-12-07 00:54:25 - El horno 2 comienza a hornear
+2024-12-07 00:54:25 - El horno 1 comienza a hornear
+2024-12-07 00:54:33 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:54:33 - El repostero 3 deposita 40 galletas en 2
+2024-12-07 00:54:33 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:33 - El repostero 2 deposita 5 galletas en 0
+2024-12-07 00:54:33 - El horno 2 ha terminado de hornear
+2024-12-07 00:54:33 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:54:33 - El horno 0 comienza a hornear
+2024-12-07 00:54:33 - El repostero 0 deposita 45 galletas en 1
+2024-12-07 00:54:33 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:33 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:54:33 - El repostero 2 deposita 5 galletas en 2
+2024-12-07 00:54:33 - El horno 1 comienza a hornear
+2024-12-07 00:54:33 - El horno 2 comienza a hornear
+2024-12-07 00:54:33 - El repostero 2 deposita 19 galletas en 3
+2024-12-07 00:54:33 - El horno 3 comienza a hornear
+2024-12-07 00:54:41 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:54:41 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:41 - El repostero 2 deposita 4 galletas en 0
+2024-12-07 00:54:41 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:54:41 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:54:41 - El horno 0 comienza a hornear
+2024-12-07 00:54:41 - El horno 3 ha terminado de hornear
+2024-12-07 00:54:41 - El repostero 0 deposita 41 galletas en 1
+2024-12-07 00:54:41 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:41 - El horno 2 ha terminado de hornear
+2024-12-07 00:54:41 - El repostero 3 deposita 4 galletas en 1
+2024-12-07 00:54:41 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:54:41 - El repostero 3 deposita 35 galletas en 2
+2024-12-07 00:54:41 - El horno 1 comienza a hornear
+2024-12-07 00:54:41 - El repostero 2 deposita 5 galletas en 2
+2024-12-07 00:54:49 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 00:54:49 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:49 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:54:49 - El horno 1 ha terminado de hornear
+2024-12-07 00:54:49 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 00:54:49 - El horno 0 comienza a hornear
+2024-12-07 00:54:57 - El horno 0 ha terminado de hornear
+2024-12-07 00:54:57 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:54:57 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:54:57 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 00:54:57 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:54:57 - El horno 0 comienza a hornear
+2024-12-07 00:54:57 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:54:57 - El repostero 0 deposita 5 galletas en 2
+2024-12-07 00:54:57 - El repostero 0 deposita 23 galletas en 3
+2024-12-07 00:54:57 - El repostero 1 deposita 0 galletas en 2
+2024-12-07 00:54:57 - El horno 1 comienza a hornear
+2024-12-07 00:54:57 - El repostero 1 deposita 22 galletas en 3
+2024-12-07 00:54:57 - El horno 2 comienza a hornear
+2024-12-07 00:54:57 - El horno 3 comienza a hornear
+2024-12-07 00:55:05 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:05 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 00:55:05 - El horno 3 ha terminado de hornear
+2024-12-07 00:55:05 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:55:05 - El horno 2 ha terminado de hornear
+2024-12-07 00:55:05 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:05 - El repostero 3 deposita 42 galletas en 1
+2024-12-07 00:55:05 - El horno 0 comienza a hornear
+2024-12-07 00:55:13 - El repostero 0 deposita 44 galletas en 0
+2024-12-07 00:55:13 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:13 - El repostero 1 deposita 1 galletas en 0
+2024-12-07 00:55:13 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:55:13 - El repostero 1 deposita 3 galletas en 1
+2024-12-07 00:55:13 - El repostero 1 deposita 12 galletas en 2
+2024-12-07 00:55:13 - El horno 1 comienza a hornear
+2024-12-07 00:55:13 - El horno 0 comienza a hornear
+2024-12-07 00:55:21 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:21 - El repostero 3 deposita 38 galletas en 1
+2024-12-07 00:55:21 - El repostero 1 deposita 38 galletas en 0
+2024-12-07 00:55:21 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:21 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 00:55:21 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:55:21 - El repostero 0 deposita 7 galletas en 1
+2024-12-07 00:55:21 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:55:21 - El repostero 0 deposita 28 galletas en 2
+2024-12-07 00:55:21 - El horno 0 comienza a hornear
+2024-12-07 00:55:21 - El repostero 2 deposita 5 galletas en 2
+2024-12-07 00:55:21 - El horno 1 comienza a hornear
+2024-12-07 00:55:21 - El repostero 2 deposita 34 galletas en 3
+2024-12-07 00:55:21 - El horno 2 comienza a hornear
+2024-12-07 00:55:29 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:29 - El repostero 0 deposita 44 galletas en 0
+2024-12-07 00:55:29 - El horno 2 ha terminado de hornear
+2024-12-07 00:55:29 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 00:55:29 - El repostero 3 deposita 40 galletas en 1
+2024-12-07 00:55:29 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:55:29 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:29 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:55:29 - El repostero 1 deposita 5 galletas en 1
+2024-12-07 00:55:29 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:55:29 - El repostero 1 deposita 33 galletas en 2
+2024-12-07 00:55:29 - El horno 0 comienza a hornear
+2024-12-07 00:55:29 - El horno 1 comienza a hornear
+2024-12-07 00:55:29 - El repostero 2 deposita 12 galletas en 2
+2024-12-07 00:55:29 - El horno 2 comienza a hornear
+2024-12-07 00:55:29 - El repostero 2 deposita 11 galletas en 3
+2024-12-07 00:55:29 - El horno 3 comienza a hornear
+2024-12-07 00:55:37 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:37 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:55:37 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:37 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:55:37 - El repostero 3 deposita 40 galletas en 1
+2024-12-07 00:55:37 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:55:37 - El horno 3 ha terminado de hornear
+2024-12-07 00:55:37 - El horno 0 comienza a hornear
+2024-12-07 00:55:37 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 00:55:37 - El horno 1 comienza a hornear
+2024-12-07 00:55:37 - El repostero 2 deposita 13 galletas en 2
+2024-12-07 00:55:37 - El horno 2 ha terminado de hornear
+2024-12-07 00:55:45 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:55:45 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:45 - El repostero 3 deposita 4 galletas en 0
+2024-12-07 00:55:45 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:45 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:55:45 - El repostero 3 deposita 34 galletas en 1
+2024-12-07 00:55:45 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:55:45 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 00:55:45 - El repostero 0 deposita 26 galletas en 2
+2024-12-07 00:55:45 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:55:45 - El horno 0 comienza a hornear
+2024-12-07 00:55:45 - El horno 1 comienza a hornear
+2024-12-07 00:55:45 - El repostero 2 deposita 6 galletas en 2
+2024-12-07 00:55:45 - El repostero 2 deposita 35 galletas en 3
+2024-12-07 00:55:45 - El horno 2 comienza a hornear
+2024-12-07 00:55:53 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:55:53 - El horno 0 ha terminado de hornear
+2024-12-07 00:55:53 - El horno 2 ha terminado de hornear
+2024-12-07 00:55:53 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:55:53 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:55:53 - El repostero 0 deposita 38 galletas en 1
+2024-12-07 00:55:53 - El horno 1 ha terminado de hornear
+2024-12-07 00:55:53 - El repostero 3 deposita 7 galletas en 1
+2024-12-07 00:55:53 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:55:53 - El repostero 3 deposita 31 galletas en 2
+2024-12-07 00:55:53 - El horno 0 comienza a hornear
+2024-12-07 00:55:53 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:55:53 - El repostero 1 deposita 14 galletas en 2
+2024-12-07 00:55:53 - El horno 1 comienza a hornear
+2024-12-07 00:55:53 - El repostero 1 deposita 10 galletas en 3
+2024-12-07 00:55:53 - El horno 2 comienza a hornear
+2024-12-07 00:55:53 - El horno 3 comienza a hornear
+2024-12-07 00:56:01 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 00:56:01 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:01 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 00:56:01 - El horno 3 ha terminado de hornear
+2024-12-07 00:56:01 - El horno 2 ha terminado de hornear
+2024-12-07 00:56:01 - El repostero 3 deposita 39 galletas en 1
+2024-12-07 00:56:01 - El horno 1 ha terminado de hornear
+2024-12-07 00:56:01 - El horno 0 comienza a hornear
+2024-12-07 00:56:09 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:09 - El repostero 1 deposita 17 galletas en 0
+2024-12-07 00:56:09 - El repostero 0 deposita 28 galletas en 0
+2024-12-07 00:56:09 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 00:56:09 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:56:09 - El horno 0 comienza a hornear
+2024-12-07 00:56:09 - El repostero 0 deposita 3 galletas en 2
+2024-12-07 00:56:09 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:56:09 - El horno 1 comienza a hornear
+2024-12-07 00:56:09 - El repostero 2 deposita 38 galletas en 2
+2024-12-07 00:56:17 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:17 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:56:17 - El horno 1 ha terminado de hornear
+2024-12-07 00:56:17 - El repostero 1 deposita 6 galletas en 0
+2024-12-07 00:56:17 - El repostero 1 deposita 31 galletas en 1
+2024-12-07 00:56:17 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:56:17 - El repostero 0 deposita 14 galletas en 1
+2024-12-07 00:56:17 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:56:17 - El repostero 0 deposita 4 galletas en 2
+2024-12-07 00:56:17 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:56:17 - El horno 0 comienza a hornear
+2024-12-07 00:56:17 - El horno 1 comienza a hornear
+2024-12-07 00:56:17 - El repostero 0 deposita 26 galletas en 3
+2024-12-07 00:56:17 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 00:56:17 - El horno 2 comienza a hornear
+2024-12-07 00:56:17 - El repostero 3 deposita 19 galletas en 3
+2024-12-07 00:56:17 - El horno 3 comienza a hornear
+2024-12-07 00:56:25 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:25 - El repostero 3 deposita 18 galletas en 0
+2024-12-07 00:56:25 - El horno 1 ha terminado de hornear
+2024-12-07 00:56:25 - El repostero 2 deposita 27 galletas en 0
+2024-12-07 00:56:25 - El repostero 2 deposita 16 galletas en 1
+2024-12-07 00:56:25 - El horno 2 ha terminado de hornear
+2024-12-07 00:56:25 - El horno 3 ha terminado de hornear
+2024-12-07 00:56:25 - El horno 0 comienza a hornear
+2024-12-07 00:56:33 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:33 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:56:33 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:56:33 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:56:33 - El repostero 0 deposita 29 galletas en 1
+2024-12-07 00:56:33 - El horno 0 comienza a hornear
+2024-12-07 00:56:33 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:56:33 - El horno 1 comienza a hornear
+2024-12-07 00:56:33 - El repostero 0 deposita 2 galletas en 2
+2024-12-07 00:56:33 - El repostero 1 deposita 43 galletas en 2
+2024-12-07 00:56:33 - El repostero 1 deposita 2 galletas en 3
+2024-12-07 00:56:33 - El horno 2 comienza a hornear
+2024-12-07 00:56:41 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:41 - El repostero 0 deposita 40 galletas en 0
+2024-12-07 00:56:41 - El horno 2 ha terminado de hornear
+2024-12-07 00:56:41 - El repostero 1 deposita 5 galletas en 0
+2024-12-07 00:56:41 - El horno 1 ha terminado de hornear
+2024-12-07 00:56:41 - El repostero 1 deposita 37 galletas en 1
+2024-12-07 00:56:41 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:56:41 - El repostero 3 deposita 8 galletas en 1
+2024-12-07 00:56:41 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:56:41 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:56:41 - El repostero 3 deposita 33 galletas en 2
+2024-12-07 00:56:41 - El horno 0 comienza a hornear
+2024-12-07 00:56:41 - El repostero 2 deposita 12 galletas en 2
+2024-12-07 00:56:41 - El horno 1 comienza a hornear
+2024-12-07 00:56:41 - El horno 2 comienza a hornear
+2024-12-07 00:56:41 - El repostero 2 deposita 30 galletas en 3
+2024-12-07 00:56:49 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:49 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:56:49 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 00:56:49 - El horno 2 ha terminado de hornear
+2024-12-07 00:56:49 - El repostero 3 deposita 35 galletas en 1
+2024-12-07 00:56:49 - El horno 0 comienza a hornear
+2024-12-07 00:56:49 - El horno 1 ha terminado de hornear
+2024-12-07 00:56:57 - El repostero 1 deposita 39 galletas en 0
+2024-12-07 00:56:57 - El horno 0 ha terminado de hornear
+2024-12-07 00:56:57 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 00:56:57 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:56:57 - El repostero 0 deposita 10 galletas en 1
+2024-12-07 00:56:57 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:56:57 - El repostero 0 deposita 27 galletas en 2
+2024-12-07 00:56:57 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:56:57 - El repostero 2 deposita 18 galletas en 2
+2024-12-07 00:56:57 - El horno 1 comienza a hornear
+2024-12-07 00:56:57 - El horno 0 comienza a hornear
+2024-12-07 00:56:57 - El repostero 2 deposita 13 galletas en 3
+2024-12-07 00:56:57 - El horno 3 comienza a hornear
+2024-12-07 00:56:57 - El horno 2 comienza a hornear
+2024-12-07 00:57:05 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:05 - El repostero 3 deposita 41 galletas en 1
+2024-12-07 00:57:05 - El repostero 2 deposita 13 galletas en 0
+2024-12-07 00:57:05 - El horno 2 ha terminado de hornear
+2024-12-07 00:57:05 - El repostero 1 deposita 32 galletas en 0
+2024-12-07 00:57:05 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:05 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:57:05 - El repostero 1 deposita 4 galletas en 1
+2024-12-07 00:57:05 - El horno 3 ha terminado de hornear
+2024-12-07 00:57:05 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:57:05 - El repostero 1 deposita 7 galletas en 2
+2024-12-07 00:57:05 - El horno 0 comienza a hornear
+2024-12-07 00:57:05 - El repostero 0 deposita 38 galletas en 2
+2024-12-07 00:57:05 - El horno 1 comienza a hornear
+2024-12-07 00:57:05 - El horno 2 comienza a hornear
+2024-12-07 00:57:05 - El repostero 0 deposita 6 galletas en 3
+2024-12-07 00:57:13 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:13 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 00:57:13 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:13 - El horno 2 ha terminado de hornear
+2024-12-07 00:57:13 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 00:57:13 - El repostero 3 deposita 43 galletas en 1
+2024-12-07 00:57:13 - El horno 0 comienza a hornear
+2024-12-07 00:57:21 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 00:57:21 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:21 - El repostero 0 deposita 2 galletas en 0
+2024-12-07 00:57:21 - El repostero 0 deposita 2 galletas en 1
+2024-12-07 00:57:21 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:57:21 - El repostero 0 deposita 38 galletas en 2
+2024-12-07 00:57:21 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:57:21 - El horno 0 comienza a hornear
+2024-12-07 00:57:21 - El horno 1 comienza a hornear
+2024-12-07 00:57:21 - El repostero 1 deposita 7 galletas en 2
+2024-12-07 00:57:21 - El repostero 1 deposita 36 galletas en 3
+2024-12-07 00:57:21 - El horno 2 comienza a hornear
+2024-12-07 00:57:29 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 00:57:29 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:29 - El horno 2 ha terminado de hornear
+2024-12-07 00:57:29 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:29 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 00:57:29 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:57:29 - El repostero 3 deposita 34 galletas en 1
+2024-12-07 00:57:29 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:57:29 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 00:57:29 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:57:29 - El repostero 0 deposita 26 galletas en 2
+2024-12-07 00:57:29 - El horno 0 comienza a hornear
+2024-12-07 00:57:29 - El repostero 1 deposita 19 galletas en 2
+2024-12-07 00:57:29 - El horno 1 comienza a hornear
+2024-12-07 00:57:29 - El repostero 1 deposita 3 galletas en 3
+2024-12-07 00:57:29 - El horno 2 comienza a hornear
+2024-12-07 00:57:29 - El horno 3 comienza a hornear
+2024-12-07 00:57:37 - El repostero 2 deposita 42 galletas en 0
+2024-12-07 00:57:37 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:37 - El horno 3 ha terminado de hornear
+2024-12-07 00:57:37 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 00:57:37 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:57:37 - El repostero 1 deposita 19 galletas en 1
+2024-12-07 00:57:37 - El horno 2 ha terminado de hornear
+2024-12-07 00:57:37 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:37 - El repostero 3 deposita 26 galletas en 1
+2024-12-07 00:57:37 - El repostero 3 deposita 14 galletas en 2
+2024-12-07 00:57:37 - El horno 0 comienza a hornear
+2024-12-07 00:57:37 - El horno 1 comienza a hornear
+2024-12-07 00:57:45 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 00:57:45 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:45 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 00:57:45 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:45 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:57:45 - El repostero 3 deposita 34 galletas en 1
+2024-12-07 00:57:45 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:57:45 - El repostero 1 deposita 11 galletas en 1
+2024-12-07 00:57:45 - El repostero 1 deposita 31 galletas en 2
+2024-12-07 00:57:45 - El horno 0 comienza a hornear
+2024-12-07 00:57:45 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:57:45 - El horno 1 comienza a hornear
+2024-12-07 00:57:45 - El repostero 0 deposita 0 galletas en 2
+2024-12-07 00:57:45 - El repostero 1 deposita 3 galletas en 3
+2024-12-07 00:57:45 - El horno 2 comienza a hornear
+2024-12-07 00:57:45 - El repostero 0 deposita 42 galletas en 3
+2024-12-07 00:57:45 - El horno 3 comienza a hornear
+2024-12-07 00:57:53 - El horno 0 ha terminado de hornear
+2024-12-07 00:57:53 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:57:53 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 00:57:53 - El horno 3 ha terminado de hornear
+2024-12-07 00:57:53 - El horno 2 ha terminado de hornear
+2024-12-07 00:57:53 - El repostero 3 deposita 36 galletas en 1
+2024-12-07 00:57:53 - El horno 1 ha terminado de hornear
+2024-12-07 00:57:53 - El horno 0 comienza a hornear
+2024-12-07 00:58:01 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 00:58:01 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:58:01 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:01 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 00:58:01 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 00:58:01 - El horno 0 comienza a hornear
+2024-12-07 00:58:01 - El horno 1 comienza a hornear
+2024-12-07 00:58:01 - El repostero 3 deposita 24 galletas en 2
+2024-12-07 00:58:09 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:09 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 00:58:09 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:58:09 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:09 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:58:09 - El repostero 3 deposita 36 galletas en 1
+2024-12-07 00:58:09 - El repostero 1 deposita 9 galletas en 1
+2024-12-07 00:58:09 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:58:09 - El horno 1 comienza a hornear
+2024-12-07 00:58:09 - El repostero 1 deposita 21 galletas en 2
+2024-12-07 00:58:09 - El horno 0 comienza a hornear
+2024-12-07 00:58:09 - El repostero 1 deposita 13 galletas en 3
+2024-12-07 00:58:09 - El horno 2 comienza a hornear
+2024-12-07 00:58:17 - El repostero 0 deposita 43 galletas en 1
+2024-12-07 00:58:17 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:17 - El repostero 3 deposita 38 galletas en 0
+2024-12-07 00:58:17 - El horno 2 ha terminado de hornear
+2024-12-07 00:58:17 - El repostero 2 deposita 7 galletas en 0
+2024-12-07 00:58:17 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:58:17 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:17 - El repostero 2 deposita 2 galletas en 1
+2024-12-07 00:58:17 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:58:17 - El repostero 2 deposita 33 galletas en 2
+2024-12-07 00:58:17 - El horno 0 comienza a hornear
+2024-12-07 00:58:17 - El horno 1 comienza a hornear
+2024-12-07 00:58:17 - El repostero 1 deposita 12 galletas en 2
+2024-12-07 00:58:17 - El repostero 1 deposita 32 galletas en 3
+2024-12-07 00:58:17 - El horno 2 comienza a hornear
+2024-12-07 00:58:17 - El horno 3 comienza a hornear
+2024-12-07 00:58:25 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 00:58:25 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:25 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:58:25 - El horno 3 ha terminado de hornear
+2024-12-07 00:58:25 - El repostero 0 deposita 35 galletas en 1
+2024-12-07 00:58:25 - El horno 2 ha terminado de hornear
+2024-12-07 00:58:25 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:58:25 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:25 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:58:25 - El repostero 3 deposita 10 galletas en 1
+2024-12-07 00:58:25 - El horno 0 comienza a hornear
+2024-12-07 00:58:25 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:58:25 - El repostero 3 deposita 34 galletas en 2
+2024-12-07 00:58:25 - El repostero 1 deposita 1 galletas en 2
+2024-12-07 00:58:25 - El horno 1 comienza a hornear
+2024-12-07 00:58:33 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:33 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 00:58:33 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:33 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 00:58:33 - El repostero 0 deposita 39 galletas en 1
+2024-12-07 00:58:33 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:58:33 - El repostero 3 deposita 6 galletas en 1
+2024-12-07 00:58:33 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:58:33 - El repostero 3 deposita 10 galletas en 2
+2024-12-07 00:58:33 - El horno 1 comienza a hornear
+2024-12-07 00:58:33 - El repostero 3 deposita 27 galletas en 3
+2024-12-07 00:58:33 - El horno 2 comienza a hornear
+2024-12-07 00:58:33 - El horno 0 comienza a hornear
+2024-12-07 00:58:41 - El repostero 2 deposita 45 galletas en 1
+2024-12-07 00:58:41 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:41 - El repostero 1 deposita 43 galletas en 0
+2024-12-07 00:58:41 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 00:58:41 - El horno 1 comienza a hornear
+2024-12-07 00:58:41 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:41 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:58:41 - El horno 0 comienza a hornear
+2024-12-07 00:58:41 - El horno 2 ha terminado de hornear
+2024-12-07 00:58:49 - El repostero 0 deposita 41 galletas en 1
+2024-12-07 00:58:49 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:49 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 00:58:49 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:49 - El repostero 3 deposita 4 galletas en 1
+2024-12-07 00:58:49 - El repostero 2 deposita 5 galletas en 0
+2024-12-07 00:58:49 - El repostero 3 deposita 38 galletas en 2
+2024-12-07 00:58:49 - El horno 1 comienza a hornear
+2024-12-07 00:58:49 - El horno 0 comienza a hornear
+2024-12-07 00:58:57 - El repostero 3 deposita 41 galletas en 0
+2024-12-07 00:58:57 - El horno 0 ha terminado de hornear
+2024-12-07 00:58:57 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:58:57 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:58:57 - El repostero 0 deposita 41 galletas en 1
+2024-12-07 00:58:57 - El horno 1 ha terminado de hornear
+2024-12-07 00:58:57 - El repostero 1 deposita 4 galletas en 1
+2024-12-07 00:58:57 - El horno 0 comienza a hornear
+2024-12-07 00:58:57 - El repostero 1 deposita 7 galletas en 2
+2024-12-07 00:58:57 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:58:57 - El repostero 2 deposita 0 galletas en 2
+2024-12-07 00:58:57 - El repostero 1 deposita 18 galletas en 3
+2024-12-07 00:58:57 - El horno 1 comienza a hornear
+2024-12-07 00:58:57 - El repostero 2 deposita 0 galletas en 3
+2024-12-07 00:58:57 - El horno 2 comienza a hornear
+2024-12-07 00:58:57 - El horno 3 comienza a hornear
+2024-12-07 00:59:05 - El repostero 1 deposita 11 galletas en 0
+2024-12-07 00:59:05 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:05 - El repostero 2 deposita 34 galletas en 0
+2024-12-07 00:59:05 - El horno 3 ha terminado de hornear
+2024-12-07 00:59:05 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:59:05 - El horno 2 ha terminado de hornear
+2024-12-07 00:59:05 - El repostero 0 deposita 38 galletas en 1
+2024-12-07 00:59:05 - El horno 1 ha terminado de hornear
+2024-12-07 00:59:05 - El horno 0 comienza a hornear
+2024-12-07 00:59:13 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:13 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 00:59:13 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 00:59:13 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 00:59:13 - El repostero 0 deposita 7 galletas en 1
+2024-12-07 00:59:13 - El repostero 0 deposita 31 galletas en 2
+2024-12-07 00:59:13 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:59:13 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 00:59:13 - El repostero 2 deposita 14 galletas en 2
+2024-12-07 00:59:13 - El horno 0 comienza a hornear
+2024-12-07 00:59:13 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 00:59:13 - El repostero 2 deposita 27 galletas en 3
+2024-12-07 00:59:13 - El horno 1 comienza a hornear
+2024-12-07 00:59:13 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 00:59:13 - El repostero 3 deposita 18 galletas en 3
+2024-12-07 00:59:13 - El horno 2 comienza a hornear
+2024-12-07 00:59:13 - El horno 3 comienza a hornear
+2024-12-07 00:59:21 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:21 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 00:59:21 - El horno 0 comienza a hornear
+2024-12-07 00:59:21 - El horno 3 ha terminado de hornear
+2024-12-07 00:59:21 - El horno 2 ha terminado de hornear
+2024-12-07 00:59:21 - El horno 1 ha terminado de hornear
+2024-12-07 00:59:29 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:29 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 00:59:29 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 00:59:29 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:59:29 - El repostero 3 deposita 19 galletas en 1
+2024-12-07 00:59:29 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 00:59:29 - El repostero 0 deposita 26 galletas en 1
+2024-12-07 00:59:29 - El horno 0 comienza a hornear
+2024-12-07 00:59:29 - El repostero 0 deposita 16 galletas en 2
+2024-12-07 00:59:29 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 00:59:29 - El repostero 1 deposita 29 galletas en 2
+2024-12-07 00:59:29 - El horno 1 comienza a hornear
+2024-12-07 00:59:29 - El repostero 1 deposita 13 galletas en 3
+2024-12-07 00:59:29 - El horno 2 comienza a hornear
+2024-12-07 00:59:37 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:37 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 00:59:37 - El repostero 0 deposita 8 galletas en 0
+2024-12-07 00:59:37 - El horno 2 ha terminado de hornear
+2024-12-07 00:59:37 - El horno 1 ha terminado de hornear
+2024-12-07 00:59:37 - El repostero 0 deposita 29 galletas en 1
+2024-12-07 00:59:37 - El horno 0 comienza a hornear
+2024-12-07 00:59:45 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:45 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 00:59:45 - El horno 0 comienza a hornear
+2024-12-07 00:59:53 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 00:59:53 - El horno 0 ha terminado de hornear
+2024-12-07 00:59:53 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 00:59:53 - El repostero 3 deposita 16 galletas en 1
+2024-12-07 00:59:53 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 00:59:53 - El repostero 3 deposita 15 galletas en 2
+2024-12-07 00:59:53 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 00:59:53 - El horno 0 comienza a hornear
+2024-12-07 00:59:53 - El repostero 0 deposita 30 galletas en 2
+2024-12-07 00:59:53 - El horno 1 comienza a hornear
+2024-12-07 00:59:53 - El repostero 0 deposita 8 galletas en 3
+2024-12-07 00:59:53 - El horno 2 comienza a hornear
+2024-12-07 01:00:01 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:01 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 01:00:01 - El horno 2 ha terminado de hornear
+2024-12-07 01:00:01 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 01:00:01 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:01 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:00:01 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 01:00:01 - El horno 0 comienza a hornear
+2024-12-07 01:00:01 - El repostero 3 deposita 11 galletas en 1
+2024-12-07 01:00:01 - El horno 1 comienza a hornear
+2024-12-07 01:00:01 - El repostero 3 deposita 29 galletas en 2
+2024-12-07 01:00:09 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:09 - El repostero 1 deposita 45 galletas en 0
+2024-12-07 01:00:09 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:00:09 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:00:09 - El horno 0 comienza a hornear
+2024-12-07 01:00:09 - El repostero 2 deposita 39 galletas en 1
+2024-12-07 01:00:09 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:09 - El repostero 3 deposita 6 galletas en 1
+2024-12-07 01:00:09 - El repostero 3 deposita 16 galletas en 2
+2024-12-07 01:00:09 - El horno 1 comienza a hornear
+2024-12-07 01:00:09 - El repostero 3 deposita 17 galletas en 3
+2024-12-07 01:00:09 - El horno 2 comienza a hornear
+2024-12-07 01:00:17 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 01:00:17 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:17 - El repostero 2 deposita 5 galletas en 0
+2024-12-07 01:00:17 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:17 - El repostero 2 deposita 34 galletas en 1
+2024-12-07 01:00:17 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:00:17 - El horno 2 ha terminado de hornear
+2024-12-07 01:00:17 - El horno 0 comienza a hornear
+2024-12-07 01:00:17 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 01:00:17 - El horno 1 comienza a hornear
+2024-12-07 01:00:17 - El repostero 0 deposita 33 galletas en 2
+2024-12-07 01:00:25 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:00:25 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:25 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:25 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 01:00:25 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:00:25 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 01:00:25 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:00:25 - El repostero 2 deposita 11 galletas en 1
+2024-12-07 01:00:25 - El repostero 2 deposita 12 galletas en 2
+2024-12-07 01:00:25 - El horno 0 comienza a hornear
+2024-12-07 01:00:25 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:00:25 - El horno 1 comienza a hornear
+2024-12-07 01:00:25 - El repostero 2 deposita 7 galletas en 3
+2024-12-07 01:00:25 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 01:00:25 - El horno 3 comienza a hornear
+2024-12-07 01:00:25 - El horno 2 comienza a hornear
+2024-12-07 01:00:33 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:33 - El repostero 2 deposita 12 galletas en 0
+2024-12-07 01:00:33 - El repostero 3 deposita 41 galletas en 3
+2024-12-07 01:00:33 - El horno 3 ha terminado de hornear
+2024-12-07 01:00:33 - El repostero 0 deposita 33 galletas en 0
+2024-12-07 01:00:33 - El horno 2 ha terminado de hornear
+2024-12-07 01:00:33 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:00:33 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 01:00:33 - El horno 0 comienza a hornear
+2024-12-07 01:00:33 - El repostero 1 deposita 34 galletas en 1
+2024-12-07 01:00:33 - El repostero 1 deposita 7 galletas en 2
+2024-12-07 01:00:33 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:33 - El horno 1 comienza a hornear
+2024-12-07 01:00:41 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 01:00:41 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:41 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:41 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 01:00:41 - El horno 0 comienza a hornear
+2024-12-07 01:00:41 - El repostero 3 deposita 44 galletas en 1
+2024-12-07 01:00:49 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:49 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 01:00:49 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 01:00:49 - El repostero 0 deposita 1 galletas en 1
+2024-12-07 01:00:49 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:00:49 - El horno 0 comienza a hornear
+2024-12-07 01:00:49 - El repostero 0 deposita 36 galletas en 2
+2024-12-07 01:00:49 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:00:49 - El repostero 1 deposita 2 galletas en 2
+2024-12-07 01:00:49 - El horno 1 comienza a hornear
+2024-12-07 01:00:49 - El repostero 1 deposita 4 galletas en 3
+2024-12-07 01:00:49 - El horno 2 comienza a hornear
+2024-12-07 01:00:49 - El horno 3 comienza a hornear
+2024-12-07 01:00:57 - El repostero 1 deposita 39 galletas en 0
+2024-12-07 01:00:57 - El horno 0 ha terminado de hornear
+2024-12-07 01:00:57 - El horno 3 ha terminado de hornear
+2024-12-07 01:00:57 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 01:00:57 - El horno 2 ha terminado de hornear
+2024-12-07 01:00:57 - El repostero 3 deposita 36 galletas en 1
+2024-12-07 01:00:57 - El horno 1 ha terminado de hornear
+2024-12-07 01:00:57 - El horno 0 comienza a hornear
+2024-12-07 01:01:05 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 01:01:05 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:05 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 01:01:05 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 01:01:05 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:01:05 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:01:05 - El repostero 3 deposita 27 galletas en 2
+2024-12-07 01:01:05 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:01:05 - El repostero 1 deposita 18 galletas en 2
+2024-12-07 01:01:05 - El horno 0 comienza a hornear
+2024-12-07 01:01:05 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 01:01:05 - El repostero 0 deposita 0 galletas en 2
+2024-12-07 01:01:05 - El repostero 1 deposita 23 galletas en 3
+2024-12-07 01:01:05 - El horno 1 comienza a hornear
+2024-12-07 01:01:05 - El horno 2 comienza a hornear
+2024-12-07 01:01:05 - El repostero 0 deposita 22 galletas en 3
+2024-12-07 01:01:05 - El horno 3 comienza a hornear
+2024-12-07 01:01:13 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 01:01:13 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:13 - El horno 3 ha terminado de hornear
+2024-12-07 01:01:13 - El horno 2 ha terminado de hornear
+2024-12-07 01:01:13 - El horno 1 ha terminado de hornear
+2024-12-07 01:01:13 - El horno 0 comienza a hornear
+2024-12-07 01:01:21 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:21 - El repostero 3 deposita 39 galletas en 0
+2024-12-07 01:01:21 - El repostero 1 deposita 6 galletas en 0
+2024-12-07 01:01:21 - El repostero 1 deposita 32 galletas en 1
+2024-12-07 01:01:21 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:01:21 - El repostero 2 deposita 13 galletas en 1
+2024-12-07 01:01:21 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:01:21 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 01:01:21 - El repostero 2 deposita 32 galletas en 2
+2024-12-07 01:01:21 - El horno 0 comienza a hornear
+2024-12-07 01:01:21 - El horno 1 comienza a hornear
+2024-12-07 01:01:21 - El repostero 0 deposita 13 galletas en 2
+2024-12-07 01:01:21 - El repostero 0 deposita 8 galletas en 3
+2024-12-07 01:01:21 - El horno 2 comienza a hornear
+2024-12-07 01:01:29 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:29 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 01:01:29 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 01:01:29 - El horno 2 ha terminado de hornear
+2024-12-07 01:01:29 - El horno 1 ha terminado de hornear
+2024-12-07 01:01:29 - El repostero 3 deposita 40 galletas en 1
+2024-12-07 01:01:29 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:01:29 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 01:01:29 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:01:29 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:01:29 - El repostero 2 deposita 35 galletas en 2
+2024-12-07 01:01:29 - El horno 0 comienza a hornear
+2024-12-07 01:01:29 - El repostero 1 deposita 10 galletas en 2
+2024-12-07 01:01:29 - El horno 1 comienza a hornear
+2024-12-07 01:01:29 - El horno 2 comienza a hornear
+2024-12-07 01:01:29 - El repostero 1 deposita 31 galletas en 3
+2024-12-07 01:01:37 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 01:01:37 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:37 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 01:01:37 - El horno 2 ha terminado de hornear
+2024-12-07 01:01:37 - El repostero 0 deposita 37 galletas en 1
+2024-12-07 01:01:37 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:01:37 - El horno 1 ha terminado de hornear
+2024-12-07 01:01:37 - El repostero 1 deposita 8 galletas en 1
+2024-12-07 01:01:37 - El horno 0 comienza a hornear
+2024-12-07 01:01:37 - El horno 1 comienza a hornear
+2024-12-07 01:01:37 - El repostero 1 deposita 35 galletas en 2
+2024-12-07 01:01:45 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 01:01:45 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:45 - El repostero 1 deposita 6 galletas en 0
+2024-12-07 01:01:45 - El horno 1 ha terminado de hornear
+2024-12-07 01:01:45 - El repostero 1 deposita 38 galletas en 1
+2024-12-07 01:01:45 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:01:45 - El repostero 0 deposita 7 galletas en 1
+2024-12-07 01:01:45 - El horno 0 comienza a hornear
+2024-12-07 01:01:45 - El horno 1 comienza a hornear
+2024-12-07 01:01:45 - El repostero 0 deposita 10 galletas en 2
+2024-12-07 01:01:45 - El repostero 0 deposita 6 galletas en 3
+2024-12-07 01:01:45 - El horno 2 comienza a hornear
+2024-12-07 01:01:45 - El horno 3 comienza a hornear
+2024-12-07 01:01:53 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 01:01:53 - El horno 0 ha terminado de hornear
+2024-12-07 01:01:53 - El repostero 1 deposita 1 galletas en 0
+2024-12-07 01:01:53 - El horno 1 ha terminado de hornear
+2024-12-07 01:01:53 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:01:53 - El repostero 1 deposita 36 galletas en 1
+2024-12-07 01:01:53 - El horno 3 ha terminado de hornear
+2024-12-07 01:01:53 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:01:53 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 01:01:53 - El horno 2 ha terminado de hornear
+2024-12-07 01:01:53 - El horno 0 comienza a hornear
+2024-12-07 01:01:53 - El repostero 3 deposita 34 galletas en 2
+2024-12-07 01:01:53 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 01:01:53 - El horno 1 comienza a hornear
+2024-12-07 01:01:53 - El repostero 0 deposita 11 galletas en 2
+2024-12-07 01:01:53 - El horno 2 comienza a hornear
+2024-12-07 01:01:53 - El repostero 0 deposita 6 galletas en 3
+2024-12-07 01:02:01 - El horno 2 ha terminado de hornear
+2024-12-07 01:02:01 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:01 - El repostero 1 deposita 45 galletas en 0
+2024-12-07 01:02:01 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:01 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:02:01 - El repostero 0 deposita 39 galletas en 1
+2024-12-07 01:02:01 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:02:01 - El repostero 2 deposita 6 galletas en 1
+2024-12-07 01:02:01 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:02:01 - El repostero 2 deposita 39 galletas en 2
+2024-12-07 01:02:01 - El horno 0 comienza a hornear
+2024-12-07 01:02:01 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:02:01 - El repostero 3 deposita 6 galletas en 2
+2024-12-07 01:02:01 - El horno 1 comienza a hornear
+2024-12-07 01:02:01 - El repostero 3 deposita 35 galletas en 3
+2024-12-07 01:02:01 - El horno 2 comienza a hornear
+2024-12-07 01:02:09 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:09 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 01:02:09 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 01:02:09 - El horno 2 ha terminado de hornear
+2024-12-07 01:02:09 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:09 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:02:09 - El repostero 0 deposita 35 galletas en 1
+2024-12-07 01:02:09 - El horno 0 comienza a hornear
+2024-12-07 01:02:09 - El repostero 1 deposita 10 galletas en 1
+2024-12-07 01:02:09 - El repostero 1 deposita 32 galletas en 2
+2024-12-07 01:02:09 - El horno 1 comienza a hornear
+2024-12-07 01:02:17 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:17 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 01:02:17 - El repostero 1 deposita 8 galletas en 0
+2024-12-07 01:02:17 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:17 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:02:17 - El repostero 1 deposita 30 galletas en 1
+2024-12-07 01:02:17 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:02:17 - El repostero 3 deposita 15 galletas en 1
+2024-12-07 01:02:17 - El repostero 3 deposita 13 galletas en 2
+2024-12-07 01:02:17 - El horno 0 comienza a hornear
+2024-12-07 01:02:17 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 01:02:17 - El repostero 0 deposita 0 galletas en 2
+2024-12-07 01:02:17 - El repostero 3 deposita 4 galletas en 3
+2024-12-07 01:02:17 - El horno 1 comienza a hornear
+2024-12-07 01:02:17 - El horno 2 comienza a hornear
+2024-12-07 01:02:17 - El repostero 0 deposita 0 galletas en 3
+2024-12-07 01:02:17 - El horno 3 comienza a hornear
+2024-12-07 01:02:25 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:25 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:25 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 01:02:25 - El horno 2 ha terminado de hornear
+2024-12-07 01:02:25 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 01:02:25 - El repostero 1 deposita 40 galletas en 1
+2024-12-07 01:02:25 - El horno 3 ha terminado de hornear
+2024-12-07 01:02:25 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:02:25 - El horno 0 comienza a hornear
+2024-12-07 01:02:25 - El repostero 2 deposita 5 galletas en 1
+2024-12-07 01:02:25 - El horno 1 comienza a hornear
+2024-12-07 01:02:25 - El repostero 2 deposita 40 galletas en 2
+2024-12-07 01:02:33 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:33 - El repostero 1 deposita 45 galletas en 0
+2024-12-07 01:02:33 - El horno 0 comienza a hornear
+2024-12-07 01:02:33 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:41 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:41 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 01:02:41 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 01:02:41 - El repostero 3 deposita 5 galletas en 1
+2024-12-07 01:02:41 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:02:41 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:02:41 - El repostero 0 deposita 40 galletas en 1
+2024-12-07 01:02:41 - El repostero 0 deposita 5 galletas en 2
+2024-12-07 01:02:41 - El horno 0 comienza a hornear
+2024-12-07 01:02:41 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:02:41 - El horno 2 comienza a hornear
+2024-12-07 01:02:41 - El horno 1 comienza a hornear
+2024-12-07 01:02:49 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:02:49 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:49 - El repostero 2 deposita 41 galletas en 2
+2024-12-07 01:02:49 - El repostero 3 deposita 3 galletas en 0
+2024-12-07 01:02:49 - El horno 1 ha terminado de hornear
+2024-12-07 01:02:49 - El horno 2 ha terminado de hornear
+2024-12-07 01:02:49 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:02:49 - El repostero 3 deposita 39 galletas en 1
+2024-12-07 01:02:49 - El horno 0 comienza a hornear
+2024-12-07 01:02:49 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 01:02:49 - El repostero 0 deposita 4 galletas en 2
+2024-12-07 01:02:49 - El horno 1 comienza a hornear
+2024-12-07 01:02:49 - El horno 2 comienza a hornear
+2024-12-07 01:02:49 - El repostero 0 deposita 29 galletas en 3
+2024-12-07 01:02:57 - El horno 0 ha terminado de hornear
+2024-12-07 01:02:57 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 01:02:57 - El horno 2 ha terminado de hornear
+2024-12-07 01:02:57 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 01:02:57 - El horno 0 comienza a hornear
+2024-12-07 01:02:57 - El repostero 3 deposita 36 galletas en 1
+2024-12-07 01:02:57 - El horno 1 ha terminado de hornear
+2024-12-07 01:03:05 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:05 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 01:03:05 - El repostero 1 deposita 1 galletas en 0
+2024-12-07 01:03:05 - El repostero 1 deposita 9 galletas en 1
+2024-12-07 01:03:05 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:03:05 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:03:05 - El repostero 1 deposita 29 galletas en 2
+2024-12-07 01:03:05 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:03:05 - El repostero 3 deposita 16 galletas en 2
+2024-12-07 01:03:05 - El horno 0 comienza a hornear
+2024-12-07 01:03:05 - El repostero 0 deposita 0 galletas en 1
+2024-12-07 01:03:05 - El repostero 3 deposita 16 galletas en 3
+2024-12-07 01:03:05 - El horno 2 comienza a hornear
+2024-12-07 01:03:05 - El horno 1 comienza a hornear
+2024-12-07 01:03:05 - El horno 3 comienza a hornear
+2024-12-07 01:03:13 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:13 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 01:03:13 - El repostero 0 deposita 38 galletas en 2
+2024-12-07 01:03:13 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 01:03:13 - El horno 3 ha terminado de hornear
+2024-12-07 01:03:13 - El repostero 3 deposita 7 galletas en 1
+2024-12-07 01:03:13 - El horno 1 ha terminado de hornear
+2024-12-07 01:03:13 - El horno 2 ha terminado de hornear
+2024-12-07 01:03:13 - El horno 0 comienza a hornear
+2024-12-07 01:03:21 - El repostero 0 deposita 40 galletas en 0
+2024-12-07 01:03:21 - El repostero 1 deposita 5 galletas en 0
+2024-12-07 01:03:21 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:21 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:03:21 - El repostero 1 deposita 37 galletas en 1
+2024-12-07 01:03:21 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:03:21 - El repostero 2 deposita 1 galletas en 1
+2024-12-07 01:03:21 - El repostero 2 deposita 7 galletas en 2
+2024-12-07 01:03:21 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:03:21 - El horno 0 comienza a hornear
+2024-12-07 01:03:21 - El horno 1 comienza a hornear
+2024-12-07 01:03:21 - El repostero 2 deposita 36 galletas en 3
+2024-12-07 01:03:21 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 01:03:21 - El horno 2 comienza a hornear
+2024-12-07 01:03:21 - El repostero 3 deposita 9 galletas en 3
+2024-12-07 01:03:21 - El horno 3 comienza a hornear
+2024-12-07 01:03:29 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 01:03:29 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:29 - El horno 3 ha terminado de hornear
+2024-12-07 01:03:29 - El repostero 1 deposita 7 galletas en 0
+2024-12-07 01:03:29 - El repostero 1 deposita 36 galletas en 1
+2024-12-07 01:03:29 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:03:29 - El horno 2 ha terminado de hornear
+2024-12-07 01:03:29 - El horno 1 ha terminado de hornear
+2024-12-07 01:03:29 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 01:03:29 - El repostero 3 deposita 21 galletas en 2
+2024-12-07 01:03:29 - El horno 1 comienza a hornear
+2024-12-07 01:03:29 - El horno 0 comienza a hornear
+2024-12-07 01:03:37 - El horno 1 ha terminado de hornear
+2024-12-07 01:03:37 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 01:03:37 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:37 - El repostero 1 deposita 3 galletas en 0
+2024-12-07 01:03:37 - El repostero 1 deposita 41 galletas en 1
+2024-12-07 01:03:37 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:03:37 - El horno 0 comienza a hornear
+2024-12-07 01:03:37 - El repostero 2 deposita 4 galletas en 1
+2024-12-07 01:03:37 - El repostero 2 deposita 24 galletas en 2
+2024-12-07 01:03:37 - El horno 1 comienza a hornear
+2024-12-07 01:03:37 - El horno 2 comienza a hornear
+2024-12-07 01:03:37 - El repostero 2 deposita 17 galletas en 3
+2024-12-07 01:03:45 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:03:45 - El repostero 2 deposita 3 galletas en 0
+2024-12-07 01:03:45 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:45 - El repostero 2 deposita 34 galletas en 1
+2024-12-07 01:03:45 - El horno 2 ha terminado de hornear
+2024-12-07 01:03:45 - El horno 1 ha terminado de hornear
+2024-12-07 01:03:45 - El horno 0 comienza a hornear
+2024-12-07 01:03:53 - El horno 0 ha terminado de hornear
+2024-12-07 01:03:53 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 01:03:53 - El repostero 0 deposita 5 galletas en 0
+2024-12-07 01:03:53 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:03:53 - El repostero 0 deposita 11 galletas en 1
+2024-12-07 01:03:53 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:03:53 - El repostero 0 deposita 24 galletas en 2
+2024-12-07 01:03:53 - El horno 0 comienza a hornear
+2024-12-07 01:03:53 - El horno 1 comienza a hornear
+2024-12-07 01:03:53 - El repostero 3 deposita 21 galletas en 2
+2024-12-07 01:03:53 - El repostero 3 deposita 18 galletas en 3
+2024-12-07 01:03:53 - El horno 2 comienza a hornear
+2024-12-07 01:04:01 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:01 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:01 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 01:04:01 - El horno 2 ha terminado de hornear
+2024-12-07 01:04:01 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 01:04:01 - El repostero 0 deposita 36 galletas en 1
+2024-12-07 01:04:01 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:04:01 - El repostero 3 deposita 9 galletas en 1
+2024-12-07 01:04:01 - El horno 0 comienza a hornear
+2024-12-07 01:04:01 - El repostero 3 deposita 28 galletas en 2
+2024-12-07 01:04:01 - El horno 1 comienza a hornear
+2024-12-07 01:04:09 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:09 - El repostero 0 deposita 38 galletas en 0
+2024-12-07 01:04:09 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:09 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 01:04:09 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:04:09 - El repostero 3 deposita 33 galletas en 1
+2024-12-07 01:04:09 - El repostero 1 deposita 12 galletas en 1
+2024-12-07 01:04:09 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:04:09 - El repostero 1 deposita 17 galletas en 2
+2024-12-07 01:04:09 - El horno 0 comienza a hornear
+2024-12-07 01:04:09 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:04:09 - El repostero 2 deposita 0 galletas en 2
+2024-12-07 01:04:09 - El repostero 1 deposita 10 galletas en 3
+2024-12-07 01:04:09 - El horno 1 comienza a hornear
+2024-12-07 01:04:09 - El repostero 2 deposita 0 galletas en 3
+2024-12-07 01:04:09 - El horno 2 comienza a hornear
+2024-12-07 01:04:09 - El horno 3 comienza a hornear
+2024-12-07 01:04:17 - El repostero 1 deposita 2 galletas en 0
+2024-12-07 01:04:17 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:17 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 01:04:17 - El horno 2 ha terminado de hornear
+2024-12-07 01:04:17 - El repostero 0 deposita 2 galletas en 1
+2024-12-07 01:04:17 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:04:17 - El horno 3 ha terminado de hornear
+2024-12-07 01:04:17 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:04:17 - El repostero 3 deposita 39 galletas en 1
+2024-12-07 01:04:17 - El repostero 2 deposita 4 galletas en 1
+2024-12-07 01:04:17 - El horno 0 comienza a hornear
+2024-12-07 01:04:17 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:17 - El repostero 2 deposita 38 galletas en 2
+2024-12-07 01:04:17 - El horno 1 comienza a hornear
+2024-12-07 01:04:25 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 01:04:25 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:25 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:25 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 01:04:25 - El repostero 3 deposita 33 galletas en 1
+2024-12-07 01:04:25 - El horno 0 comienza a hornear
+2024-12-07 01:04:33 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:33 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 01:04:33 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 01:04:33 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:04:33 - El repostero 3 deposita 12 galletas en 1
+2024-12-07 01:04:33 - El horno 0 comienza a hornear
+2024-12-07 01:04:33 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:04:33 - El repostero 3 deposita 7 galletas en 2
+2024-12-07 01:04:33 - El repostero 2 deposita 0 galletas en 2
+2024-12-07 01:04:33 - El repostero 3 deposita 18 galletas en 3
+2024-12-07 01:04:33 - El horno 1 comienza a hornear
+2024-12-07 01:04:33 - El repostero 2 deposita 27 galletas en 3
+2024-12-07 01:04:33 - El horno 2 comienza a hornear
+2024-12-07 01:04:33 - El horno 3 comienza a hornear
+2024-12-07 01:04:41 - El horno 3 ha terminado de hornear
+2024-12-07 01:04:41 - El horno 2 ha terminado de hornear
+2024-12-07 01:04:41 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 01:04:41 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:41 - El repostero 3 deposita 6 galletas en 0
+2024-12-07 01:04:41 - El repostero 3 deposita 31 galletas en 1
+2024-12-07 01:04:41 - El horno 0 comienza a hornear
+2024-12-07 01:04:41 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:49 - El repostero 0 deposita 42 galletas en 0
+2024-12-07 01:04:49 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:49 - El repostero 2 deposita 3 galletas en 0
+2024-12-07 01:04:49 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:04:49 - El repostero 2 deposita 14 galletas en 1
+2024-12-07 01:04:49 - El horno 1 comienza a hornear
+2024-12-07 01:04:49 - El horno 0 comienza a hornear
+2024-12-07 01:04:57 - El horno 1 ha terminado de hornear
+2024-12-07 01:04:57 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:04:57 - El repostero 3 deposita 37 galletas en 1
+2024-12-07 01:04:57 - El horno 0 ha terminado de hornear
+2024-12-07 01:04:57 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 01:04:57 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:04:57 - El repostero 0 deposita 8 galletas en 1
+2024-12-07 01:04:57 - El repostero 0 deposita 28 galletas en 2
+2024-12-07 01:04:57 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:04:57 - El horno 0 comienza a hornear
+2024-12-07 01:04:57 - El horno 1 comienza a hornear
+2024-12-07 01:04:57 - El repostero 2 deposita 17 galletas en 2
+2024-12-07 01:04:57 - El horno 2 comienza a hornear
+2024-12-07 01:04:57 - El repostero 2 deposita 25 galletas en 3
+2024-12-07 01:05:05 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 01:05:05 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:05 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 01:05:05 - El horno 2 ha terminado de hornear
+2024-12-07 01:05:05 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:05:05 - El repostero 3 deposita 31 galletas en 1
+2024-12-07 01:05:05 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:05 - El repostero 0 deposita 14 galletas en 1
+2024-12-07 01:05:05 - El horno 0 comienza a hornear
+2024-12-07 01:05:05 - El repostero 0 deposita 27 galletas en 2
+2024-12-07 01:05:05 - El horno 1 comienza a hornear
+2024-12-07 01:05:13 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:13 - El repostero 0 deposita 39 galletas en 0
+2024-12-07 01:05:13 - El repostero 1 deposita 6 galletas en 0
+2024-12-07 01:05:13 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:13 - El repostero 1 deposita 31 galletas en 1
+2024-12-07 01:05:13 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:05:13 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:05:13 - El repostero 2 deposita 14 galletas en 1
+2024-12-07 01:05:13 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:05:13 - El repostero 2 deposita 18 galletas en 2
+2024-12-07 01:05:13 - El horno 0 comienza a hornear
+2024-12-07 01:05:13 - El repostero 3 deposita 0 galletas en 2
+2024-12-07 01:05:13 - El repostero 2 deposita 12 galletas en 3
+2024-12-07 01:05:13 - El horno 1 comienza a hornear
+2024-12-07 01:05:13 - El repostero 3 deposita 8 galletas en 3
+2024-12-07 01:05:13 - El horno 2 comienza a hornear
+2024-12-07 01:05:13 - El horno 3 comienza a hornear
+2024-12-07 01:05:21 - El repostero 1 deposita 40 galletas en 0
+2024-12-07 01:05:21 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:21 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 01:05:21 - El horno 3 ha terminado de hornear
+2024-12-07 01:05:21 - El horno 2 ha terminado de hornear
+2024-12-07 01:05:21 - El repostero 3 deposita 32 galletas en 1
+2024-12-07 01:05:21 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:05:21 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:21 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:05:21 - El repostero 2 deposita 13 galletas en 1
+2024-12-07 01:05:21 - El repostero 2 deposita 24 galletas en 2
+2024-12-07 01:05:21 - El horno 1 comienza a hornear
+2024-12-07 01:05:21 - El horno 0 comienza a hornear
+2024-12-07 01:05:29 - El repostero 0 deposita 37 galletas en 1
+2024-12-07 01:05:29 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:29 - El repostero 3 deposita 38 galletas en 0
+2024-12-07 01:05:29 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:29 - El repostero 1 deposita 7 galletas en 0
+2024-12-07 01:05:29 - El repostero 1 deposita 8 galletas en 1
+2024-12-07 01:05:29 - El horno 0 comienza a hornear
+2024-12-07 01:05:29 - El horno 1 comienza a hornear
+2024-12-07 01:05:29 - El repostero 1 deposita 21 galletas en 2
+2024-12-07 01:05:29 - El horno 2 comienza a hornear
+2024-12-07 01:05:29 - El repostero 1 deposita 7 galletas en 3
+2024-12-07 01:05:37 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:37 - El repostero 2 deposita 44 galletas en 0
+2024-12-07 01:05:37 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 01:05:37 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:37 - El repostero 3 deposita 42 galletas en 1
+2024-12-07 01:05:37 - El horno 0 comienza a hornear
+2024-12-07 01:05:37 - El horno 2 ha terminado de hornear
+2024-12-07 01:05:45 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:45 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 01:05:45 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 01:05:45 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:05:45 - El repostero 3 deposita 3 galletas en 1
+2024-12-07 01:05:45 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:05:45 - El repostero 3 deposita 33 galletas en 2
+2024-12-07 01:05:45 - El horno 0 comienza a hornear
+2024-12-07 01:05:45 - El horno 1 comienza a hornear
+2024-12-07 01:05:45 - El repostero 1 deposita 12 galletas en 2
+2024-12-07 01:05:45 - El repostero 1 deposita 26 galletas en 3
+2024-12-07 01:05:45 - El horno 2 comienza a hornear
+2024-12-07 01:05:53 - El horno 0 ha terminado de hornear
+2024-12-07 01:05:53 - El repostero 2 deposita 39 galletas en 0
+2024-12-07 01:05:53 - El repostero 1 deposita 6 galletas en 0
+2024-12-07 01:05:53 - El horno 2 ha terminado de hornear
+2024-12-07 01:05:53 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:05:53 - El repostero 1 deposita 31 galletas en 1
+2024-12-07 01:05:53 - El horno 1 ha terminado de hornear
+2024-12-07 01:05:53 - El repostero 3 deposita 14 galletas en 1
+2024-12-07 01:05:53 - El horno 0 comienza a hornear
+2024-12-07 01:05:53 - El repostero 3 deposita 25 galletas en 2
+2024-12-07 01:05:53 - El horno 1 comienza a hornear
+2024-12-07 01:06:01 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:01 - El repostero 1 deposita 45 galletas en 0
+2024-12-07 01:06:01 - El horno 0 comienza a hornear
+2024-12-07 01:06:01 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:09 - El repostero 2 deposita 40 galletas en 0
+2024-12-07 01:06:09 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:09 - El repostero 3 deposita 5 galletas en 0
+2024-12-07 01:06:09 - El repostero 3 deposita 34 galletas en 1
+2024-12-07 01:06:09 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:06:09 - El horno 0 comienza a hornear
+2024-12-07 01:06:09 - El repostero 1 deposita 11 galletas en 1
+2024-12-07 01:06:09 - El horno 1 comienza a hornear
+2024-12-07 01:06:09 - El repostero 1 deposita 20 galletas en 2
+2024-12-07 01:06:09 - El repostero 1 deposita 12 galletas en 3
+2024-12-07 01:06:09 - El horno 2 comienza a hornear
+2024-12-07 01:06:09 - El horno 3 comienza a hornear
+2024-12-07 01:06:17 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:17 - El repostero 1 deposita 1 galletas en 0
+2024-12-07 01:06:17 - El horno 3 ha terminado de hornear
+2024-12-07 01:06:17 - El repostero 3 deposita 39 galletas en 0
+2024-12-07 01:06:17 - El horno 2 ha terminado de hornear
+2024-12-07 01:06:17 - El repostero 2 deposita 5 galletas en 0
+2024-12-07 01:06:17 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:06:17 - El repostero 2 deposita 39 galletas en 1
+2024-12-07 01:06:17 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:17 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 01:06:17 - El horno 0 comienza a hornear
+2024-12-07 01:06:17 - El horno 1 comienza a hornear
+2024-12-07 01:06:17 - El repostero 0 deposita 39 galletas en 2
+2024-12-07 01:06:25 - El repostero 3 deposita 41 galletas en 0
+2024-12-07 01:06:25 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:25 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:25 - El repostero 1 deposita 4 galletas en 0
+2024-12-07 01:06:25 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:06:25 - El repostero 1 deposita 39 galletas en 1
+2024-12-07 01:06:25 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:06:25 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 01:06:25 - El horno 0 comienza a hornear
+2024-12-07 01:06:25 - El repostero 0 deposita 6 galletas en 2
+2024-12-07 01:06:25 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:06:25 - El horno 1 comienza a hornear
+2024-12-07 01:06:25 - El repostero 2 deposita 0 galletas en 2
+2024-12-07 01:06:25 - El repostero 0 deposita 26 galletas en 3
+2024-12-07 01:06:25 - El horno 2 comienza a hornear
+2024-12-07 01:06:25 - El repostero 2 deposita 19 galletas en 3
+2024-12-07 01:06:25 - El horno 3 comienza a hornear
+2024-12-07 01:06:33 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:33 - El horno 2 ha terminado de hornear
+2024-12-07 01:06:33 - El repostero 2 deposita 22 galletas en 0
+2024-12-07 01:06:33 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:33 - El repostero 1 deposita 23 galletas en 0
+2024-12-07 01:06:33 - El horno 3 ha terminado de hornear
+2024-12-07 01:06:33 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:06:33 - El repostero 1 deposita 20 galletas en 1
+2024-12-07 01:06:33 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:06:33 - El repostero 3 deposita 25 galletas en 1
+2024-12-07 01:06:33 - El repostero 3 deposita 20 galletas en 2
+2024-12-07 01:06:33 - El horno 1 comienza a hornear
+2024-12-07 01:06:33 - El horno 0 comienza a hornear
+2024-12-07 01:06:41 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:41 - El repostero 1 deposita 45 galletas en 0
+2024-12-07 01:06:41 - El repostero 0 deposita 37 galletas en 1
+2024-12-07 01:06:41 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:06:41 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:41 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:06:41 - El repostero 3 deposita 8 galletas en 1
+2024-12-07 01:06:41 - El repostero 3 deposita 25 galletas en 2
+2024-12-07 01:06:41 - El horno 1 comienza a hornear
+2024-12-07 01:06:41 - El horno 2 comienza a hornear
+2024-12-07 01:06:41 - El repostero 3 deposita 10 galletas en 3
+2024-12-07 01:06:41 - El horno 0 comienza a hornear
+2024-12-07 01:06:49 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:49 - El horno 2 ha terminado de hornear
+2024-12-07 01:06:49 - El repostero 0 deposita 43 galletas en 0
+2024-12-07 01:06:49 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:49 - El repostero 2 deposita 44 galletas en 1
+2024-12-07 01:06:49 - El repostero 3 deposita 2 galletas en 0
+2024-12-07 01:06:49 - El repostero 3 deposita 1 galletas en 1
+2024-12-07 01:06:49 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:06:49 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:06:49 - El repostero 3 deposita 41 galletas en 2
+2024-12-07 01:06:49 - El horno 0 comienza a hornear
+2024-12-07 01:06:49 - El horno 1 comienza a hornear
+2024-12-07 01:06:49 - El repostero 1 deposita 4 galletas en 2
+2024-12-07 01:06:49 - El horno 2 comienza a hornear
+2024-12-07 01:06:49 - El repostero 1 deposita 35 galletas en 3
+2024-12-07 01:06:49 - El horno 3 comienza a hornear
+2024-12-07 01:06:57 - El horno 0 ha terminado de hornear
+2024-12-07 01:06:57 - El repostero 1 deposita 37 galletas en 0
+2024-12-07 01:06:57 - El horno 3 ha terminado de hornear
+2024-12-07 01:06:57 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 01:06:57 - El horno 2 ha terminado de hornear
+2024-12-07 01:06:57 - El repostero 3 deposita 32 galletas en 1
+2024-12-07 01:06:57 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:06:57 - El horno 1 ha terminado de hornear
+2024-12-07 01:06:57 - El repostero 0 deposita 13 galletas en 1
+2024-12-07 01:06:57 - El horno 0 comienza a hornear
+2024-12-07 01:06:57 - El repostero 0 deposita 31 galletas en 2
+2024-12-07 01:06:57 - El horno 1 comienza a hornear
+2024-12-07 01:07:05 - El repostero 2 deposita 43 galletas en 0
+2024-12-07 01:07:05 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:05 - El horno 1 ha terminado de hornear
+2024-12-07 01:07:05 - El repostero 0 deposita 2 galletas en 0
+2024-12-07 01:07:05 - El repostero 0 deposita 42 galletas en 1
+2024-12-07 01:07:05 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:07:05 - El repostero 1 deposita 3 galletas en 1
+2024-12-07 01:07:05 - El horno 0 comienza a hornear
+2024-12-07 01:07:06 - El repostero 1 deposita 14 galletas en 2
+2024-12-07 01:07:06 - El horno 1 comienza a hornear
+2024-12-07 01:07:06 - El repostero 1 deposita 25 galletas en 3
+2024-12-07 01:07:06 - El horno 2 comienza a hornear
+2024-12-07 01:07:14 - El repostero 1 deposita 38 galletas en 0
+2024-12-07 01:07:14 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:14 - El horno 2 ha terminado de hornear
+2024-12-07 01:07:14 - El repostero 0 deposita 7 galletas en 0
+2024-12-07 01:07:14 - El repostero 0 deposita 34 galletas en 1
+2024-12-07 01:07:14 - El horno 0 comienza a hornear
+2024-12-07 01:07:14 - El horno 1 ha terminado de hornear
+2024-12-07 01:07:22 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:22 - El repostero 0 deposita 45 galletas en 0
+2024-12-07 01:07:22 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:07:22 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:07:22 - El repostero 3 deposita 11 galletas en 1
+2024-12-07 01:07:22 - El repostero 1 deposita 0 galletas en 1
+2024-12-07 01:07:22 - El repostero 3 deposita 26 galletas en 2
+2024-12-07 01:07:22 - El horno 0 comienza a hornear
+2024-12-07 01:07:22 - El repostero 1 deposita 19 galletas en 2
+2024-12-07 01:07:22 - El horno 1 comienza a hornear
+2024-12-07 01:07:22 - El repostero 1 deposita 20 galletas en 3
+2024-12-07 01:07:22 - El horno 2 comienza a hornear
+2024-12-07 01:07:22 - El horno 3 comienza a hornear
+2024-12-07 01:07:30 - El repostero 2 deposita 41 galletas en 0
+2024-12-07 01:07:30 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:30 - El horno 3 ha terminado de hornear
+2024-12-07 01:07:30 - El repostero 0 deposita 4 galletas en 0
+2024-12-07 01:07:30 - El repostero 0 deposita 39 galletas en 1
+2024-12-07 01:07:30 - El horno 2 ha terminado de hornear
+2024-12-07 01:07:30 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:07:30 - El horno 1 ha terminado de hornear
+2024-12-07 01:07:30 - El repostero 1 deposita 5 galletas en 1
+2024-12-07 01:07:30 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:07:30 - El repostero 3 deposita 1 galletas en 1
+2024-12-07 01:07:30 - El horno 0 comienza a hornear
+2024-12-07 01:07:30 - El repostero 3 deposita 40 galletas en 2
+2024-12-07 01:07:30 - El horno 1 comienza a hornear
+2024-12-07 01:07:38 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:38 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:07:38 - El horno 1 ha terminado de hornear
+2024-12-07 01:07:38 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 01:07:38 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:07:38 - El repostero 0 deposita 40 galletas en 1
+2024-12-07 01:07:38 - El repostero 3 deposita 5 galletas en 1
+2024-12-07 01:07:38 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:07:38 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:07:38 - El horno 0 comienza a hornear
+2024-12-07 01:07:38 - El repostero 3 deposita 5 galletas en 2
+2024-12-07 01:07:38 - El repostero 3 deposita 33 galletas en 3
+2024-12-07 01:07:38 - El horno 1 comienza a hornear
+2024-12-07 01:07:38 - El repostero 2 deposita 0 galletas en 2
+2024-12-07 01:07:38 - El repostero 2 deposita 12 galletas en 3
+2024-12-07 01:07:38 - El horno 2 comienza a hornear
+2024-12-07 01:07:38 - El horno 3 comienza a hornear
+2024-12-07 01:07:46 - El repostero 3 deposita 39 galletas en 0
+2024-12-07 01:07:46 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:46 - El repostero 0 deposita 6 galletas en 0
+2024-12-07 01:07:46 - El horno 1 ha terminado de hornear
+2024-12-07 01:07:46 - El repostero 0 deposita 32 galletas en 1
+2024-12-07 01:07:46 - El horno 0 comienza a hornear
+2024-12-07 01:07:46 - El horno 3 ha terminado de hornear
+2024-12-07 01:07:46 - El horno 2 ha terminado de hornear
+2024-12-07 01:07:54 - El repostero 1 deposita 42 galletas en 0
+2024-12-07 01:07:54 - El repostero 0 deposita 3 galletas en 0
+2024-12-07 01:07:54 - El repostero 0 deposita 13 galletas en 1
+2024-12-07 01:07:54 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:07:54 - El horno 0 ha terminado de hornear
+2024-12-07 01:07:54 - El horno 0 comienza a hornear
+2024-12-07 01:07:54 - El repostero 0 deposita 25 galletas en 2
+2024-12-07 01:07:54 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:07:54 - El repostero 3 deposita 20 galletas en 2
+2024-12-07 01:07:54 - El horno 1 comienza a hornear
+2024-12-07 01:07:54 - El repostero 3 deposita 25 galletas en 3
+2024-12-07 01:07:54 - El horno 2 comienza a hornear
+2024-12-07 01:08:02 - El repostero 2 deposita 30 galletas en 0
+2024-12-07 01:08:02 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:02 - El horno 2 ha terminado de hornear
+2024-12-07 01:08:02 - El repostero 1 deposita 15 galletas en 0
+2024-12-07 01:08:02 - El repostero 1 deposita 22 galletas en 1
+2024-12-07 01:08:02 - El horno 1 ha terminado de hornear
+2024-12-07 01:08:02 - El horno 0 comienza a hornear
+2024-12-07 01:08:10 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:10 - El repostero 1 deposita 44 galletas en 0
+2024-12-07 01:08:10 - El repostero 3 deposita 1 galletas en 0
+2024-12-07 01:08:10 - El repostero 2 deposita 0 galletas en 0
+2024-12-07 01:08:10 - El repostero 3 deposita 23 galletas en 1
+2024-12-07 01:08:10 - El repostero 3 deposita 19 galletas en 2
+2024-12-07 01:08:10 - El repostero 2 deposita 0 galletas en 1
+2024-12-07 01:08:10 - El horno 0 comienza a hornear
+2024-12-07 01:08:10 - El repostero 2 deposita 26 galletas en 2
+2024-12-07 01:08:10 - El horno 1 comienza a hornear
+2024-12-07 01:08:10 - El repostero 2 deposita 14 galletas en 3
+2024-12-07 01:08:10 - El horno 2 comienza a hornear
+2024-12-07 01:08:18 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:18 - El repostero 2 deposita 45 galletas en 0
+2024-12-07 01:08:18 - El horno 0 comienza a hornear
+2024-12-07 01:08:18 - El horno 2 ha terminado de hornear
+2024-12-07 01:08:18 - El horno 1 ha terminado de hornear
+2024-12-07 01:08:26 - El repostero 1 deposita 41 galletas en 0
+2024-12-07 01:08:26 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:26 - El repostero 2 deposita 4 galletas en 0
+2024-12-07 01:08:26 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:08:26 - El repostero 2 deposita 39 galletas en 1
+2024-12-07 01:08:26 - El repostero 3 deposita 0 galletas en 0
+2024-12-07 01:08:26 - El repostero 0 deposita 6 galletas en 1
+2024-12-07 01:08:26 - El horno 0 comienza a hornear
+2024-12-07 01:08:26 - El repostero 3 deposita 0 galletas en 1
+2024-12-07 01:08:26 - El repostero 0 deposita 35 galletas en 2
+2024-12-07 01:08:26 - El repostero 3 deposita 10 galletas en 2
+2024-12-07 01:08:26 - El horno 1 comienza a hornear
+2024-12-07 01:08:26 - El repostero 3 deposita 6 galletas en 3
+2024-12-07 01:08:26 - El horno 2 comienza a hornear
+2024-12-07 01:08:26 - El horno 3 comienza a hornear
+2024-12-07 01:08:34 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:34 - El repostero 2 deposita 37 galletas en 0
+2024-12-07 01:08:34 - El horno 3 ha terminado de hornear
+2024-12-07 01:08:34 - El repostero 3 deposita 8 galletas en 0
+2024-12-07 01:08:34 - El repostero 3 deposita 13 galletas en 1
+2024-12-07 01:08:34 - El repostero 1 deposita 0 galletas en 0
+2024-12-07 01:08:34 - El horno 2 ha terminado de hornear
+2024-12-07 01:08:34 - El repostero 1 deposita 32 galletas en 1
+2024-12-07 01:08:34 - El repostero 1 deposita 12 galletas en 2
+2024-12-07 01:08:34 - El horno 1 ha terminado de hornear
+2024-12-07 01:08:34 - El horno 0 comienza a hornear
+2024-12-07 01:08:34 - El horno 1 comienza a hornear
+2024-12-07 01:08:42 - El horno 0 ha terminado de hornear
+2024-12-07 01:08:42 - El repostero 2 deposita 38 galletas en 0
+2024-12-07 01:08:42 - El horno 1 ha terminado de hornear
+2024-12-07 01:08:42 - El repostero 3 deposita 7 galletas en 0
+2024-12-07 01:08:42 - El repostero 3 deposita 30 galletas en 1
+2024-12-07 01:08:42 - El repostero 0 deposita 0 galletas en 0
+2024-12-07 01:08:42 - El horno 0 comienza a hornear
+2024-12-07 01:08:42 - El repostero 0 deposita 15 galletas en 1
+2024-12-07 01:08:42 - El repostero 0 deposita 30 galletas en 2
+2024-12-07 01:08:42 - El horno 1 comienza a hornear
