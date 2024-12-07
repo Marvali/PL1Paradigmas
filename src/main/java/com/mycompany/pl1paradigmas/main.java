@@ -6,18 +6,29 @@ public class main {
         Log log = new Log();
         //crear los hornos con for y llearnr un array de hornos
         //array de 4 hornos
-        Horno[] hornos = new Horno[4];
+        Horno[] hornos = new Horno[3];
         for (int i = 0; i < hornos.length; i++) {
-            Horno horno = new Horno(i, 45, log);
+            Horno horno = new Horno(i, 200, log);
             hornos[i] = horno;
             horno.start();
         }
         
-        //crear 4 reposteros con for
-        for (int i = 0; i < 4; i++) {
+        //crear 5 reposteros con for
+        for (int i = 0; i < 5; i++) {
             Repostero repostero = new Repostero(i, hornos);
             repostero.start();
         }
+        //crear un almacen
+        Almacen almacen = new Almacen(1000);
+        //crear 3 empaquetadores con for
+        //cada empaquetador tiene su unico horno
+        for (int i = 0; i < 3; i++) {
+            Empaquetador empaquetador = new Empaquetador(i, hornos[i], almacen);
+            empaquetador.start();
+        }
+
+
+
 
        
 

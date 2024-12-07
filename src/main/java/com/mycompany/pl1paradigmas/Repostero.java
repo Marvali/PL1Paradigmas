@@ -53,7 +53,6 @@ public class Repostero extends Thread {
                 depositarGalletas();
 
 
-
                 //El respostero descansa
                 tandasProducidas++;
                 if (tandasProducidas >= 3 && tandasProducidas <= 5) {
@@ -90,63 +89,58 @@ public class Repostero extends Thread {
 
     //funcion para depositar galletas en un horno
     public void depositarGalletas() throws InterruptedException {
-        // quizas el continue baja al try cuando no deberia
-        do {
-            for (int i = 0; i < hornos.length; i++) {
-                Horno horno = hornos[i];
-                boolean lockAcquired = false;
-
-                // tryLock() intenta adquirir el lock del horno sin bloquear el hilo
-                lockAcquired = horno.getLock().tryLock();
-                if (!lockAcquired) {
-
-
-
-                    continue;
-                }
-
+        for (int i = 0; i < hornos.length; i++) {
+            Horno horno = hornos[i];
+            if (horno.getLock().tryLock()) { // Intenta adquirir el lock del horno
                 try {
-                    // Calcula el espacioVacio disponible en el horno
-                    int espacioVacio = horno.getCapacidadMaxima() - horno.getCantidadGalletasHorno();
-
-                    if (galletasPorTanda <= espacioVacio) {
-                        // Si caben todas las galletas, deposítalas
-                        horno.setCantidadGalletasHorno(horno.getCantidadGalletasHorno() + galletasPorTanda);
-                        log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
-                        System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
-                        galletasPorTanda = 0; // Todas las galletas han sido depositadas
-                        if (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {
-                            horno.getLleno().signal(); // Señala que el horno está lleno
-
+                    // Mientras el repostero tenga galletas para depositar
+                    while (galletasPorTanda > 0) {
+                        // Espera si el horno no está completamente vacío
+                        while (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {
+                            horno.getVacio().await(); // Espera a que haya espacio en el horno
                         }
-                        break;
-                    } else {
-                        // Si no caben todas las galletas, llena el horno y guarda las sobrantes
-                        // espacioVacio del horno - galletas por tanda = galletas sobrantes
-                        // galletas que entran = espacioVacio
-                        horno.setCantidadGalletasHorno(horno.getCapacidadMaxima());
-                        
 
-                        log.escribirLog("El repostero " + idRespostero + " deposita " + espacioVacio + " galletas en " + horno.getId());
-                        System.out.println("El repostero " + idRespostero + " deposita " + espacioVacio + " galletas en " + horno.getId());
-                        galletasPorTanda -= espacioVacio; // Reduce la cantidad de galletas restantes
-                        horno.getLleno().signal(); // Señala que el horno está lleno
+                        int espacioVacio = horno.getCapacidadMaxima() - horno.getCantidadGalletasHorno();
+
+                        if (galletasPorTanda <= espacioVacio) {
+                            // Todas las galletas caben
+                            horno.setCantidadGalletasHorno(horno.getCantidadGalletasHorno() + galletasPorTanda);
+                            log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                            System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                            galletasPorTanda = 0;
+
+                            // Notifica a otros reposteros
+                            horno.getVacio().signalAll();
+
+                            // Notifica al horneador si el horno está lleno
+                            if (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {
+                                horno.getLleno().signal();
+                            }
+                        } else {
+                            // Llena el horno con lo que puede y desperdicia el resto
+                            horno.setCantidadGalletasHorno(horno.getCapacidadMaxima());
+                            int galletasDepositadas = espacioVacio;
+                            int galletasDesperdiciadas = galletasPorTanda - espacioVacio;
+                            galletasPorTanda = 0; // Todas las galletas restantes se descartan
+
+                            log.escribirLog("El repostero " + idRespostero + " deposita " + galletasDepositadas + " galletas en " + horno.getId() + " y desperdicia " + galletasDesperdiciadas + " galletas");
+                            System.out.println("El repostero " + idRespostero + " deposita " + galletasDepositadas + " galletas en " + horno.getId() + " y desperdicia " + galletasDesperdiciadas + " galletas");
+
+                            // Notifica a otros reposteros
+                            horno.getVacio().signalAll();
+
+                            // Notifica al horneador si el horno está lleno
+                            if (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {
+                                horno.getLleno().signal();
+                            }
+                        }
                     }
                 } finally {
-                    horno.getLock().unlock(); // Libera el acceso al horno actual
-                    sleep(35);
+                    horno.getLock().unlock(); // Libera el lock del horno
                 }
             }
-            // Si todavía quedan galletas por depositar, espera un momento antes de reintentar
-            if (galletasPorTanda > 0) {
-
-            }
-        } while (galletasPorTanda >0);
-        System.out.println("El repostero " + idRespostero + " ha terminado de depositar galletas");
-
+        }
     }
 
 
 }
-
-

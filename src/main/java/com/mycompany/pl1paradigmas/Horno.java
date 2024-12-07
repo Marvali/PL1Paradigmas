@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.pl1paradigmas;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -19,6 +20,7 @@ public class Horno extends Thread {
     private Log log;                   // Objeto para registrar eventos
     private ReentrantLock lock;        // Bloqueo para exclusión mutua
     private Condition lleno;           // Condición para indicar que el horno está lleno
+    private Condition listoParaRecoger;           // Condición para indicar que el horno está vacío
     private Condition vacio;           // Condición para indicar que el horno está vacío
     private boolean enHorneo;          // Indica si el horno está horneando actualmente
 
@@ -31,7 +33,15 @@ public class Horno extends Thread {
         this.lock = new ReentrantLock();
         this.lleno = lock.newCondition();
         this.vacio = lock.newCondition();
+        this.listoParaRecoger = lock.newCondition();
         this.enHorneo = false;
+        //signall vacio para que empiece el progama
+        lock.lock();
+        try {
+            vacio.signalAll();
+        } finally {
+            lock.unlock();
+        }
     }
 
 
@@ -48,9 +58,7 @@ public class Horno extends Thread {
             System.out.println("El horno " + id + " comienza a hornear");
             Thread.sleep(8000); // Simula el tiempo de horneado (8 segundos)
 
-
-            cantidadGalletasHorno = 0; // Vacía el horno
-
+            listoParaRecoger.signalAll(); // Indica que el horno está vacío
         } finally {
             lock.unlock();
             log.escribirLog("El horno " + id + " ha terminado de hornear");
@@ -59,20 +67,7 @@ public class Horno extends Thread {
     }
 
     // Retirar las galletas del horno
-    public int retirarGalletas(String empaquetadorId) throws InterruptedException {
-        lock.lock();
-        try {
-            while (cantidadGalletasHorno == 0 && !enHorneo) {
-                vacio.await(); // Espera a que haya galletas horneadas
-            }
-            int galletasRetiradas = cantidadGalletasHorno;
-            cantidadGalletasHorno = 0;
-            log.escribirLog(empaquetadorId + " retira " + galletasRetiradas + " galletas de " + id);
-            return galletasRetiradas;
-        } finally {
-            lock.unlock();
-        }
-    }
+
 
     // Ciclo principal del horno
     @Override
@@ -113,6 +108,16 @@ public class Horno extends Thread {
     public Condition getLleno() {
         return lleno;
     }
+
+    public Condition getListoParaRecoger() {
+        return listoParaRecoger;
+    }
+
+    public Condition getVacio() {
+        return vacio;
+    }
+
+
 }
 
 
