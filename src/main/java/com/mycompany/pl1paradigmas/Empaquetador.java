@@ -81,7 +81,7 @@ public class Empaquetador extends Thread {
 
             // Si el horno está completamente vacío, notifica a los reposteros
             if (horno.getCantidadGalletasHorno() == 0) {
-                horno.getVacio().signal(); // Indica que el horno está vacío
+                horno.getVacio().signal(); // Indica que el horno está vacío al respostero
             }
 
             // Llevar al almacén
@@ -106,7 +106,9 @@ public class Empaquetador extends Thread {
             while (almacen.getCantidadGalletasAlmacen() + galletasRecogidas > almacen.getCapacidadMaxima()) {
                 // Release the semaphore and wait a bit before trying again
                 almacen.getEmSemaforo().release();
-                Thread.sleep(100); // Sleep for a short period
+                System.out.println("El empaquetador " + idEmpaquetador + " está esperando a que haya espacio en el almacén");
+                log.escribirLog("El empaquetador " + idEmpaquetador + " está esperando a que haya espacio en el almacén");
+                Thread.sleep(1000); // Sleep for a short period
                 almacen.getEmSemaforo().acquire();
             }
 
