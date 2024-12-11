@@ -8,7 +8,6 @@ public class Fabrica {
     private Empaquetador[] empaquetadores;
     private Almacen almacen;
     private Cafetera cafetera;
-    private HornoListener listener; // Listener para los hornos
 
     // Contadores globales
     private int galletasDesperdiciadas;
@@ -76,8 +75,11 @@ public class Fabrica {
         return hornos.length;
     }
 
-    public synchronized Horno getHorno(int idHorno) {
-        return hornos[idHorno];
+    public Horno getHorno(int index) {
+        if (index < 0 || index >= hornos.length) {
+            throw new IndexOutOfBoundsException("Índice de horno no válido");
+        }
+        return hornos[index];
     }
 
     public synchronized int getGalletasHorno(int idHorno) {
@@ -134,4 +136,9 @@ public class Fabrica {
     public synchronized void setCafetera(Cafetera cafetera) {
         this.cafetera = cafetera;
     }
+
+    // Obtener un horno por su índice
+
 }
+
+

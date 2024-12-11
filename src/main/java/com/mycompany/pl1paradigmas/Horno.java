@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.pl1paradigmas;
+import javax.swing.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -23,6 +24,7 @@ public class Horno extends Thread {
     private Condition listoParaRecoger;           // Condición para indicar que el horno está vacío
     private Condition vacio;           // Condición para indicar que el horno está vacío
     private boolean enHorneo;          // Indica si el horno está horneando actualmente
+    private JProgressBar barraProgreso; // Barra de progreso asociada
 
 
     // Constructor
@@ -46,16 +48,24 @@ public class Horno extends Thread {
         }
     }
 
+    // Asignar la barra de progreso desde la interfaz gráfica
+    public void setBarraProgreso(JProgressBar barraProgreso) {
+        this.barraProgreso = barraProgreso;
+    }
+
+    // Depositar galletas en el horno
 
 
-    // Hornear las galletas
-    // OJO, HAY QUE QUITAR QUE VACIE LAS GALLETAS POR AQUI
-    public void hornear() throws InterruptedException {
+
+
+    // Hornear las galletas old version deprecated
+    /*public void hornear() throws InterruptedException {
         lock.lock();
         try {
             while (cantidadGalletasHorno < capacidadMaxima) {
                 lleno.await(); // Espera a que el horno esté lleno
             }
+
             log.escribirLog("El horno " + id + " comienza a hornear");
             System.out.println("El horno " + id + " comienza a hornear");
             Thread.sleep(8000); // Simula el tiempo de horneado (8 segundos)
@@ -66,6 +76,39 @@ public class Horno extends Thread {
             log.escribirLog("El horno " + id + " ha terminado de hornear");
             System.out.println("El horno " + id + " ha terminado de hornear");
         }
+    }
+
+     */
+
+    // Hornear las galletas
+
+    public void hornear() throws InterruptedException {
+        lock.lock();
+        try {
+            while (cantidadGalletasHorno < capacidadMaxima) {
+                lleno.await(); // Esperar a que el horno esté lleno
+            }
+
+            // Iniciar horneado y actualizar la barra de progreso
+            for (int progreso = 0; progreso <= 100; progreso++) {
+                Thread.sleep(80); // Simular progreso del horneado
+                actualizarBarraProgreso(progreso); // Actualizar la barra
+            }
+
+            cantidadGalletasHorno = 0; // Resetear el horno después del horneado
+            listoParaRecoger.signalAll(); // Notificar que el horno está listo
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    private void actualizarBarraProgreso(int progreso) {
+        SwingUtilities.invokeLater(() -> {
+            if (barraProgreso != null) {
+                barraProgreso.setValue(progreso);
+                barraProgreso.setString(progreso == 100 ? "Listo para recoger" : "Horneando...");
+            }
+        });
     }
 
     // Retirar las galletas del horno

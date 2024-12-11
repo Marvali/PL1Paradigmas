@@ -123,18 +123,24 @@ public class InterfazServidor extends JFrame {
             JLabel lblGalletas = new JLabel("Número de galletas: ");
             lblGalletas.setForeground(textoClaro);
             phTop.add(lblGalletas);
+
             txtGalletasHorno[i] = new JTextField("0", 5);
             txtGalletasHorno[i].setEditable(false);
             txtGalletasHorno[i].setBackground(Color.BLACK);
             txtGalletasHorno[i].setForeground(textoClaro);
             phTop.add(txtGalletasHorno[i]);
 
-            lblEstadoHorno[i] = new JLabel("Horneando"); // Ej: "Horneando"
+            lblEstadoHorno[i] = new JLabel("Esperando");
             lblEstadoHorno[i].setForeground(textoClaro);
+
             pbHorneado[i] = new JProgressBar(0, 100);
-            pbHorneado[i].setValue((int) (Math.random() * 100)); // Ejemplo de valor de progreso
+            pbHorneado[i].setStringPainted(true);
+            pbHorneado[i].setValue(0);
             pbHorneado[i].setBackground(Color.BLACK);
             pbHorneado[i].setForeground(textoClaro);
+
+            // Asignar barra de progreso al horno correspondiente
+            fabrica.getHorno(i).setBarraProgreso(pbHorneado[i]);
 
             ph.add(phTop);
             ph.add(lblEstadoHorno[i]);
@@ -232,7 +238,8 @@ public class InterfazServidor extends JFrame {
 
 
 
-            // Simular progreso en el horneado
+            // proceso de horneado
+
 
         }
     }
