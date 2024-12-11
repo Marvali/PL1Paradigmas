@@ -4,8 +4,9 @@
  */
 package com.mycompany.pl1paradigmas;
 
+import Interfaz.InterfazServidor;
+
 import java.util.Random;
-import java.util.concurrent.Semaphore;
 
 /**
  *
@@ -29,12 +30,16 @@ public class Repostero extends Thread {
     private int tiempoDescanso = 0;                                            //entre 3 y 6 segundos
     private int totalGalletas = 0;                                              //total de galletas producidas
     private Cafetera cafetera;
+    private InterfazServidor interfazServidor;
 
     //Constructor
     public Repostero(int idRespostero, Horno[] hornos, Cafetera cafetera) {
         this.idRespostero = idRespostero;
         this.hornos = hornos;
         this.cafetera = cafetera;
+        this.interfazServidor = interfazServidor;
+
+
     }
 
     //Metodos

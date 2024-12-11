@@ -1,252 +1,242 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package Interfaz;
 
-/**
- *
- * @author Fer
- */
-public class InterfazServidor extends javax.swing.JFrame {
+import com.mycompany.pl1paradigmas.Fabrica;
 
-    /**
-     * Creates new form InterfazServidor
-     */
-    public InterfazServidor() {
-        initComponents();
+import javax.swing.*;
+import java.awt.*;
+
+public class InterfazServidor extends JFrame {
+
+    private final Fabrica fabrica;
+    // Componentes de la Cafetera
+    private JTextField txtCafetera;
+
+    // Reposteros
+    private JPanel panelReposteros;
+    private JTextField[] txtReposteros; // muestra estado de cada repostero
+    private JLabel[] lblEstadoCafé;    // etiqueta para "Pausa para el café"
+
+    // Hornos
+    private JPanel panelHornos;
+    private JTextField[] txtGalletasHorno;    // campo para indicar la cantidad de galletas
+    private JProgressBar[] pbHorneado;        // barra de progreso del horneado
+    private JLabel[] lblEstadoHorno;          // etiqueta para estado (Horneando, Esperando, etc.)
+
+    // Empaquetadores
+    private JPanel panelEmpaquetadores;
+    private JTextField[] txtEstadoEmpaquetador;
+    private JPanel[] panelCajasEmpaquetador;      // Panel para las cajas de 20 galletas
+    private JLabel[][] lblCajasEmpaquetador;      // Representación gráfica de las cajas
+
+    // Almacén
+    private JPanel panelAlmacen;
+    private JTextField txtAlmacen;
+    private JButton btnComerGalletas;
+
+    public InterfazServidor(Fabrica fabrica) {
+        // Guardar referencia a la fábrica
+        this.fabrica = fabrica;
+        // Configuración general
+        setTitle("Simulación Fábrica de Galletas - Servidor");
+        setSize(1000, 600);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
+
+        // Cambiar el esquema de colores
+        Color fondoAzul = new Color(0x264653); // Azul oscuro (fondo principal)
+        Color panelMarron = new Color(0x6b4026); // Marrón para los paneles 0x6b4026
+        Color botonColor = new Color(0x875a34);  // Marrón claro
+        Color textoClaro = Color.WHITE;         // Texto claro para contrastar
+
+        // Fondo principal de la aplicación
+        getContentPane().setBackground(fondoAzul);
+
+        // Panel superior: Cafetera y Reposteros
+        JPanel panelSuperior = new JPanel(new BorderLayout());
+        panelSuperior.setBackground(fondoAzul);
+
+        // Panel Cafetera
+        JPanel panelCafetera = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        panelCafetera.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Cafetera", 0, 0, null, textoClaro));
+        panelCafetera.setBackground(fondoAzul);
+        JLabel lblCafetera = new JLabel("Preparando café: ");
+        lblCafetera.setForeground(textoClaro);
+        txtCafetera = new JTextField(20);
+        txtCafetera.setEditable(false);
+        // Ejemplo de estado
+        txtCafetera.setText("Repostero 2");
+        txtCafetera.setBackground(Color.BLACK);
+        txtCafetera.setForeground(textoClaro);
+        panelCafetera.add(lblCafetera);
+        panelCafetera.add(txtCafetera);
+
+
+        // Panel Reposteros
+        panelReposteros = new JPanel();
+        panelReposteros.setLayout(new GridLayout(1, 5));
+        panelReposteros.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Reposteros", 0, 0, null, textoClaro));
+        panelReposteros.setBackground(panelMarron);
+
+        txtReposteros = new JTextField[5];
+        lblEstadoCafé = new JLabel[5];
+
+        for (int i = 0; i < 5; i++) {
+            JPanel p = new JPanel(new BorderLayout());
+            p.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Repostero " + (i + 1), 0, 0, null, textoClaro));
+            p.setBackground(panelMarron);
+
+            txtReposteros[i] = new JTextField("Produciendo (3/4)"); // Ejemplo de estado
+            txtReposteros[i].setEditable(false);
+            txtReposteros[i].setBackground(Color.BLACK);
+            txtReposteros[i].setForeground(textoClaro);
+            lblEstadoCafé[i] = new JLabel("Pausa para el café");
+            lblEstadoCafé[i].setForeground(textoClaro);
+
+            p.add(txtReposteros[i], BorderLayout.CENTER);
+            p.add(lblEstadoCafé[i], BorderLayout.SOUTH);
+            panelReposteros.add(p);
+        }
+
+        panelSuperior.add(panelCafetera, BorderLayout.NORTH);
+        panelSuperior.add(panelReposteros, BorderLayout.CENTER);
+
+        // Panel central: Hornos y Empaquetadores
+        JPanel panelCentral = new JPanel(new GridLayout(1, 2));
+        panelCentral.setBackground(fondoAzul);
+
+        // Panel Hornos
+        panelHornos = new JPanel(new GridLayout(3, 1));
+        panelHornos.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Hornos", 0, 0, null, textoClaro));
+        panelHornos.setBackground(fondoAzul);
+
+        txtGalletasHorno = new JTextField[3];
+        pbHorneado = new JProgressBar[3];
+        lblEstadoHorno = new JLabel[3];
+
+        for (int i = 0; i < 3; i++) {
+            JPanel ph = new JPanel(new GridLayout(3, 1));
+            ph.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Horno " + (i + 1), 0, 0, null, textoClaro));
+            ph.setBackground(panelMarron);
+
+            JPanel phTop = new JPanel(new FlowLayout(FlowLayout.LEFT));
+            phTop.setBackground(panelMarron);
+            JLabel lblGalletas = new JLabel("Número de galletas: ");
+            lblGalletas.setForeground(textoClaro);
+            phTop.add(lblGalletas);
+            txtGalletasHorno[i] = new JTextField("0", 5);
+            txtGalletasHorno[i].setEditable(false);
+            txtGalletasHorno[i].setBackground(Color.BLACK);
+            txtGalletasHorno[i].setForeground(textoClaro);
+            phTop.add(txtGalletasHorno[i]);
+
+            lblEstadoHorno[i] = new JLabel("Horneando"); // Ej: "Horneando"
+            lblEstadoHorno[i].setForeground(textoClaro);
+            pbHorneado[i] = new JProgressBar(0, 100);
+            pbHorneado[i].setValue((int) (Math.random() * 100)); // Ejemplo de valor de progreso
+            pbHorneado[i].setBackground(Color.BLACK);
+            pbHorneado[i].setForeground(textoClaro);
+
+            ph.add(phTop);
+            ph.add(lblEstadoHorno[i]);
+            ph.add(pbHorneado[i]);
+
+            panelHornos.add(ph);
+        }
+
+        // Panel Empaquetadores
+        panelEmpaquetadores = new JPanel(new GridLayout(3, 1));
+        panelEmpaquetadores.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Empaquetadores", 0, 0, null, textoClaro));
+        panelEmpaquetadores.setBackground(fondoAzul);
+        txtEstadoEmpaquetador = new JTextField[3];
+        panelCajasEmpaquetador = new JPanel[3];
+        lblCajasEmpaquetador = new JLabel[3][5]; // 5 cajas de 20 galletas cada una
+
+        for (int i = 0; i < 3; i++) {
+            JPanel pe = new JPanel(new BorderLayout());
+            pe.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Empaquetador " + (i + 1), 0, 0, null, textoClaro));
+            pe.setBackground(panelMarron);
+
+            txtEstadoEmpaquetador[i] = new JTextField("Esperando");
+            txtEstadoEmpaquetador[i].setEditable(false);
+            txtEstadoEmpaquetador[i].setBackground(Color.BLACK);
+            txtEstadoEmpaquetador[i].setForeground(textoClaro);
+            pe.add(txtEstadoEmpaquetador[i], BorderLayout.NORTH);
+
+            panelCajasEmpaquetador[i] = new JPanel(new FlowLayout(FlowLayout.LEFT));
+            panelCajasEmpaquetador[i].setBackground(panelMarron);
+            // Representación de cajas llenas/vacías (por ahora vacías)
+            for (int j = 0; j < 5; j++) {
+                lblCajasEmpaquetador[i][j] = new JLabel();
+                lblCajasEmpaquetador[i][j].setOpaque(true);
+                lblCajasEmpaquetador[i][j].setBackground(Color.DARK_GRAY);
+                lblCajasEmpaquetador[i][j].setPreferredSize(new Dimension(20, 20));
+                panelCajasEmpaquetador[i].add(lblCajasEmpaquetador[i][j]);
+            }
+
+            pe.add(panelCajasEmpaquetador[i], BorderLayout.CENTER);
+            panelEmpaquetadores.add(pe);
+        }
+
+        panelCentral.add(panelHornos);
+        panelCentral.add(panelEmpaquetadores);
+
+        // Panel inferior: Almacén
+        panelAlmacen = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        panelAlmacen.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Almacén", 0, 0, null, textoClaro));
+        panelAlmacen.setBackground(panelMarron);
+        JLabel lblAlmacen = new JLabel("Galletas en almacén:");
+        lblAlmacen.setForeground(textoClaro);
+        panelAlmacen.add(lblAlmacen);
+        txtAlmacen = new JTextField("500", 5);
+        txtAlmacen.setEditable(false);
+        txtAlmacen.setBackground(Color.BLACK);
+        txtAlmacen.setForeground(textoClaro);
+        panelAlmacen.add(txtAlmacen);
+
+        btnComerGalletas = new JButton("Comer 100 galletas");
+        btnComerGalletas.setBackground(botonColor);
+        btnComerGalletas.setForeground(textoClaro);
+        panelAlmacen.add(btnComerGalletas);
+
+        // Añadimos todo al JFrame
+        add(panelSuperior, BorderLayout.NORTH);
+        add(panelCentral, BorderLayout.CENTER);
+        add(panelAlmacen, BorderLayout.SOUTH);
+
+        setLocationRelativeTo(null);
+
+        iniciarHiloActualizacion();
     }
 
-    /**
-     * This method is called from within the constructor to initialize the form.
-     * WARNING: Do NOT modify this code. The content of this method is always
-     * regenerated by the Form Editor.
-     */
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jProgressBar1 = new javax.swing.JProgressBar();
-        jProgressBar2 = new javax.swing.JProgressBar();
-        jProgressBar3 = new javax.swing.JProgressBar();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jLabel1.setText("Repostero1");
-
-        jLabel2.setText("Repostero2");
-
-        jLabel3.setText("Repostero3");
-
-        jLabel4.setText("Repostero4");
-
-        jLabel5.setText("Repostero5");
-
-        jLabel6.setText("Café");
-
-        jLabel7.setText("Horno1");
-
-        jLabel8.setText("Horno2");
-
-        jLabel9.setText("Horno3");
-
-        jLabel10.setText("Num.Galletas:");
-
-        jLabel11.setText("Num.Galletas:");
-
-        jLabel12.setText("Num.Galletas:");
-
-        jLabel13.setText("Horneando");
-
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
-
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGap(30, 30, 30)
-                                .addComponent(jLabel2))
-                            .addGroup(layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel7)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel11)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabel8)
-                                .addGap(13, 13, 13))
-                            .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(5, 5, 5)
-                                .addComponent(jLabel4)
-                                .addGap(39, 39, 39)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel9)
-                                    .addComponent(jLabel5)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel12)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(200, 200, 200)
-                        .addComponent(jLabel13))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jProgressBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(22, 22, 22)
-                        .addComponent(jProgressBar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jProgressBar3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap(17, Short.MAX_VALUE)
-                .addComponent(jLabel6)
-                .addGap(44, 44, 44)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
-                .addGap(35, 35, 35)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel9))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel12)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel13)
-                        .addGap(37, 37, 37)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jProgressBar2, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jProgressBar3, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addComponent(jProgressBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(87, 87, 87))
-        );
-
-        pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
+    private void iniciarHiloActualizacion() {
+        new Thread(() -> {
+            while (true) {
+                SwingUtilities.invokeLater(() -> actualizarInterfaz());
+                try {
+                    Thread.sleep(1000); // Actualizar cada segundo
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(InterfazServidor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(InterfazServidor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(InterfazServidor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(InterfazServidor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new InterfazServidor().setVisible(true);
-            }
-        });
+        }).start();
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JProgressBar jProgressBar1;
-    private javax.swing.JProgressBar jProgressBar2;
-    private javax.swing.JProgressBar jProgressBar3;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    // End of variables declaration//GEN-END:variables
+    private void actualizarInterfaz() {
+        for (int i = 0; i < txtGalletasHorno.length; i++) {
+            // Obtener valores del modelo
+            int galletas = fabrica.getGalletasHorno(i);
+
+
+            // Actualizar campo de texto
+            txtGalletasHorno[i].setText(String.valueOf(galletas));
+
+
+
+            // Simular progreso en el horneado
+
+        }
+    }
+
+
+
 }

@@ -1,42 +1,58 @@
 package com.mycompany.pl1paradigmas;
 
+import Interfaz.InterfazServidor;
+
+import javax.swing.SwingUtilities;
+
 public class main {
 
     public static void main(String[] args) {
+        // Crear el log
         Log log = new Log();
-        //crear los hornos con for y llearnr un array de hornos
-        //array de 4 hornos
-        Horno[] hornos = new Horno[3];
-        for (int i = 0; i < hornos.length; i++) {
+
+        // Crear un array de 3 hornos
+        Horno[] arrayHornos = new Horno[3];
+        for (int i = 0; i < arrayHornos.length; i++) {
             Horno horno = new Horno(i, 200, log);
-            hornos[i] = horno;
+            arrayHornos[i] = horno;
             horno.start();
         }
-        //crear una cafetera
+
+        // Crear una cafetera
         Cafetera cafetera = new Cafetera(log);
 
-        //crear 5 reposteros con for
-        for (int i = 0; i < 5; i++) {
-            Repostero repostero = new Repostero(i, hornos, cafetera);
+        // Crear un almacén
+        Almacen almacen = new Almacen(1000);
+
+        // Crear un array de 4 reposteros
+        Repostero[] arrayReposteros = new Repostero[4];
+
+        // Crear 4 reposteros y pasarles la interfaz
+        for (int i = 0; i < arrayReposteros.length; i++) {
+            Repostero repostero = new Repostero(i, arrayHornos, cafetera);
+            arrayReposteros[i] = repostero;
             repostero.start();
         }
-        //crear un almacen
-        Almacen almacen = new Almacen(1000);
-        //crear 3 empaquetadores con for
-        //cada empaquetador tiene su unico horno
-        for (int i = 0; i < 3; i++) {
-            Empaquetador empaquetador = new Empaquetador(i, hornos[i], almacen);
+
+        // Crear un array de 3 empaquetadores
+        Empaquetador[] arrayEmpaquetadores = new Empaquetador[3];
+        // Crear 3 empaquetadores y asignarles su horno único
+        for (int i = 0; i < arrayEmpaquetadores.length; i++) {
+            Empaquetador empaquetador = new Empaquetador(i, arrayHornos[i], almacen);
+            arrayEmpaquetadores[i] = empaquetador;
             empaquetador.start();
         }
 
+        // Crear la fábrica
+        Fabrica fabrica = new Fabrica(arrayReposteros, arrayHornos, arrayEmpaquetadores, almacen, cafetera);
 
-
-
-       
+        // Crear la interfaz
+        SwingUtilities.invokeLater(() -> {
+            InterfazServidor gui = new InterfazServidor(fabrica);
+            gui.setVisible(true);
+        });
 
 
 
     }
 }
-
-

@@ -24,6 +24,7 @@ public class Horno extends Thread {
     private Condition vacio;           // Condición para indicar que el horno está vacío
     private boolean enHorneo;          // Indica si el horno está horneando actualmente
 
+
     // Constructor
     public Horno(int id, int capacidadMaxima, Log log) {
         this.id = id;
@@ -35,6 +36,7 @@ public class Horno extends Thread {
         this.vacio = lock.newCondition();
         this.listoParaRecoger = lock.newCondition();
         this.enHorneo = false;
+
         //signall vacio para que empiece el progama
         lock.lock();
         try {
@@ -93,8 +95,10 @@ public class Horno extends Thread {
     }
 
     public int getCantidadGalletasHorno() {
+
         return cantidadGalletasHorno;
     }
+
 
     public void setCantidadGalletasHorno(int cantidadGalletasHorno) {
         this.cantidadGalletasHorno = cantidadGalletasHorno;
