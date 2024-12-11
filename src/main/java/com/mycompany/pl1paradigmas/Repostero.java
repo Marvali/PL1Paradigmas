@@ -6,8 +6,6 @@ package com.mycompany.pl1paradigmas;
 
 import java.util.Random;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
@@ -23,7 +21,6 @@ public class Repostero extends Thread {
     //Atributos
     private int idRespostero;
     private Horno[] hornos;
-    private static Semaphore emCafetera = new Semaphore(1);
     private Log log = new Log();
     private int tandasProducidas = 0;                                           //entre 3 y 5 tandas de galletas
     private int galletasPorTanda = 0;                                           //entre 37 y 45 galletas por tanda
@@ -31,11 +28,13 @@ public class Repostero extends Thread {
     private int tiempoProduccion = 0;                                           //entre 2 y 4 segundos
     private int tiempoDescanso = 0;                                            //entre 3 y 6 segundos
     private int totalGalletas = 0;                                              //total de galletas producidas
+    private Cafetera cafetera;
 
     //Constructor
-    public Repostero(int idRespostero, Horno[] hornos) {
+    public Repostero(int idRespostero, Horno[] hornos, Cafetera cafetera) {
         this.idRespostero = idRespostero;
         this.hornos = hornos;
+        this.cafetera = cafetera;
     }
 
     //Metodos
@@ -83,16 +82,19 @@ public class Repostero extends Thread {
     //funcion para hacer cafe, coger semaforo
     public void hacerCafe() {
         try {
-            emCafetera.acquire(); // Intenta adquirir el permiso para usar la cafetera
-            log.escribirLog("El repostero " + idRespostero + " está preparando café");
-            System.out.println("El repostero " + idRespostero + " está preparando café");
-            sleep(2000); // Simula el tiempo de preparación del café (2 segundos)
-            log.escribirLog("El repostero " + idRespostero + " ha terminado de preparar café");
-            System.out.println("El repostero " + idRespostero + " ha terminado de preparar café");
+          cafetera.getEmCafetera().acquire();
+            log.escribirLog("El repostero " + idRespostero + " ha cogido la cafetera");
+            System.out.println("El repostero " + idRespostero + " ha cogido la cafetera");
+            sleep((long) (2000)); //2 segundos
+            log.escribirLog("El repostero " + idRespostero + " ha preparado el cafe");
+            System.out.println("El repostero " + idRespostero + " ha preparado el cafe");
+            cafetera.getEmCafetera().release();
+            log.escribirLog("El repostero " + idRespostero + " ha soltado la cafetera");
+            System.out.println("El repostero " + idRespostero + " ha soltado la cafetera");
         } catch (InterruptedException e) {
             System.out.println(e);
-        } finally {
-            emCafetera.release(); // Libera el permiso para que otros puedan usar la cafetera
+
+
         }
     }
 

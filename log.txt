@@ -377,3 +377,355 @@
 2024-12-11 13:59:14 - El empaquetador 1 está esperando a que haya espacio en el almacén
 2024-12-11 13:59:14 - El empaquetador 2 está esperando a que haya espacio en el almacén
 2024-12-11 13:59:14 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:45:18 - El repostero 0 ha producido 44 galletas
+2024-12-11 16:45:18 - El repostero 0 deposita 44 galletas en 0
+2024-12-11 16:45:18 - El repostero 4 ha producido 38 galletas
+2024-12-11 16:45:18 - El repostero 4 deposita 38 galletas en 0
+2024-12-11 16:45:20 - El repostero 1 ha producido 43 galletas
+2024-12-11 16:45:20 - El repostero 1 deposita 43 galletas en 0
+2024-12-11 16:45:20 - El repostero 3 ha producido 40 galletas
+2024-12-11 16:45:20 - El repostero 3 deposita 40 galletas en 0
+2024-12-11 16:45:21 - El repostero 2 ha producido 39 galletas
+2024-12-11 16:45:21 - El repostero 2 deposita 35 galletas en 0 y desperdicia 4 galletas
+2024-12-11 16:45:21 - El horno 0 comienza a hornear
+2024-12-11 16:45:21 - El repostero 0 ha producido 40 galletas
+2024-12-11 16:45:21 - El repostero 0 deposita 40 galletas en 1
+2024-12-11 16:45:22 - El repostero 4 ha producido 42 galletas
+2024-12-11 16:45:22 - El repostero 4 deposita 42 galletas en 1
+2024-12-11 16:45:23 - El repostero 1 ha producido 40 galletas
+2024-12-11 16:45:23 - El repostero 1 deposita 40 galletas en 1
+2024-12-11 16:45:24 - El repostero 0 ha producido 39 galletas
+2024-12-11 16:45:24 - El repostero 0 deposita 39 galletas en 1
+2024-12-11 16:45:24 - El repostero 0 ha cogido la cafetera
+2024-12-11 16:45:24 - El repostero 2 ha producido 44 galletas
+2024-12-11 16:45:24 - El repostero 2 deposita 39 galletas en 1 y desperdicia 5 galletas
+2024-12-11 16:45:24 - El horno 1 comienza a hornear
+2024-12-11 16:45:25 - El repostero 3 ha producido 42 galletas
+2024-12-11 16:45:25 - El repostero 3 deposita 42 galletas en 2
+2024-12-11 16:45:26 - El repostero 0 ha preparado el cafe
+2024-12-11 16:45:26 - El repostero 0 ha soltado la cafetera
+2024-12-11 16:45:26 - El repostero 4 ha producido 45 galletas
+2024-12-11 16:45:26 - El repostero 4 deposita 45 galletas en 2
+2024-12-11 16:45:26 - El repostero 4 ha cogido la cafetera
+2024-12-11 16:45:27 - El repostero 3 ha producido 41 galletas
+2024-12-11 16:45:27 - El repostero 3 deposita 41 galletas en 2
+2024-12-11 16:45:28 - El repostero 4 ha preparado el cafe
+2024-12-11 16:45:28 - El repostero 4 ha soltado la cafetera
+2024-12-11 16:45:28 - El repostero 3 ha cogido la cafetera
+2024-12-11 16:45:29 - El horno 0 ha terminado de hornear
+2024-12-11 16:45:29 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:29 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:29 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:29 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:29 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:29 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-11 16:45:29 - El repostero 1 ha producido 44 galletas
+2024-12-11 16:45:29 - El repostero 1 deposita 44 galletas en 2
+2024-12-11 16:45:29 - El repostero 0 ha terminado de descansar
+2024-12-11 16:45:30 - El repostero 2 ha producido 43 galletas
+2024-12-11 16:45:30 - El repostero 2 deposita 28 galletas en 2 y desperdicia 15 galletas
+2024-12-11 16:45:30 - El horno 2 comienza a hornear
+2024-12-11 16:45:30 - El repostero 3 ha preparado el cafe
+2024-12-11 16:45:30 - El repostero 3 ha soltado la cafetera
+2024-12-11 16:45:30 - El repostero 1 ha cogido la cafetera
+2024-12-11 16:45:32 - El repostero 0 ha producido 41 galletas
+2024-12-11 16:45:32 - El empaquetador 0 ha llevado 100 galletas al almacén
+2024-12-11 16:45:32 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:32 - El horno 1 ha terminado de hornear
+2024-12-11 16:45:32 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:32 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:32 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:32 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:32 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-11 16:45:32 - El repostero 1 ha preparado el cafe
+2024-12-11 16:45:32 - El repostero 1 ha soltado la cafetera
+2024-12-11 16:45:32 - El repostero 2 ha cogido la cafetera
+2024-12-11 16:45:33 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:33 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:33 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:33 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:33 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:33 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-11 16:45:33 - El repostero 4 ha terminado de descansar
+2024-12-11 16:45:34 - El repostero 2 ha preparado el cafe
+2024-12-11 16:45:34 - El repostero 2 ha soltado la cafetera
+2024-12-11 16:45:35 - El empaquetador 1 ha llevado 100 galletas al almacén
+2024-12-11 16:45:35 - El repostero 3 ha terminado de descansar
+2024-12-11 16:45:36 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-11 16:45:36 - El empaquetador 0 ha llevado 100 galletas al almacén
+2024-12-11 16:45:37 - El repostero 0 deposita 41 galletas en 0
+2024-12-11 16:45:37 - El repostero 1 ha terminado de descansar
+2024-12-11 16:45:38 - El repostero 4 ha producido 41 galletas
+2024-12-11 16:45:38 - El repostero 4 deposita 41 galletas en 0
+2024-12-11 16:45:38 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:38 - El horno 2 ha terminado de hornear
+2024-12-11 16:45:38 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:38 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:38 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:38 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:38 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-11 16:45:39 - El repostero 0 ha producido 37 galletas
+2024-12-11 16:45:39 - El repostero 0 deposita 37 galletas en 0
+2024-12-11 16:45:39 - El empaquetador 1 ha llevado 100 galletas al almacén
+2024-12-11 16:45:39 - El repostero 2 ha terminado de descansar
+2024-12-11 16:45:40 - El repostero 3 ha producido 43 galletas
+2024-12-11 16:45:40 - El repostero 3 deposita 43 galletas en 0
+2024-12-11 16:45:41 - El repostero 1 ha producido 42 galletas
+2024-12-11 16:45:41 - El repostero 1 deposita 38 galletas en 0 y desperdicia 4 galletas
+2024-12-11 16:45:41 - El horno 0 comienza a hornear
+2024-12-11 16:45:41 - El empaquetador 2 ha llevado 100 galletas al almacén
+2024-12-11 16:45:42 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:42 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:42 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:42 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:42 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:42 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-11 16:45:43 - El repostero 0 ha producido 45 galletas
+2024-12-11 16:45:43 - El repostero 0 deposita 45 galletas en 1
+2024-12-11 16:45:43 - El repostero 1 ha producido 37 galletas
+2024-12-11 16:45:43 - El repostero 1 deposita 37 galletas en 1
+2024-12-11 16:45:43 - El repostero 3 ha producido 40 galletas
+2024-12-11 16:45:43 - El repostero 3 deposita 40 galletas en 1
+2024-12-11 16:45:44 - El repostero 2 ha producido 42 galletas
+2024-12-11 16:45:44 - El repostero 2 deposita 42 galletas en 1
+2024-12-11 16:45:44 - El repostero 4 ha producido 42 galletas
+2024-12-11 16:45:44 - El repostero 4 deposita 36 galletas en 1 y desperdicia 6 galletas
+2024-12-11 16:45:44 - El horno 1 comienza a hornear
+2024-12-11 16:45:45 - El repostero 3 ha producido 43 galletas
+2024-12-11 16:45:45 - El empaquetador 2 ha llevado 100 galletas al almacén
+2024-12-11 16:45:46 - El repostero 3 deposita 43 galletas en 2
+2024-12-11 16:45:47 - El repostero 1 ha producido 38 galletas
+2024-12-11 16:45:47 - El repostero 0 ha producido 43 galletas
+2024-12-11 16:45:47 - El repostero 0 deposita 43 galletas en 2
+2024-12-11 16:45:47 - El repostero 1 deposita 38 galletas en 2
+2024-12-11 16:45:47 - El repostero 4 ha producido 39 galletas
+2024-12-11 16:45:47 - El repostero 4 deposita 39 galletas en 2
+2024-12-11 16:45:49 - El horno 0 ha terminado de hornear
+2024-12-11 16:45:49 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:49 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:49 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:49 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:49 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:49 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-11 16:45:49 - El repostero 3 ha producido 38 galletas
+2024-12-11 16:45:49 - El repostero 3 deposita 37 galletas en 2 y desperdicia 1 galletas
+2024-12-11 16:45:49 - El horno 2 comienza a hornear
+2024-12-11 16:45:49 - El repostero 2 ha producido 39 galletas
+2024-12-11 16:45:49 - El repostero 0 ha producido 41 galletas
+2024-12-11 16:45:49 - El repostero 1 ha producido 43 galletas
+2024-12-11 16:45:51 - El repostero 4 ha producido 40 galletas
+2024-12-11 16:45:51 - El empaquetador 0 ha llevado 100 galletas al almacén
+2024-12-11 16:45:52 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:52 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:52 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:52 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:52 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:52 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-11 16:45:52 - El horno 1 ha terminado de hornear
+2024-12-11 16:45:52 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:52 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:52 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:52 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:52 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:52 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-11 16:45:53 - El repostero 3 ha producido 43 galletas
+2024-12-11 16:45:54 - El empaquetador 0 ha llevado 100 galletas al almacén
+2024-12-11 16:45:54 - El repostero 3 deposita 43 galletas en 0
+2024-12-11 16:45:55 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:55 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:45:55 - El empaquetador 0 ha recogido 43 galletas del horno 0
+2024-12-11 16:45:56 - El empaquetador 1 ha llevado 100 galletas al almacén
+2024-12-11 16:45:57 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-11 16:45:57 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:57 - El horno 2 ha terminado de hornear
+2024-12-11 16:45:57 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:57 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:57 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:57 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-11 16:45:57 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-11 16:45:58 - El empaquetador 0 ha llevado 43 galletas al almacén
+2024-12-11 16:45:59 - El repostero 3 ha producido 44 galletas
+2024-12-11 16:45:59 - El repostero 3 deposita 44 galletas en 0
+2024-12-11 16:45:59 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:45:59 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:00 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:00 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:01 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:01 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:02 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:02 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:03 - El repostero 3 ha producido 45 galletas
+2024-12-11 16:46:03 - El repostero 3 deposita 45 galletas en 0
+2024-12-11 16:46:03 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:03 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:04 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:04 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:05 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:05 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:06 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:06 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:07 - El repostero 3 ha producido 45 galletas
+2024-12-11 16:46:07 - El repostero 3 deposita 45 galletas en 0
+2024-12-11 16:46:07 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:07 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:08 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:08 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:09 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:09 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:09 - El repostero 3 ha producido 39 galletas
+2024-12-11 16:46:09 - El repostero 3 deposita 39 galletas en 0
+2024-12-11 16:46:10 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:10 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:11 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:11 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:12 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:12 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:13 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:13 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:14 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:14 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:14 - El repostero 3 ha producido 45 galletas
+2024-12-11 16:46:14 - El repostero 3 deposita 27 galletas en 0 y desperdicia 18 galletas
+2024-12-11 16:46:14 - El horno 0 comienza a hornear
+2024-12-11 16:46:15 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:15 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:16 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:16 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:17 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:17 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:18 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:18 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:18 - El repostero 3 ha producido 42 galletas
+2024-12-11 16:46:19 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:19 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:20 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:20 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:21 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:21 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:22 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:22 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:22 - El horno 0 ha terminado de hornear
+2024-12-11 16:46:22 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:46:22 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:46:22 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:46:22 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:46:22 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-11 16:46:22 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-11 16:46:23 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:23 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:24 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:24 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:25 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:25 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:25 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:26 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:26 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:26 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:27 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:27 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:27 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:28 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:28 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:28 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:29 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:29 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:29 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:30 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:30 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:30 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:31 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:31 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:31 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:32 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:32 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:32 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:33 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:33 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:33 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:34 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:34 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:34 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:35 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:35 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:35 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:36 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:36 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:36 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:37 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:37 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:37 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:38 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:38 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:38 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:39 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:39 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:39 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:40 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:40 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:40 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:41 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:41 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:41 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:42 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:42 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:42 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:43 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:43 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:43 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:44 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:44 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:44 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:45 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:45 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:45 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:46 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:46 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:46 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:47 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:47 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:47 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:48 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:48 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:48 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:49 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:49 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:49 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:50 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:50 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:50 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:51 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:51 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:51 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:52 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:52 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:52 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:53 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:53 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:53 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:54 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:54 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:54 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:55 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:55 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:55 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:56 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:56 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:56 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:57 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:57 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:57 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:58 - El empaquetador 1 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:58 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:58 - El empaquetador 0 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:59 - El empaquetador 2 está esperando a que haya espacio en el almacén
+2024-12-11 16:46:59 - El empaquetador 1 está esperando a que haya espacio en el almacén

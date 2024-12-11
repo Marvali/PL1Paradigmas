@@ -12,10 +12,12 @@ public class main {
             hornos[i] = horno;
             horno.start();
         }
-        
+        //crear una cafetera
+        Cafetera cafetera = new Cafetera(log);
+
         //crear 5 reposteros con for
         for (int i = 0; i < 5; i++) {
-            Repostero repostero = new Repostero(i, hornos);
+            Repostero repostero = new Repostero(i, hornos, cafetera);
             repostero.start();
         }
         //crear un almacen
