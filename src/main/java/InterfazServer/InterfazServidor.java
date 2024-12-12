@@ -296,9 +296,7 @@ private void iniciarHiloActualizacion() {
             btnComerGalletas.setEnabled(false);
         }
         //boton de comer galletas
-        btnComerGalletas.addActionListener(e -> {
-            fabrica.comerGalletas();
-        });
+
 
 
 

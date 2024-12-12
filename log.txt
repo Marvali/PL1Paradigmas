@@ -1,0 +1,441 @@
+2024-12-12 23:10:55 - El repostero 1 lleva 0 tandas producidas de 5
+2024-12-12 23:10:55 - El repostero 1 ha producido 43 galletas
+2024-12-12 23:10:55 - El repostero 1 deposita 43 galletas en el horno 0
+2024-12-12 23:10:56 - El repostero 2 lleva 0 tandas producidas de 3
+2024-12-12 23:10:56 - El repostero 2 ha producido 42 galletas
+2024-12-12 23:10:56 - El repostero 2 deposita 42 galletas en el horno 0
+2024-12-12 23:10:56 - El repostero 4 lleva 0 tandas producidas de 3
+2024-12-12 23:10:56 - El repostero 4 ha producido 43 galletas
+2024-12-12 23:10:56 - El repostero 4 deposita 43 galletas en el horno 0
+2024-12-12 23:10:56 - El repostero 0 lleva 0 tandas producidas de 3
+2024-12-12 23:10:56 - El repostero 0 ha producido 37 galletas
+2024-12-12 23:10:56 - El repostero 0 deposita 37 galletas en el horno 0
+2024-12-12 23:10:56 - El repostero 3 lleva 0 tandas producidas de 5
+2024-12-12 23:10:56 - El repostero 3 ha producido 37 galletas
+2024-12-12 23:10:56 - El repostero 3 deposita 35 galletas en 0 y desperdicia 2 galletas
+2024-12-12 23:10:56 - El horno 0 comienza a hornear
+2024-12-12 23:10:58 - El repostero 2 lleva 1 tandas producidas de 3
+2024-12-12 23:10:58 - El repostero 2 ha producido 45 galletas
+2024-12-12 23:10:58 - El repostero 2 deposita 45 galletas en el horno 1
+2024-12-12 23:10:59 - El repostero 1 lleva 1 tandas producidas de 5
+2024-12-12 23:10:59 - El repostero 1 ha producido 42 galletas
+2024-12-12 23:10:59 - El repostero 1 deposita 42 galletas en el horno 1
+2024-12-12 23:11:00 - El repostero 4 lleva 1 tandas producidas de 3
+2024-12-12 23:11:00 - El repostero 4 ha producido 44 galletas
+2024-12-12 23:11:00 - El repostero 4 deposita 44 galletas en el horno 1
+2024-12-12 23:11:00 - El repostero 3 lleva 1 tandas producidas de 5
+2024-12-12 23:11:00 - El repostero 3 ha producido 45 galletas
+2024-12-12 23:11:00 - El repostero 3 deposita 45 galletas en el horno 1
+2024-12-12 23:11:00 - El repostero 0 lleva 1 tandas producidas de 3
+2024-12-12 23:11:00 - El repostero 0 ha producido 39 galletas
+2024-12-12 23:11:00 - El repostero 0 deposita 24 galletas en 1 y desperdicia 15 galletas
+2024-12-12 23:11:00 - El horno 1 comienza a hornear
+2024-12-12 23:11:01 - El repostero 2 lleva 2 tandas producidas de 3
+2024-12-12 23:11:01 - El repostero 2 ha producido 39 galletas
+2024-12-12 23:11:01 - El repostero 2 deposita 39 galletas en el horno 2
+2024-12-12 23:11:01 - El repostero 2 ha cogido la cafetera
+2024-12-12 23:11:02 - El repostero 4 lleva 2 tandas producidas de 3
+2024-12-12 23:11:02 - El repostero 4 ha producido 41 galletas
+2024-12-12 23:11:02 - El repostero 4 deposita 41 galletas en el horno 2
+2024-12-12 23:11:02 - El repostero 1 lleva 2 tandas producidas de 5
+2024-12-12 23:11:02 - El repostero 1 ha producido 40 galletas
+2024-12-12 23:11:02 - El repostero 1 deposita 40 galletas en el horno 2
+2024-12-12 23:11:03 - El repostero 2 ha preparado el cafe
+2024-12-12 23:11:03 - El repostero 2 ha soltado la cafetera
+2024-12-12 23:11:03 - El repostero 4 ha cogido la cafetera
+2024-12-12 23:11:03 - El repostero 0 lleva 2 tandas producidas de 3
+2024-12-12 23:11:03 - El repostero 0 ha producido 44 galletas
+2024-12-12 23:11:03 - El repostero 0 deposita 44 galletas en el horno 2
+2024-12-12 23:11:03 - El repostero 3 lleva 2 tandas producidas de 5
+2024-12-12 23:11:03 - El repostero 3 ha producido 39 galletas
+2024-12-12 23:11:03 - El repostero 3 deposita 36 galletas en 2 y desperdicia 3 galletas
+2024-12-12 23:11:03 - El horno 2 comienza a hornear
+2024-12-12 23:11:04 - El repostero 1 lleva 3 tandas producidas de 5
+2024-12-12 23:11:04 - El repostero 1 ha producido 42 galletas
+2024-12-12 23:11:04 - El horno 0 ha terminado de hornear
+2024-12-12 23:11:05 - El repostero 4 ha preparado el cafe
+2024-12-12 23:11:05 - El repostero 4 ha soltado la cafetera
+2024-12-12 23:11:05 - El repostero 0 ha cogido la cafetera
+2024-12-12 23:11:05 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:11:05 - El repostero 3 lleva 3 tandas producidas de 5
+2024-12-12 23:11:05 - El repostero 3 ha producido 38 galletas
+2024-12-12 23:11:06 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:11:06 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:11:07 - El repostero 0 ha preparado el cafe
+2024-12-12 23:11:07 - El repostero 0 ha soltado la cafetera
+2024-12-12 23:11:07 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:11:08 - El repostero 2 ha terminado de descansar
+2024-12-12 23:11:08 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:11:08 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-12 23:11:08 - El horno 1 ha terminado de hornear
+2024-12-12 23:11:09 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:11:10 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:11:10 - El repostero 2 lleva 0 tandas producidas de 4
+2024-12-12 23:11:10 - El repostero 2 ha producido 38 galletas
+2024-12-12 23:11:10 - El repostero 4 ha terminado de descansar
+2024-12-12 23:11:10 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:11:11 - El repostero 0 ha terminado de descansar
+2024-12-12 23:11:11 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:11:11 - El horno 2 ha terminado de hornear
+2024-12-12 23:11:12 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:11:12 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-12 23:11:12 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:11:13 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:11:13 - El repostero 0 lleva 0 tandas producidas de 3
+2024-12-12 23:11:13 - El repostero 0 ha producido 45 galletas
+2024-12-12 23:11:13 - El repostero 4 lleva 0 tandas producidas de 5
+2024-12-12 23:11:13 - El repostero 4 ha producido 38 galletas
+2024-12-12 23:11:14 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:29 - El repostero 1 lleva 0 tandas producidas de 5
+2024-12-12 23:20:29 - El repostero 1 ha producido 42 galletas
+2024-12-12 23:20:29 - El repostero 1 deposita 42 galletas en el horno 0
+2024-12-12 23:20:30 - El repostero 3 lleva 0 tandas producidas de 5
+2024-12-12 23:20:30 - El repostero 3 ha producido 42 galletas
+2024-12-12 23:20:30 - El repostero 3 deposita 42 galletas en el horno 0
+2024-12-12 23:20:30 - El repostero 2 lleva 0 tandas producidas de 5
+2024-12-12 23:20:30 - El repostero 2 ha producido 43 galletas
+2024-12-12 23:20:30 - El repostero 2 deposita 43 galletas en el horno 0
+2024-12-12 23:20:31 - El repostero 0 lleva 0 tandas producidas de 4
+2024-12-12 23:20:31 - El repostero 0 ha producido 43 galletas
+2024-12-12 23:20:31 - El repostero 0 deposita 43 galletas en el horno 0
+2024-12-12 23:20:31 - El repostero 4 lleva 0 tandas producidas de 3
+2024-12-12 23:20:31 - El repostero 4 ha producido 42 galletas
+2024-12-12 23:20:31 - El repostero 4 deposita 30 galletas en 0 y desperdicia 12 galletas
+2024-12-12 23:20:31 - El horno 0 comienza a hornear
+2024-12-12 23:20:31 - El repostero 1 lleva 1 tandas producidas de 5
+2024-12-12 23:20:31 - El repostero 1 ha producido 38 galletas
+2024-12-12 23:20:31 - El repostero 1 deposita 38 galletas en el horno 1
+2024-12-12 23:20:33 - El repostero 3 lleva 1 tandas producidas de 5
+2024-12-12 23:20:33 - El repostero 3 ha producido 42 galletas
+2024-12-12 23:20:33 - El repostero 3 deposita 42 galletas en el horno 1
+2024-12-12 23:20:33 - El repostero 2 lleva 1 tandas producidas de 5
+2024-12-12 23:20:33 - El repostero 2 ha producido 40 galletas
+2024-12-12 23:20:33 - El repostero 2 deposita 40 galletas en el horno 1
+2024-12-12 23:20:34 - El repostero 4 lleva 1 tandas producidas de 3
+2024-12-12 23:20:34 - El repostero 4 ha producido 37 galletas
+2024-12-12 23:20:34 - El repostero 4 deposita 37 galletas en el horno 1
+2024-12-12 23:20:34 - El repostero 0 lleva 1 tandas producidas de 4
+2024-12-12 23:20:34 - El repostero 0 ha producido 40 galletas
+2024-12-12 23:20:34 - El repostero 0 deposita 40 galletas en el horno 1
+2024-12-12 23:20:35 - El repostero 3 lleva 2 tandas producidas de 5
+2024-12-12 23:20:35 - El repostero 3 ha producido 39 galletas
+2024-12-12 23:20:35 - El repostero 3 deposita 3 galletas en 1 y desperdicia 36 galletas
+2024-12-12 23:20:35 - El horno 1 comienza a hornear
+2024-12-12 23:20:35 - El repostero 1 lleva 2 tandas producidas de 5
+2024-12-12 23:20:35 - El repostero 1 ha producido 40 galletas
+2024-12-12 23:20:35 - El repostero 1 deposita 40 galletas en el horno 2
+2024-12-12 23:20:35 - El repostero 2 lleva 2 tandas producidas de 5
+2024-12-12 23:20:35 - El repostero 2 ha producido 37 galletas
+2024-12-12 23:20:35 - El repostero 2 deposita 37 galletas en el horno 2
+2024-12-12 23:20:36 - El repostero 0 lleva 2 tandas producidas de 4
+2024-12-12 23:20:36 - El repostero 0 ha producido 39 galletas
+2024-12-12 23:20:36 - El repostero 0 deposita 39 galletas en el horno 2
+2024-12-12 23:20:37 - El repostero 1 lleva 3 tandas producidas de 5
+2024-12-12 23:20:37 - El repostero 1 ha producido 42 galletas
+2024-12-12 23:20:37 - El repostero 1 deposita 42 galletas en el horno 2
+2024-12-12 23:20:37 - El repostero 4 lleva 2 tandas producidas de 3
+2024-12-12 23:20:37 - El repostero 4 ha producido 42 galletas
+2024-12-12 23:20:37 - El repostero 4 deposita 42 galletas en el horno 2
+2024-12-12 23:20:37 - El horno 2 comienza a hornear
+2024-12-12 23:20:37 - El repostero 4 ha cogido la cafetera
+2024-12-12 23:20:38 - El repostero 3 lleva 3 tandas producidas de 5
+2024-12-12 23:20:38 - El repostero 3 ha producido 38 galletas
+2024-12-12 23:20:39 - El repostero 4 ha preparado el cafe
+2024-12-12 23:20:39 - El repostero 4 ha soltado la cafetera
+2024-12-12 23:20:39 - El horno 0 ha terminado de hornear
+2024-12-12 23:20:39 - El repostero 2 lleva 3 tandas producidas de 5
+2024-12-12 23:20:39 - El repostero 2 ha producido 44 galletas
+2024-12-12 23:20:40 - El repostero 1 lleva 4 tandas producidas de 5
+2024-12-12 23:20:40 - El repostero 1 ha producido 44 galletas
+2024-12-12 23:20:40 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:20:40 - El repostero 0 lleva 3 tandas producidas de 4
+2024-12-12 23:20:40 - El repostero 0 ha producido 44 galletas
+2024-12-12 23:20:41 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:20:42 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:20:42 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:20:43 - El repostero 4 ha terminado de descansar
+2024-12-12 23:20:43 - El horno 1 ha terminado de hornear
+2024-12-12 23:20:43 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:20:43 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-12 23:20:43 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:20:44 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:20:45 - El horno 2 ha terminado de hornear
+2024-12-12 23:20:45 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:20:45 - El repostero 4 lleva 0 tandas producidas de 5
+2024-12-12 23:20:45 - El repostero 4 ha producido 42 galletas
+2024-12-12 23:20:46 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:20:46 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:47 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:47 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:20:47 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-12 23:20:47 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:48 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:49 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:20:49 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-12 23:22:47 - El repostero 2 lleva 0 tandas producidas de 4
+2024-12-12 23:22:47 - El repostero 2 ha producido 40 galletas
+2024-12-12 23:22:47 - El repostero 2 deposita 40 galletas en el horno 0
+2024-12-12 23:22:47 - El repostero 0 lleva 0 tandas producidas de 5
+2024-12-12 23:22:47 - El repostero 0 ha producido 39 galletas
+2024-12-12 23:22:47 - El repostero 0 deposita 39 galletas en el horno 0
+2024-12-12 23:22:47 - El repostero 1 lleva 0 tandas producidas de 4
+2024-12-12 23:22:47 - El repostero 1 ha producido 40 galletas
+2024-12-12 23:22:47 - El repostero 1 deposita 40 galletas en el horno 0
+2024-12-12 23:22:48 - El repostero 3 lleva 0 tandas producidas de 4
+2024-12-12 23:22:48 - El repostero 3 ha producido 42 galletas
+2024-12-12 23:22:48 - El repostero 3 deposita 42 galletas en el horno 0
+2024-12-12 23:22:49 - El repostero 4 lleva 0 tandas producidas de 4
+2024-12-12 23:22:49 - El repostero 4 ha producido 38 galletas
+2024-12-12 23:22:49 - El repostero 4 deposita 38 galletas en el horno 0
+2024-12-12 23:22:50 - El repostero 0 lleva 1 tandas producidas de 5
+2024-12-12 23:22:50 - El repostero 0 ha producido 45 galletas
+2024-12-12 23:22:50 - El repostero 0 deposita 1 galletas en 0 y desperdicia 44 galletas
+2024-12-12 23:22:50 - El horno 0 comienza a hornear
+2024-12-12 23:22:50 - El repostero 2 lleva 1 tandas producidas de 4
+2024-12-12 23:22:50 - El repostero 2 ha producido 45 galletas
+2024-12-12 23:22:50 - El repostero 2 deposita 45 galletas en el horno 1
+2024-12-12 23:22:51 - El repostero 1 lleva 1 tandas producidas de 4
+2024-12-12 23:22:51 - El repostero 1 ha producido 39 galletas
+2024-12-12 23:22:51 - El repostero 1 deposita 39 galletas en el horno 1
+2024-12-12 23:22:51 - El repostero 3 lleva 1 tandas producidas de 4
+2024-12-12 23:22:51 - El repostero 3 ha producido 38 galletas
+2024-12-12 23:22:51 - El repostero 3 deposita 38 galletas en el horno 1
+2024-12-12 23:22:52 - El repostero 4 lleva 1 tandas producidas de 4
+2024-12-12 23:22:52 - El repostero 4 ha producido 40 galletas
+2024-12-12 23:22:52 - El repostero 4 deposita 40 galletas en el horno 1
+2024-12-12 23:22:54 - El repostero 3 lleva 2 tandas producidas de 4
+2024-12-12 23:22:54 - El repostero 3 ha producido 43 galletas
+2024-12-12 23:22:54 - El repostero 3 deposita 38 galletas en 1 y desperdicia 5 galletas
+2024-12-12 23:22:54 - El horno 1 comienza a hornear
+2024-12-12 23:22:54 - El repostero 0 lleva 2 tandas producidas de 5
+2024-12-12 23:22:54 - El repostero 0 ha producido 44 galletas
+2024-12-12 23:22:54 - El repostero 0 deposita 44 galletas en el horno 2
+2024-12-12 23:22:54 - El repostero 1 lleva 2 tandas producidas de 4
+2024-12-12 23:22:54 - El repostero 1 ha producido 44 galletas
+2024-12-12 23:22:54 - El repostero 1 deposita 44 galletas en el horno 2
+2024-12-12 23:22:54 - El repostero 2 lleva 2 tandas producidas de 4
+2024-12-12 23:22:54 - El repostero 2 ha producido 43 galletas
+2024-12-12 23:22:54 - El repostero 2 deposita 43 galletas en el horno 2
+2024-12-12 23:22:54 - El repostero 4 lleva 2 tandas producidas de 4
+2024-12-12 23:22:54 - El repostero 4 ha producido 43 galletas
+2024-12-12 23:22:54 - El repostero 4 deposita 43 galletas en el horno 2
+2024-12-12 23:22:56 - El repostero 0 lleva 3 tandas producidas de 5
+2024-12-12 23:22:56 - El repostero 0 ha producido 41 galletas
+2024-12-12 23:22:56 - El repostero 0 deposita 26 galletas en 2 y desperdicia 15 galletas
+2024-12-12 23:22:56 - El horno 2 comienza a hornear
+2024-12-12 23:22:56 - El repostero 3 lleva 3 tandas producidas de 4
+2024-12-12 23:22:56 - El repostero 3 ha producido 44 galletas
+2024-12-12 23:22:57 - El repostero 2 lleva 3 tandas producidas de 4
+2024-12-12 23:22:57 - El repostero 2 ha producido 42 galletas
+2024-12-12 23:22:57 - El repostero 1 lleva 3 tandas producidas de 4
+2024-12-12 23:22:57 - El repostero 1 ha producido 39 galletas
+2024-12-12 23:22:57 - El repostero 4 lleva 3 tandas producidas de 4
+2024-12-12 23:22:57 - El repostero 4 ha producido 44 galletas
+2024-12-12 23:22:58 - El horno 0 ha terminado de hornear
+2024-12-12 23:22:59 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:22:59 - El repostero 0 lleva 4 tandas producidas de 5
+2024-12-12 23:22:59 - El repostero 0 ha producido 37 galletas
+2024-12-12 23:23:00 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:00 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:01 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:02 - El horno 1 ha terminado de hornear
+2024-12-12 23:23:02 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:02 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-12 23:23:03 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:23:03 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:23:04 - El horno 2 ha terminado de hornear
+2024-12-12 23:23:04 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:23:05 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:23:05 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:23:05 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:23:06 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:23:06 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-12 23:23:06 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:23:07 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:23:08 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:23:08 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-12 23:23:48 - El repostero 2 lleva 0 tandas producidas de 3
+2024-12-12 23:23:48 - El repostero 2 ha producido 38 galletas
+2024-12-12 23:23:48 - El repostero 2 deposita 38 galletas en el horno 0
+2024-12-12 23:23:48 - El repostero 0 lleva 0 tandas producidas de 5
+2024-12-12 23:23:48 - El repostero 0 ha producido 43 galletas
+2024-12-12 23:23:48 - El repostero 0 deposita 43 galletas en el horno 0
+2024-12-12 23:23:49 - El repostero 4 lleva 0 tandas producidas de 3
+2024-12-12 23:23:49 - El repostero 4 ha producido 42 galletas
+2024-12-12 23:23:49 - El repostero 4 deposita 42 galletas en el horno 0
+2024-12-12 23:23:49 - El repostero 3 lleva 0 tandas producidas de 4
+2024-12-12 23:23:49 - El repostero 3 ha producido 43 galletas
+2024-12-12 23:23:49 - El repostero 3 deposita 43 galletas en el horno 0
+2024-12-12 23:23:49 - El repostero 1 lleva 0 tandas producidas de 3
+2024-12-12 23:23:49 - El repostero 1 ha producido 45 galletas
+2024-12-12 23:23:49 - El repostero 1 deposita 34 galletas en 0 y desperdicia 11 galletas
+2024-12-12 23:23:49 - El horno 0 comienza a hornear
+2024-12-12 23:23:50 - El repostero 0 lleva 1 tandas producidas de 5
+2024-12-12 23:23:50 - El repostero 0 ha producido 40 galletas
+2024-12-12 23:23:50 - El repostero 0 deposita 40 galletas en el horno 1
+2024-12-12 23:23:51 - El repostero 4 lleva 1 tandas producidas de 3
+2024-12-12 23:23:51 - El repostero 4 ha producido 43 galletas
+2024-12-12 23:23:51 - El repostero 4 deposita 43 galletas en el horno 1
+2024-12-12 23:23:51 - El repostero 2 lleva 1 tandas producidas de 3
+2024-12-12 23:23:51 - El repostero 2 ha producido 45 galletas
+2024-12-12 23:23:51 - El repostero 2 deposita 45 galletas en el horno 1
+2024-12-12 23:23:52 - El repostero 3 lleva 1 tandas producidas de 4
+2024-12-12 23:23:52 - El repostero 3 ha producido 43 galletas
+2024-12-12 23:23:52 - El repostero 3 deposita 43 galletas en el horno 1
+2024-12-12 23:23:52 - El repostero 1 lleva 1 tandas producidas de 3
+2024-12-12 23:23:52 - El repostero 1 ha producido 44 galletas
+2024-12-12 23:23:52 - El repostero 1 deposita 29 galletas en 1 y desperdicia 15 galletas
+2024-12-12 23:23:52 - El horno 1 comienza a hornear
+2024-12-12 23:23:53 - El repostero 4 lleva 2 tandas producidas de 3
+2024-12-12 23:23:53 - El repostero 4 ha producido 45 galletas
+2024-12-12 23:23:53 - El repostero 4 deposita 45 galletas en el horno 2
+2024-12-12 23:23:53 - El repostero 4 ha cogido la cafetera
+2024-12-12 23:23:54 - El repostero 2 lleva 2 tandas producidas de 3
+2024-12-12 23:23:54 - El repostero 2 ha producido 37 galletas
+2024-12-12 23:23:54 - El repostero 2 deposita 37 galletas en el horno 2
+2024-12-12 23:23:54 - El repostero 0 lleva 2 tandas producidas de 5
+2024-12-12 23:23:54 - El repostero 0 ha producido 39 galletas
+2024-12-12 23:23:54 - El repostero 0 deposita 39 galletas en el horno 2
+2024-12-12 23:23:55 - El repostero 3 lleva 2 tandas producidas de 4
+2024-12-12 23:23:55 - El repostero 3 ha producido 42 galletas
+2024-12-12 23:23:55 - El repostero 3 deposita 42 galletas en el horno 2
+2024-12-12 23:23:55 - El repostero 1 lleva 2 tandas producidas de 3
+2024-12-12 23:23:55 - El repostero 1 ha producido 43 galletas
+2024-12-12 23:23:55 - El repostero 1 deposita 37 galletas en 2 y desperdicia 6 galletas
+2024-12-12 23:23:55 - El horno 2 comienza a hornear
+2024-12-12 23:23:55 - El repostero 4 ha preparado el cafe
+2024-12-12 23:23:55 - El repostero 4 ha soltado la cafetera
+2024-12-12 23:23:55 - El repostero 2 ha cogido la cafetera
+2024-12-12 23:23:57 - El horno 0 ha terminado de hornear
+2024-12-12 23:23:57 - El repostero 2 ha preparado el cafe
+2024-12-12 23:23:57 - El repostero 1 ha cogido la cafetera
+2024-12-12 23:23:57 - El repostero 2 ha soltado la cafetera
+2024-12-12 23:23:57 - El repostero 0 lleva 3 tandas producidas de 5
+2024-12-12 23:23:57 - El repostero 0 ha producido 38 galletas
+2024-12-12 23:23:58 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:58 - El repostero 3 lleva 3 tandas producidas de 4
+2024-12-12 23:23:58 - El repostero 3 ha producido 45 galletas
+2024-12-12 23:23:58 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:23:59 - El repostero 1 ha preparado el cafe
+2024-12-12 23:23:59 - El repostero 1 ha soltado la cafetera
+2024-12-12 23:23:59 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:24:00 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:24:00 - El horno 1 ha terminado de hornear
+2024-12-12 23:24:00 - El repostero 4 ha terminado de descansar
+2024-12-12 23:24:01 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:24:01 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-12 23:24:01 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:24:02 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:24:03 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:24:03 - El repostero 2 ha terminado de descansar
+2024-12-12 23:24:03 - El horno 2 ha terminado de hornear
+2024-12-12 23:24:03 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:24:03 - El repostero 1 ha terminado de descansar
+2024-12-12 23:24:04 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:24:04 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:24:04 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-12 23:24:04 - El repostero 4 lleva 0 tandas producidas de 5
+2024-12-12 23:24:04 - El repostero 4 ha producido 44 galletas
+2024-12-12 23:24:05 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:24:05 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:24:06 - El repostero 1 lleva 0 tandas producidas de 3
+2024-12-12 23:24:06 - El repostero 1 ha producido 42 galletas
+2024-12-12 23:24:06 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:24:07 - El repostero 2 lleva 0 tandas producidas de 4
+2024-12-12 23:24:07 - El repostero 2 ha producido 45 galletas
+2024-12-12 23:24:07 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:24:07 - El empaquetador 2 ha recogido 100 galletas del horno 2
+2024-12-12 23:25:34 - El repostero 3 lleva 0 tandas producidas de 4
+2024-12-12 23:25:34 - El repostero 2 lleva 0 tandas producidas de 4
+2024-12-12 23:25:34 - El repostero 3 ha producido 37 galletas
+2024-12-12 23:25:34 - El repostero 2 ha producido 37 galletas
+2024-12-12 23:25:34 - El repostero 3 deposita 37 galletas en el horno 0
+2024-12-12 23:25:34 - El repostero 2 deposita 37 galletas en el horno 1
+2024-12-12 23:25:35 - El repostero 0 lleva 0 tandas producidas de 5
+2024-12-12 23:25:35 - El repostero 1 lleva 0 tandas producidas de 3
+2024-12-12 23:25:35 - El repostero 1 ha producido 41 galletas
+2024-12-12 23:25:35 - El repostero 0 ha producido 42 galletas
+2024-12-12 23:25:35 - El repostero 1 deposita 41 galletas en el horno 0
+2024-12-12 23:25:35 - El repostero 4 lleva 0 tandas producidas de 4
+2024-12-12 23:25:35 - El repostero 0 deposita 42 galletas en el horno 0
+2024-12-12 23:25:35 - El repostero 4 ha producido 40 galletas
+2024-12-12 23:25:35 - El repostero 4 deposita 40 galletas en el horno 0
+2024-12-12 23:25:37 - El repostero 2 lleva 1 tandas producidas de 4
+2024-12-12 23:25:37 - El repostero 2 ha producido 45 galletas
+2024-12-12 23:25:37 - El repostero 2 deposita 40 galletas en 0 y desperdicia 5 galletas
+2024-12-12 23:25:37 - El horno 0 comienza a hornear
+2024-12-12 23:25:37 - El repostero 3 lleva 1 tandas producidas de 4
+2024-12-12 23:25:37 - El repostero 3 ha producido 42 galletas
+2024-12-12 23:25:37 - El repostero 3 deposita 42 galletas en el horno 1
+2024-12-12 23:25:38 - El repostero 4 lleva 1 tandas producidas de 4
+2024-12-12 23:25:38 - El repostero 4 ha producido 37 galletas
+2024-12-12 23:25:38 - El repostero 4 deposita 37 galletas en el horno 1
+2024-12-12 23:25:39 - El repostero 1 lleva 1 tandas producidas de 3
+2024-12-12 23:25:39 - El repostero 1 ha producido 43 galletas
+2024-12-12 23:25:39 - El repostero 1 deposita 43 galletas en el horno 1
+2024-12-12 23:25:39 - El repostero 2 lleva 2 tandas producidas de 4
+2024-12-12 23:25:39 - El repostero 2 ha producido 37 galletas
+2024-12-12 23:25:39 - El repostero 2 deposita 37 galletas en el horno 1
+2024-12-12 23:25:40 - El repostero 3 lleva 2 tandas producidas de 4
+2024-12-12 23:25:40 - El repostero 3 ha producido 37 galletas
+2024-12-12 23:25:40 - El repostero 0 lleva 1 tandas producidas de 5
+2024-12-12 23:25:40 - El repostero 3 deposita 4 galletas en 1 y desperdicia 33 galletas
+2024-12-12 23:25:40 - El horno 1 comienza a hornear
+2024-12-12 23:25:40 - El repostero 0 ha producido 42 galletas
+2024-12-12 23:25:40 - El repostero 0 deposita 42 galletas en el horno 2
+2024-12-12 23:25:42 - El repostero 4 lleva 2 tandas producidas de 4
+2024-12-12 23:25:42 - El repostero 4 ha producido 38 galletas
+2024-12-12 23:25:42 - El repostero 4 deposita 38 galletas en el horno 2
+2024-12-12 23:25:43 - El repostero 1 lleva 2 tandas producidas de 3
+2024-12-12 23:25:43 - El repostero 1 ha producido 44 galletas
+2024-12-12 23:25:43 - El repostero 1 deposita 44 galletas en el horno 2
+2024-12-12 23:25:43 - El repostero 1 ha cogido la cafetera
+2024-12-12 23:25:43 - El repostero 2 lleva 3 tandas producidas de 4
+2024-12-12 23:25:43 - El repostero 2 ha producido 41 galletas
+2024-12-12 23:25:43 - El repostero 2 deposita 41 galletas en el horno 2
+2024-12-12 23:25:53 - El repostero 3 lleva 3 tandas producidas de 4
+2024-12-12 23:25:53 - El repostero 1 ha preparado el cafe
+2024-12-12 23:25:53 - El repostero 4 lleva 3 tandas producidas de 4
+2024-12-12 23:25:53 - El repostero 0 lleva 2 tandas producidas de 5
+2024-12-12 23:25:53 - El repostero 3 ha producido 41 galletas
+2024-12-12 23:25:53 - El repostero 4 ha producido 37 galletas
+2024-12-12 23:25:53 - El repostero 2 ha cogido la cafetera
+2024-12-12 23:25:53 - El repostero 1 ha soltado la cafetera
+2024-12-12 23:25:53 - El repostero 3 deposita 35 galletas en 2 y desperdicia 6 galletas
+2024-12-12 23:25:53 - El repostero 0 ha producido 41 galletas
+2024-12-12 23:25:53 - El horno 2 comienza a hornear
+2024-12-12 23:25:55 - El repostero 2 ha preparado el cafe
+2024-12-12 23:25:55 - El repostero 3 ha cogido la cafetera
+2024-12-12 23:25:55 - El repostero 2 ha soltado la cafetera
+2024-12-12 23:25:55 - El horno 0 ha terminado de hornear
+2024-12-12 23:25:56 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:25:56 - El repostero 1 ha terminado de descansar
+2024-12-12 23:25:57 - El repostero 3 ha preparado el cafe
+2024-12-12 23:25:57 - El repostero 3 ha soltado la cafetera
+2024-12-12 23:25:57 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:25:58 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:25:58 - El repostero 1 lleva 0 tandas producidas de 4
+2024-12-12 23:25:58 - El repostero 1 ha producido 45 galletas
+2024-12-12 23:25:59 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:25:59 - El horno 1 ha terminado de hornear
+2024-12-12 23:25:59 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:26:00 - El empaquetador 0 recoge 20 galletas del horno 0
+2024-12-12 23:26:00 - El empaquetador 0 ha recogido 100 galletas del horno 0
+2024-12-12 23:26:00 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:26:00 - El repostero 2 ha terminado de descansar
+2024-12-12 23:26:01 - El repostero 3 ha terminado de descansar
+2024-12-12 23:26:01 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:26:01 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:26:02 - El horno 2 ha terminado de hornear
+2024-12-12 23:26:02 - El empaquetador 1 recoge 20 galletas del horno 1
+2024-12-12 23:26:02 - El empaquetador 1 ha recogido 100 galletas del horno 1
+2024-12-12 23:26:03 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:26:03 - El repostero 2 lleva 0 tandas producidas de 5
+2024-12-12 23:26:03 - El repostero 2 ha producido 42 galletas
+2024-12-12 23:26:03 - El repostero 3 lleva 0 tandas producidas de 4
+2024-12-12 23:26:03 - El repostero 3 ha producido 38 galletas
+2024-12-12 23:26:04 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:26:04 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:26:05 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:26:06 - El empaquetador 2 recoge 20 galletas del horno 2
+2024-12-12 23:26:06 - El empaquetador 2 ha recogido 100 galletas del horno 2
