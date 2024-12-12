@@ -36,6 +36,8 @@ public class InterfazServidor extends JFrame {
     private JTextField txtAlmacen;
     private JButton btnComerGalletas;
 
+
+
     public InterfazServidor(Fabrica fabrica) {
         // Guardar referencia a la fábrica
         this.fabrica = fabrica;
@@ -209,6 +211,10 @@ public class InterfazServidor extends JFrame {
         btnComerGalletas.setForeground(textoClaro);
         panelAlmacen.add(btnComerGalletas);
 
+        btnComerGalletas.addActionListener(e -> {
+            fabrica.comerGalletas();
+        });
+
         // Añadimos todo al JFrame
         add(panelSuperior, BorderLayout.NORTH);
         add(panelCentral, BorderLayout.CENTER);
@@ -290,12 +296,15 @@ private void iniciarHiloActualizacion() {
          //actualizar las galletas del almacen
         txtAlmacen.setText(String.valueOf(fabrica.getCantidadGalletasAlmacen()));
         //actualizar el boton de comer galletas
-        if (fabrica.getCantidadGalletasAlmacen() >= 100) {
-            btnComerGalletas.setEnabled(true);
-        } else {
+        if (fabrica.getCantidadGalletasAlmacen() < 100) {
             btnComerGalletas.setEnabled(false);
+        } else {
+            btnComerGalletas.setEnabled(true);
         }
-        //boton de comer galletas
+
+
+
+
 
 
 

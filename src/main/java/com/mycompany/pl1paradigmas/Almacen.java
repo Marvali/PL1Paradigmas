@@ -4,6 +4,7 @@
  */
 package com.mycompany.pl1paradigmas;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -83,17 +84,23 @@ public class Almacen {
     //Metodo para depositar galletas
     public void setCantidadGalletasAlmacen(int cantidad) {
         //usando el semaforo
-        try {
-            emSemaforo.acquire();
+
+
             if (cantidadGalletasAlmacen + cantidad <= capacidadMaxima) {
                 cantidadGalletasAlmacen += cantidad;
+                System.out.println("+-----------------------------------+");
+                System.out.println("El empaquetador ha depositado " + cantidad + " galletas en el almacen");
+                System.out.println("El almacen tiene " + cantidadGalletasAlmacen + " galletas");
+                System.out.println("+-----------------------------------+");
+
             } else {
-                System.out.println("No hay suficiente espacio en el almacen");
+                System.out.println("+-----------------------------------+");
+                System.out.println("NO HAY ESPACIO EN EL ALMACEN");
+                System.out.println(" el almacen esta a " + cantidadGalletasAlmacen + " de " + capacidadMaxima);
+                System.out.println("+-----------------------------------+");
             }
-            emSemaforo.release();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+
     }
 
 }

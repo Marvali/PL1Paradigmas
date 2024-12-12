@@ -61,7 +61,7 @@ public class Fabrica {
     }
 
     // ****** Almacen ******
-    public synchronized int getCantidadGalletasAlmacen() {
+    public  int getCantidadGalletasAlmacen() {
         return almacen.getCantidadGalletasAlmacen();
     }
 

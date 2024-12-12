@@ -4,6 +4,8 @@
  */
 package com.mycompany.pl1paradigmas;
 
+import java.sql.SQLOutput;
+
 import static java.lang.Thread.sleep;
 
 /**
@@ -94,7 +96,7 @@ public class Empaquetador extends Thread {
             galletasRecogidas = galletasPorPaquete;
             // Simula el tiempo de llevar las galletas al almacén
 
-            llevarAlmacen();
+            llevarAlmacen(galletasRecogidas);
 
         } catch (InterruptedException e) {
             System.out.println(e);
@@ -103,15 +105,20 @@ public class Empaquetador extends Thread {
         }
     }
 
-    private void llevarAlmacen() {
+    private void llevarAlmacen(int galletasRecogidas) {
         try {
             fabrica.setEstadoEmpaquetador(idEmpaquetador, "Llevando galletas al almacén");
+
             sleep((long) (2000 + 2000 * Math.random())); //entre 2 y 4 segundos
+
             // Acquire the semaphore to access the almacen
             almacen.getEmSemaforo().acquire();
 
+
+
             // Wait until there is enough space in the almacen
             while (almacen.getCantidadGalletasAlmacen() + galletasRecogidas > almacen.getCapacidadMaxima()) {
+
                 // Release the semaphore and wait a bit before trying again
                 almacen.getEmSemaforo().release();
                 System.out.println("El empaquetador " + idEmpaquetador + " está esperando a que haya espacio en el almacén");
@@ -122,7 +129,18 @@ public class Empaquetador extends Thread {
             }
 
             // Deposit the cookies in the almacen
-            almacen.setCantidadGalletasAlmacen(almacen.getCantidadGalletasAlmacen() + galletasRecogidas);
+            System.out.println("El empaquetador ve que hay " + almacen.getCantidadGalletasAlmacen() + " galletas en el almacén");
+            System.out.println("El empaquetador " + idEmpaquetador + " VA A METER " + galletasRecogidas + " GALLETA(S) AL ALMACÉN");
+
+            int galletasAlmacen = almacen.getCantidadGalletasAlmacen();
+
+            System.out.println("El empaquetador " + idEmpaquetador + " dice que hay " + galletasAlmacen + " galletas en el almacén");
+
+
+            System.out.println("El empaquetador " + idEmpaquetador + " dice que va a haber " + galletasAlmacen + " galletas en el almacén");
+            almacen.setCantidadGalletasAlmacen(galletasRecogidas);
+            System.out.println("El empaquetador " + idEmpaquetador + " dice que ha metido las galletas en el almacén");
+
 
             log.escribirLog("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
             System.out.println("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
