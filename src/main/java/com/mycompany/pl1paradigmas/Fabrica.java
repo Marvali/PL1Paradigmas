@@ -8,6 +8,14 @@ public class Fabrica {
     private Empaquetador[] empaquetadores;
     private Almacen almacen;
     private Cafetera cafetera;
+    //crear un array de 5 elementos para guardar las tandas producidas por cada repostero
+    private int[] tandasProducidas ;
+    private int[] tandasAProducir;
+    private String reposteroEnCafetera;
+    private int lotesEmpaquetados [];
+    private String estadoEmpaquetador [];
+
+
 
 
     // Contadores globales
@@ -23,6 +31,13 @@ public class Fabrica {
         this.cafetera = cafetera;
         this.galletasDesperdiciadas = 0;
         this.galletasConsumidas = 0;
+        this.tandasProducidas = new int[5];
+        this.tandasAProducir = new int[5];
+        this.reposteroEnCafetera = "vacio";
+        this.lotesEmpaquetados = new int[3];
+        this.estadoEmpaquetador = new String[3];
+
+
     }
 
     // Getters y setters sincronizados para acceso seguro
@@ -64,7 +79,7 @@ public class Fabrica {
         return reposteros[id];
     }
     public String getReposteroEnCafetera() {
-        return cafetera.getReposteroActual();
+        return reposteroEnCafetera;
     }
 
     // Metodos para pausar/reanudar reposteros si los implementas
@@ -140,14 +155,52 @@ public class Fabrica {
         this.cafetera = cafetera;
     }
 
-    public String getEstadoRepostero(int j) {
-        //coger el numero de galletas que tiene
-        return "1";
+    public synchronized int getTandasAProducir(int idRepostero) {
+        return tandasAProducir[idRepostero];
+    }
+
+    public synchronized int getTandasProducidas(int idRepostero) {
+        return tandasProducidas[idRepostero];
+    }
+
+   public synchronized void setTandasProducidas(int idRepostero, int tandasProducidas) {
+        this.tandasProducidas[idRepostero] = tandasProducidas;
+    }
+
+    public synchronized  void setTandasAProducir(int idRepostero, int tandasAProducir) {
+        this.tandasAProducir[idRepostero] = tandasAProducir;
+
+
+   }
+
+   public synchronized void setReposteroEnCafetera(String nombre) {
+        cafetera.setReposteroActual(nombre);
+    }
+
+    public synchronized void setReposteroEnCafetera1(String repostero) {
+        this.reposteroEnCafetera = repostero;
 
     }
 
+    public synchronized void incrementarLotesEmpaquetados(int idEmpaquetador) {
+        lotesEmpaquetados[idEmpaquetador]++;
+    }
 
-    // Obtener un horno por su índice
+    public synchronized void setLotesEmpaquetados(int idEmpaquetador, int lotesEmpaquetados) {
+        this.lotesEmpaquetados[idEmpaquetador] = lotesEmpaquetados;
+    }
+
+    public synchronized int getLotesEmpaquetados(int idEmpaquetador) {
+        return lotesEmpaquetados[idEmpaquetador];
+    }
+
+    public synchronized void setEstadoEmpaquetador(int idEmpaquetador, String estado) {
+        estadoEmpaquetador[idEmpaquetador] = estado;
+    }
+
+    public synchronized String getEstadoEmpaquetador(int idEmpaquetador) {
+        return estadoEmpaquetador[idEmpaquetador];
+    }
 
 }
 

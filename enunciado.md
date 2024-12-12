@@ -111,11 +111,11 @@ Basándose en la aplicación concurrente descrita, se incluirá un nuevo módulo
 ---
 
 ### **Ejemplo de Interfaces Gráficas**
-#### **Interfaz del Servidor**
+#### **InterfazServer del Servidor**
 - Mostrar el estado de la fábrica (hornos, almacén, reposteros y empaquetadores).
 - Botones para iniciar y detener procesos.
 
-#### **Interfaz del Cliente**
+#### **InterfazServer del Cliente**
 - Visualización del estado en tiempo real.
 - Botones para pausar o reanudar reposteros.
 - Indicador de cantidad de galletas consumidas.

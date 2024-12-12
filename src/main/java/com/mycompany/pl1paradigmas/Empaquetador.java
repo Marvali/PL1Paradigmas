@@ -22,6 +22,7 @@ public class Empaquetador extends Thread {
     private int idEmpaquetador;
     private Horno horno;
     private Almacen almacen;
+    private Fabrica fabrica;
     private int galletasRecogidas = 0;
     private int galletasEmpaquetadas = 0;
     private int tiempoRecogida = 0;                                           //entre 0,5 y 1 segundos
@@ -29,10 +30,12 @@ public class Empaquetador extends Thread {
     private Log log = new Log();
 
     //Constructor
-    public Empaquetador(int idEmpaquetador, Horno horno, Almacen almacen) {
+    public Empaquetador(int idEmpaquetador, Horno horno, Almacen almacen, Fabrica fabrica) {
         this.idEmpaquetador = idEmpaquetador;
         this.horno = horno;
         this.almacen = almacen;
+        this.fabrica = fabrica;
+
     }
 
     //Metodos
@@ -62,10 +65,12 @@ public class Empaquetador extends Thread {
 
             // Recoge galletas de 20 en 20 hasta completar un paquete de 100
             while (galletasHorno > 0 && galletasPorPaquete < 100) {
+                fabrica.setEstadoEmpaquetador(idEmpaquetador, "Recogiendo galletas");
                 sleep((long) (500 + 500 * Math.random())); //entre 0,5 y 1 segundos
                 if (galletasHorno >= 20) {
                     galletasHorno -= 20;
                     galletasPorPaquete += 20;
+                    fabrica.incrementarLotesEmpaquetados(idEmpaquetador);
                     log.escribirLog("El empaquetador " + idEmpaquetador + " recoge 20 galletas del horno " + horno.getId());
                     System.out.println("El empaquetador " + idEmpaquetador + " recoge 20 galletas del horno " + horno.getId());
                 } else {
@@ -100,6 +105,7 @@ public class Empaquetador extends Thread {
 
     private void llevarAlmacen() {
         try {
+            fabrica.setEstadoEmpaquetador(idEmpaquetador, "Llevando galletas al almacén");
             sleep((long) (2000 + 2000 * Math.random())); //entre 2 y 4 segundos
             // Acquire the semaphore to access the almacen
             almacen.getEmSemaforo().acquire();
@@ -110,6 +116,7 @@ public class Empaquetador extends Thread {
                 almacen.getEmSemaforo().release();
                 System.out.println("El empaquetador " + idEmpaquetador + " está esperando a que haya espacio en el almacén");
                 log.escribirLog("El empaquetador " + idEmpaquetador + " está esperando a que haya espacio en el almacén");
+                fabrica.setEstadoEmpaquetador(idEmpaquetador, "Esperando espacio en el almacén");
                 Thread.sleep(1000); // Sleep for a short period
                 almacen.getEmSemaforo().acquire();
             }
@@ -118,6 +125,7 @@ public class Empaquetador extends Thread {
             almacen.setCantidadGalletasAlmacen(almacen.getCantidadGalletasAlmacen() + galletasRecogidas);
             log.escribirLog("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
             System.out.println("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
+            fabrica.setLotesEmpaquetados(idEmpaquetador, 0); // Reset the count of packaged cookies
 
             // Reset the count of collected cookies
             galletasRecogidas = 0;
@@ -126,6 +134,8 @@ public class Empaquetador extends Thread {
         } finally {
             // Release the semaphore
             almacen.getEmSemaforo().release();
+
+            fabrica.setEstadoEmpaquetador(idEmpaquetador, "Esperando el horno");
         }
 
         // Check if there are still cookies in the oven and call recogerGalletas again

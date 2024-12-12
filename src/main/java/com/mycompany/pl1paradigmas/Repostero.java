@@ -4,7 +4,7 @@
  */
 package com.mycompany.pl1paradigmas;
 
-import Interfaz.InterfazServidor;
+import InterfazServer.InterfazServidor;
 
 import java.util.Random;
 
@@ -23,7 +23,7 @@ public class Repostero extends Thread {
     private int idRespostero;
     private Horno[] hornos;
     private Log log = new Log();
-    private int tandasProducidas = 0;                                           //entre 3 y 5 tandas de galletas
+    private int tandasProducidas ;                                           //entre 3 y 5 tandas de galletas
     private int galletasPorTanda = 0;                                           //entre 37 y 45 galletas por tanda
     private Random rand = new Random();
     private int tiempoProduccion = 0;                                           //entre 2 y 4 segundos
@@ -31,15 +31,16 @@ public class Repostero extends Thread {
     private int totalGalletas = 0;                                              //total de galletas producidas
     private Cafetera cafetera;
     private InterfazServidor interfazServidor;
+    private int tandasAProducir;
+    private Fabrica fabrica;
 
     //Constructor
-    public Repostero(int idRespostero, Horno[] hornos, Cafetera cafetera) {
+    public Repostero(int idRespostero, Horno[] hornos, Cafetera cafetera, Fabrica fabrica) {
         this.idRespostero = idRespostero;
         this.hornos = hornos;
         this.cafetera = cafetera;
         this.interfazServidor = interfazServidor;
-
-
+        this.fabrica = fabrica;
     }
 
     //Metodos
@@ -48,15 +49,22 @@ public class Repostero extends Thread {
         try {
             while (true) {
                 //El respostero produce galletas
+                tandasAProducir = 3 + rand.nextInt(3); // Generate a random number between 3 and 5
+                tandasProducidas = 0;
+                fabrica.setTandasProducidas(idRespostero, tandasProducidas);
+                fabrica.setTandasAProducir(idRespostero, tandasAProducir);
 
-                int tandas = 3 + rand.nextInt(3); // Generate a random number between 3 and 5
-                for (int i = 0; i < tandas; i++) {
+                for (int i = 0; i < tandasAProducir; i++) {
+                    fabrica.setTandasProducidas(idRespostero, tandasProducidas);
                     sleep((long) (2000 + 2000 * Math.random())); // Between 2 and 4 seconds
                     producirGalletas();
                     tandasProducidas++;
+
                     depositarGalletas();
 
                 }
+
+
 
 
                 //El respostero deposita las galletas en un horno
@@ -70,7 +78,10 @@ public class Repostero extends Thread {
 
 
 
-                hacerCafe();
+                if (tandasProducidas == tandasAProducir) {
+
+                    hacerCafe();
+                }
 
 
                 sleep((long) (3000 + 3000 * Math.random())); //entre 3 y 6 segundos
@@ -94,19 +105,20 @@ public class Repostero extends Thread {
     //funcion para hacer cafe, coger semaforo
     public void hacerCafe() throws InterruptedException {
         try {
+
             cafetera.getEmCafetera().acquire();
             log.escribirLog("El repostero " + idRespostero + " ha cogido la cafetera");
             System.out.println("El repostero " + idRespostero + " ha cogido la cafetera");
-            cafetera.setReposteroActual("repostero " + idRespostero);
+            fabrica.setReposteroEnCafetera1("repostero " + idRespostero);
             sleep((long) (2000)); // 2 seconds
             log.escribirLog("El repostero " + idRespostero + " ha preparado el cafe");
             System.out.println("El repostero " + idRespostero + " ha preparado el cafe");
-            cafetera.setReposteroActual("vacio");
+            fabrica.setReposteroEnCafetera1(" No hay repostero en la cafetera");
             cafetera.getEmCafetera().release();
             log.escribirLog("El repostero " + idRespostero + " ha soltado la cafetera");
             System.out.println("El repostero " + idRespostero + " ha soltado la cafetera");
 
-            tandasProducidas = 0;
+
 
         } catch (InterruptedException e) {
             System.out.println(e);
@@ -184,6 +196,16 @@ public class Repostero extends Thread {
                 }
             }
         } while (galletasPorTanda > 0);
+    }
+
+
+    //Getters y Setters
+    public int getTandasAProducir() {
+        return tandasAProducir;
+    }
+
+    public int getTandasProducidas() {
+        return tandasProducidas;
     }
 
 

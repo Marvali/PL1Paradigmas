@@ -1,6 +1,6 @@
 package com.mycompany.pl1paradigmas;
 
-import Interfaz.InterfazServidor;
+import InterfazServer.InterfazServidor;
 
 import javax.swing.SwingUtilities;
 
@@ -9,6 +9,7 @@ public class main {
     public static void main(String[] args) {
         // Crear el log
         Log log = new Log();
+        Fabrica fabrica = new Fabrica(null, null, null, null, null);
 
         // Crear un array de 3 hornos
         Horno[] arrayHornos = new Horno[3];
@@ -29,7 +30,7 @@ public class main {
 
         // Crear 4 reposteros y pasarles la interfaz
         for (int i = 0; i < arrayReposteros.length; i++) {
-            Repostero repostero = new Repostero(i, arrayHornos, cafetera);
+            Repostero repostero = new Repostero(i, arrayHornos, cafetera,fabrica);
             arrayReposteros[i] = repostero;
             repostero.start();
         }
@@ -38,13 +39,19 @@ public class main {
         Empaquetador[] arrayEmpaquetadores = new Empaquetador[3];
         // Crear 3 empaquetadores y asignarles su horno único
         for (int i = 0; i < arrayEmpaquetadores.length; i++) {
-            Empaquetador empaquetador = new Empaquetador(i, arrayHornos[i], almacen);
+            Empaquetador empaquetador = new Empaquetador(i, arrayHornos[i], almacen,fabrica );
             arrayEmpaquetadores[i] = empaquetador;
             empaquetador.start();
         }
 
-        // Crear la fábrica
-        Fabrica fabrica = new Fabrica(arrayReposteros, arrayHornos, arrayEmpaquetadores, almacen, cafetera);
+        // llenar la fabrica con los objetos creados
+        fabrica.setReposteros(arrayReposteros);
+        fabrica.setHornos(arrayHornos);
+        fabrica.setEmpaquetadores(arrayEmpaquetadores);
+        fabrica.setAlmacen(almacen);
+        fabrica.setCafetera(cafetera);
+
+
 
         // Crear la interfaz
         SwingUtilities.invokeLater(() -> {

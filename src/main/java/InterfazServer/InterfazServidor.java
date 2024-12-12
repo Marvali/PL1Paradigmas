@@ -1,9 +1,12 @@
-package Interfaz;
+package InterfazServer;
 
 import com.mycompany.pl1paradigmas.Fabrica;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class InterfazServidor extends JFrame {
 
@@ -217,16 +220,10 @@ public class InterfazServidor extends JFrame {
     }
 
     private void iniciarHiloActualizacion() {
-        new Thread(() -> {
-            while (true) {
-                SwingUtilities.invokeLater(() -> actualizarInterfaz());
-                try {
-                    Thread.sleep(500); // Actualizar cada segundo
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }).start();
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+        scheduler.scheduleAtFixedRate(() -> {
+            SwingUtilities.invokeLater(() -> actualizarInterfaz());
+        }, 0, 100, TimeUnit.MILLISECONDS); // Actualizar cada 100 milisegundos
     }
 
     private void actualizarInterfaz() {
@@ -238,12 +235,11 @@ public class InterfazServidor extends JFrame {
             txtCafetera.setText(fabrica.getReposteroEnCafetera());
 
             //reposteros
-            //estado de cada repostero
             for (int j = 0; j < 5; j++) {
-                txtReposteros[j].setText(fabrica.getEstadoRepostero(j));
-            }
-            //cambio de color de pausa para el café a rojo
-            for (int j = 0; j < 5; j++) {
+                int tandasProducidas = fabrica.getRepostero(j).getTandasProducidas();
+                int tandasAProducir = fabrica.getRepostero(j).getTandasAProducir();
+                txtReposteros[j].setText("Produciendo (" + tandasProducidas + "/" + tandasAProducir + ")");
+
                 if (fabrica.getReposteroEnCafetera().equals("repostero " + (j + 1))) {
                     lblEstadoCafé[j].setForeground(Color.RED);
                 } else {
@@ -252,13 +248,32 @@ public class InterfazServidor extends JFrame {
             }
 
 
+
+
             //galletas horno
             int galletas = fabrica.getGalletasHorno(i);
             txtGalletasHorno[i].setText(String.valueOf(galletas));
 
 
 
-            // proceso de horneado
+            // Empaquetadores
+            // llenar cajas cambiando el color
+            for (int j = 0; j < 3; j++) {
+
+                //estado empaquetador
+                txtEstadoEmpaquetador[j].setText(fabrica.getEstadoEmpaquetador(j));
+                int cajasLlenas = fabrica.getLotesEmpaquetados(j);
+                for (int k = 0; k < 5; k++) {
+                    if (k < cajasLlenas) {
+                        lblCajasEmpaquetador[j][k].setBackground(Color.GREEN);
+                    } else {
+                        lblCajasEmpaquetador[j][k].setBackground(Color.DARK_GRAY);
+                    }
+                }
+
+
+            }
+
 
 
         }
