@@ -14032,3 +14032,54 @@
 2024-12-12 20:24:43 - El repostero 4 deposita 44 galletas en 0
 2024-12-12 20:24:43 - El repostero 2 deposita 39 galletas en 0
 2024-12-12 20:24:43 - El repostero 0 deposita 44 galletas en 0
+2024-12-12 20:27:55 - El repostero 2 ha producido 43 galletas
+2024-12-12 20:27:55 - El repostero 2 deposita 43 galletas en 0
+2024-12-12 20:27:55 - El repostero 3 ha producido 40 galletas
+2024-12-12 20:27:55 - El repostero 3 deposita 40 galletas en 0
+2024-12-12 20:27:57 - El repostero 0 ha producido 37 galletas
+2024-12-12 20:27:57 - El repostero 0 deposita 37 galletas en 0
+2024-12-12 20:27:57 - El repostero 4 ha producido 43 galletas
+2024-12-12 20:27:57 - El repostero 4 deposita 43 galletas en 0
+2024-12-12 20:27:57 - El repostero 1 ha producido 41 galletas
+2024-12-12 20:27:57 - El repostero 1 deposita 37 galletas en 0 y desperdicia 4 galletas
+2024-12-12 20:27:58 - El repostero 2 ha producido 44 galletas
+2024-12-12 20:27:58 - El repostero 2 deposita 44 galletas en 1
+2024-12-12 20:27:59 - El repostero 0 ha producido 37 galletas
+2024-12-12 20:27:59 - El repostero 0 deposita 37 galletas en 1
+2024-12-12 20:27:59 - El repostero 3 ha producido 45 galletas
+2024-12-12 20:27:59 - El repostero 3 deposita 45 galletas en 1
+2024-12-12 20:27:59 - El repostero 1 ha producido 40 galletas
+2024-12-12 20:27:59 - El repostero 1 deposita 40 galletas en 1
+2024-12-12 20:28:00 - El repostero 4 ha producido 39 galletas
+2024-12-12 20:28:00 - El repostero 4 deposita 34 galletas en 1 y desperdicia 5 galletas
+2024-12-12 20:28:01 - El repostero 2 ha producido 45 galletas
+2024-12-12 20:28:01 - El repostero 2 deposita 45 galletas en 2
+2024-12-12 20:28:01 - El repostero 2 ha cogido la cafetera
+2024-12-12 20:28:02 - El repostero 3 ha producido 45 galletas
+2024-12-12 20:28:02 - El repostero 3 deposita 45 galletas en 2
+2024-12-12 20:28:03 - El repostero 0 ha producido 44 galletas
+2024-12-12 20:28:03 - El repostero 0 deposita 44 galletas en 2
+2024-12-12 20:28:03 - El repostero 2 ha preparado el cafe
+2024-12-12 20:28:03 - El repostero 3 ha cogido la cafetera
+2024-12-12 20:28:03 - El repostero 2 ha soltado la cafetera
+2024-12-12 20:28:03 - El repostero 4 ha producido 42 galletas
+2024-12-12 20:28:03 - El repostero 4 deposita 42 galletas en 2
+2024-12-12 20:28:03 - El repostero 1 ha producido 38 galletas
+2024-12-12 20:28:03 - El repostero 1 deposita 24 galletas en 2 y desperdicia 14 galletas
+2024-12-12 20:28:05 - El repostero 3 ha preparado el cafe
+2024-12-12 20:28:05 - El repostero 3 ha soltado la cafetera
+2024-12-12 20:28:05 - El repostero 0 ha cogido la cafetera
+2024-12-12 20:28:06 - El repostero 4 ha producido 39 galletas
+2024-12-12 20:28:06 - El repostero 4 deposita 39 galletas en 0
+2024-12-12 20:28:07 - El repostero 0 ha preparado el cafe
+2024-12-12 20:28:07 - El repostero 0 ha soltado la cafetera
+2024-12-12 20:28:07 - El repostero 1 ha cogido la cafetera
+2024-12-12 20:28:07 - El repostero 2 ha terminado de descansar
+2024-12-12 20:28:09 - El repostero 1 ha preparado el cafe
+2024-12-12 20:28:09 - El repostero 1 ha soltado la cafetera
+2024-12-12 20:28:09 - El repostero 4 ha producido 45 galletas
+2024-12-12 20:28:09 - El repostero 4 deposita 45 galletas en 0
+2024-12-12 20:28:09 - El repostero 4 ha cogido la cafetera
+2024-12-12 20:28:10 - El repostero 2 ha producido 40 galletas
+2024-12-12 20:28:10 - El repostero 2 deposita 40 galletas en 0
+2024-12-12 20:28:10 - El repostero 3 ha terminado de descansar
