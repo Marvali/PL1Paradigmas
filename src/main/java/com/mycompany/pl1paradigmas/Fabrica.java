@@ -9,6 +9,7 @@ public class Fabrica {
     private Almacen almacen;
     private Cafetera cafetera;
 
+
     // Contadores globales
     private int galletasDesperdiciadas;
     private int galletasConsumidas;
@@ -62,7 +63,9 @@ public class Fabrica {
     public synchronized Repostero getRepostero(int id) {
         return reposteros[id];
     }
-
+    public String getReposteroEnCafetera() {
+        return cafetera.getReposteroActual();
+    }
 
     // Metodos para pausar/reanudar reposteros si los implementas
     public synchronized void pausarRepostero(int idRepostero) {
@@ -116,7 +119,7 @@ public class Fabrica {
         }
     }
 
-    // Métodos para settear arrays si en algún momento necesitas recargarlos (opcional)
+    // Métodos para settear arrays si en algún momento necesita recargarlos (opcional)
     public synchronized void setReposteros(Repostero[] reposteros) {
         this.reposteros = reposteros;
     }
@@ -136,6 +139,13 @@ public class Fabrica {
     public synchronized void setCafetera(Cafetera cafetera) {
         this.cafetera = cafetera;
     }
+
+    public String getEstadoRepostero(int j) {
+        //coger el numero de galletas que tiene
+        return "1";
+
+    }
+
 
     // Obtener un horno por su índice
 

@@ -24,8 +24,8 @@ public class main {
         // Crear un almacén
         Almacen almacen = new Almacen(1000);
 
-        // Crear un array de 4 reposteros
-        Repostero[] arrayReposteros = new Repostero[4];
+        // Crear un array de 5 reposteros
+        Repostero[] arrayReposteros = new Repostero[5];
 
         // Crear 4 reposteros y pasarles la interfaz
         for (int i = 0; i < arrayReposteros.length; i++) {

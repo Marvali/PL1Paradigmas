@@ -48,20 +48,27 @@ public class Repostero extends Thread {
         try {
             while (true) {
                 //El respostero produce galletas
-                sleep((long) (2000 + 4000 * Math.random())); //entre 2 y 4 segundos
-                producirGalletas();
+
+                int tandas = 3 + rand.nextInt(3); // Generate a random number between 3 and 5
+                for (int i = 0; i < tandas; i++) {
+                    sleep((long) (2000 + 2000 * Math.random())); // Between 2 and 4 seconds
+                    producirGalletas();
+                    tandasProducidas++;
+                    depositarGalletas();
+
+                }
 
 
                 //El respostero deposita las galletas en un horno
                 //usar semaforo para acceder a los hornos
 
 
-                depositarGalletas();
+
 
 
                 // El repostero descansa
-                tandasProducidas++;
-                if (tandasProducidas == 3 ) {
+
+
 
                 hacerCafe();
 
@@ -69,7 +76,7 @@ public class Repostero extends Thread {
                 sleep((long) (3000 + 3000 * Math.random())); //entre 3 y 6 segundos
                 log.escribirLog("El repostero " + idRespostero + " ha terminado de descansar");
                 System.out.println("El repostero " + idRespostero + " ha terminado de descansar");
-                }
+
             }
         } catch (InterruptedException e) {
             System.out.println(e);
@@ -85,21 +92,25 @@ public class Repostero extends Thread {
 
 
     //funcion para hacer cafe, coger semaforo
-    public void hacerCafe() {
+    public void hacerCafe() throws InterruptedException {
         try {
-          cafetera.getEmCafetera().acquire();
+            cafetera.getEmCafetera().acquire();
             log.escribirLog("El repostero " + idRespostero + " ha cogido la cafetera");
             System.out.println("El repostero " + idRespostero + " ha cogido la cafetera");
-            sleep((long) (2000)); //2 segundos
+            cafetera.setReposteroActual("repostero " + idRespostero);
+            sleep((long) (2000)); // 2 seconds
             log.escribirLog("El repostero " + idRespostero + " ha preparado el cafe");
             System.out.println("El repostero " + idRespostero + " ha preparado el cafe");
+            cafetera.setReposteroActual("vacio");
             cafetera.getEmCafetera().release();
             log.escribirLog("El repostero " + idRespostero + " ha soltado la cafetera");
             System.out.println("El repostero " + idRespostero + " ha soltado la cafetera");
+
+            tandasProducidas = 0;
+
         } catch (InterruptedException e) {
             System.out.println(e);
-
-
+            throw e; // Re-throw the InterruptedException
         }
     }
 

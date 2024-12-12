@@ -57,7 +57,9 @@ public class InterfazServidor extends JFrame {
 
         // Panel Cafetera
         JPanel panelCafetera = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        panelCafetera.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Cafetera", 0, 0, null, textoClaro));
+        Font titleFont = new Font("Arial", Font.BOLD, 24); // Create a Font object with the desired size
+        panelCafetera.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Cafetera", 2, 2, titleFont, textoClaro));//poner font un poco mas grande
+
         panelCafetera.setBackground(fondoAzul);
         JLabel lblCafetera = new JLabel("Preparando café: ");
         lblCafetera.setForeground(textoClaro);
@@ -74,7 +76,7 @@ public class InterfazServidor extends JFrame {
         // Panel Reposteros
         panelReposteros = new JPanel();
         panelReposteros.setLayout(new GridLayout(1, 5));
-        panelReposteros.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Reposteros", 0, 0, null, textoClaro));
+        panelReposteros.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Reposteros", 2, 2, null, textoClaro));
         panelReposteros.setBackground(panelMarron);
 
         txtReposteros = new JTextField[5];
@@ -106,7 +108,7 @@ public class InterfazServidor extends JFrame {
 
         // Panel Hornos
         panelHornos = new JPanel(new GridLayout(3, 1));
-        panelHornos.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Hornos", 0, 0, null, textoClaro));
+        panelHornos.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Hornos", 2, 2, null, textoClaro));
         panelHornos.setBackground(fondoAzul);
 
         txtGalletasHorno = new JTextField[3];
@@ -151,7 +153,7 @@ public class InterfazServidor extends JFrame {
 
         // Panel Empaquetadores
         panelEmpaquetadores = new JPanel(new GridLayout(3, 1));
-        panelEmpaquetadores.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Empaquetadores", 0, 0, null, textoClaro));
+        panelEmpaquetadores.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Empaquetadores", 2, 2, null, textoClaro));
         panelEmpaquetadores.setBackground(fondoAzul);
         txtEstadoEmpaquetador = new JTextField[3];
         panelCajasEmpaquetador = new JPanel[3];
@@ -219,7 +221,7 @@ public class InterfazServidor extends JFrame {
             while (true) {
                 SwingUtilities.invokeLater(() -> actualizarInterfaz());
                 try {
-                    Thread.sleep(1000); // Actualizar cada segundo
+                    Thread.sleep(500); // Actualizar cada segundo
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -229,11 +231,29 @@ public class InterfazServidor extends JFrame {
 
     private void actualizarInterfaz() {
         for (int i = 0; i < txtGalletasHorno.length; i++) {
-            // Obtener valores del modelo
+
+
+
+            //cafetera
+            txtCafetera.setText(fabrica.getReposteroEnCafetera());
+
+            //reposteros
+            //estado de cada repostero
+            for (int j = 0; j < 5; j++) {
+                txtReposteros[j].setText(fabrica.getEstadoRepostero(j));
+            }
+            //cambio de color de pausa para el café a rojo
+            for (int j = 0; j < 5; j++) {
+                if (fabrica.getReposteroEnCafetera().equals("repostero " + (j + 1))) {
+                    lblEstadoCafé[j].setForeground(Color.RED);
+                } else {
+                    lblEstadoCafé[j].setForeground(Color.WHITE);
+                }
+            }
+
+
+            //galletas horno
             int galletas = fabrica.getGalletasHorno(i);
-
-
-            // Actualizar campo de texto
             txtGalletasHorno[i].setText(String.valueOf(galletas));
 
 

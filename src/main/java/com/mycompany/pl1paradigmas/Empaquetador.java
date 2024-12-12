@@ -51,7 +51,7 @@ public class Empaquetador extends Thread {
     private void recogerGalletas() {
         horno.getLock().lock();
         try {
-            sleep((long) (500 + 500 * Math.random())); //entre 0,5 y 1 segundos
+
             // Espera a que el horno esté listo para ser recogido
             while (horno.getCantidadGalletasHorno() == 0) {
                 horno.getListoParaRecoger().await();
@@ -62,6 +62,7 @@ public class Empaquetador extends Thread {
 
             // Recoge galletas de 20 en 20 hasta completar un paquete de 100
             while (galletasHorno > 0 && galletasPorPaquete < 100) {
+                sleep((long) (500 + 500 * Math.random())); //entre 0,5 y 1 segundos
                 if (galletasHorno >= 20) {
                     galletasHorno -= 20;
                     galletasPorPaquete += 20;
@@ -87,7 +88,7 @@ public class Empaquetador extends Thread {
             // Llevar al almacén
             galletasRecogidas = galletasPorPaquete;
             // Simula el tiempo de llevar las galletas al almacén
-            sleep((long) (2000 + 2000 * Math.random())); //entre 2 y 4 segundos
+
             llevarAlmacen();
 
         } catch (InterruptedException e) {
@@ -99,6 +100,7 @@ public class Empaquetador extends Thread {
 
     private void llevarAlmacen() {
         try {
+            sleep((long) (2000 + 2000 * Math.random())); //entre 2 y 4 segundos
             // Acquire the semaphore to access the almacen
             almacen.getEmSemaforo().acquire();
 
