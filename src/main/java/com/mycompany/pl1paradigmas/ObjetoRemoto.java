@@ -41,4 +41,11 @@ public class ObjetoRemoto extends UnicastRemoteObject implements InterfazRemota 
     public void pararRepostero(int idRepostero) throws RemoteException {
 
     }
+
+    @Override
+    public int ComprobarConexiones() throws RemoteException {
+        return 1;
+
+
+    }
 }

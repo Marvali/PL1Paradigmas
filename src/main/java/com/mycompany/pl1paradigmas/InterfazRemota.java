@@ -12,6 +12,6 @@ public interface InterfazRemota extends Remote {
     public int getGalletasAlmacenadas() throws RemoteException;
     public int getGalletasComsumidas() throws RemoteException;
     public void pararRepostero(int idRepostero) throws RemoteException;
-
+    public int ComprobarConexiones() throws RemoteException;
 }
 
