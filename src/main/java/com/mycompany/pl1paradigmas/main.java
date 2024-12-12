@@ -14,7 +14,7 @@ public class main {
         // Crear un array de 3 hornos
         Horno[] arrayHornos = new Horno[3];
         for (int i = 0; i < arrayHornos.length; i++) {
-            Horno horno = new Horno(i, 200, log);
+            Horno horno = new Horno(i, 200, log, fabrica);
             arrayHornos[i] = horno;
             horno.start();
         }

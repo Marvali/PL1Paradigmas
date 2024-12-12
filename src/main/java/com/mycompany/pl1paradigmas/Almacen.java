@@ -55,13 +55,14 @@ public class Almacen {
         return emSemaforo;
     }
 
-    public void setCantidadGalletasAlmacen(int cantidadGalletasAlmacen) {
-        this.cantidadGalletasAlmacen = cantidadGalletasAlmacen;
-    }
+
 
     public void setCapacidadMaxima(int capacidadMaxima) {
         this.capacidadMaxima = capacidadMaxima;
     }
+
+
+
 
     //Metodo para comer galletas
     public void comerGalletas() {
@@ -72,6 +73,22 @@ public class Almacen {
                 cantidadGalletasAlmacen -= 100;
             } else {
                 System.out.println("No hay suficientes galletas en el almacen");
+            }
+            emSemaforo.release();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //Metodo para depositar galletas
+    public void setCantidadGalletasAlmacen(int cantidad) {
+        //usando el semaforo
+        try {
+            emSemaforo.acquire();
+            if (cantidadGalletasAlmacen + cantidad <= capacidadMaxima) {
+                cantidadGalletasAlmacen += cantidad;
+            } else {
+                System.out.println("No hay suficiente espacio en el almacen");
             }
             emSemaforo.release();
         } catch (InterruptedException e) {

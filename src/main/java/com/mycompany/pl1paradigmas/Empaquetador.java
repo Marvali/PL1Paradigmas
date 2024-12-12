@@ -123,6 +123,7 @@ public class Empaquetador extends Thread {
 
             // Deposit the cookies in the almacen
             almacen.setCantidadGalletasAlmacen(almacen.getCantidadGalletasAlmacen() + galletasRecogidas);
+
             log.escribirLog("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
             System.out.println("El empaquetador " + idEmpaquetador + " ha llevado " + galletasRecogidas + " galletas al almacén");
             fabrica.setLotesEmpaquetados(idEmpaquetador, 0); // Reset the count of packaged cookies

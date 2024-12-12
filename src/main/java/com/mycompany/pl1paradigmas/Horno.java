@@ -4,7 +4,6 @@
  */
 package com.mycompany.pl1paradigmas;
 import javax.swing.*;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -25,10 +24,13 @@ public class Horno extends Thread {
     private Condition vacio;           // Condición para indicar que el horno está vacío
     private boolean enHorneo;          // Indica si el horno está horneando actualmente
     private JProgressBar barraProgreso; // Barra de progreso asociada
+    private int barraProgresoValue; // Valor de la barra de progreso
+    private Fabrica fabrica; // Fabrica asociada
+
 
 
     // Constructor
-    public Horno(int id, int capacidadMaxima, Log log) {
+    public Horno(int id, int capacidadMaxima, Log log, Fabrica fabrica) {
         this.id = id;
         this.capacidadMaxima = capacidadMaxima;
         this.cantidadGalletasHorno = 0;
@@ -38,6 +40,11 @@ public class Horno extends Thread {
         this.vacio = lock.newCondition();
         this.listoParaRecoger = lock.newCondition();
         this.enHorneo = false;
+        this.barraProgresoValue = 0;
+        this.fabrica = fabrica;
+
+
+
 
         //signall vacio para que empiece el progama
         lock.lock();
@@ -59,16 +66,27 @@ public class Horno extends Thread {
 
 
     // Hornear las galletas old version deprecated
-    /*public void hornear() throws InterruptedException {
+    public void hornear() throws InterruptedException {
         lock.lock();
         try {
             while (cantidadGalletasHorno < capacidadMaxima) {
-                lleno.await(); // Espera a que el horno esté lleno
+                lleno.await(); // Espera a que el horno esté lleno cuando es
             }
+
+
 
             log.escribirLog("El horno " + id + " comienza a hornear");
             System.out.println("El horno " + id + " comienza a hornear");
-            Thread.sleep(8000); // Simula el tiempo de horneado (8 segundos)
+            // Iniciar horneado y actualizar la barra de progreso con un ciclo de 100 iteraciones y una variable de progreso
+            for (int progreso = 0; progreso <= 100; progreso++) {
+                Thread.sleep(80); // Simular progreso del horneado
+                barraProgresoValue = progreso;
+                fabrica.setBarraProgresoHorno(id, progreso);
+
+
+
+            }
+
 
             listoParaRecoger.signalAll(); // Indica que el horno está vacío
         } finally {
@@ -78,10 +96,10 @@ public class Horno extends Thread {
         }
     }
 
-     */
+
 
     // Hornear las galletas
-
+/*
     public void hornear() throws InterruptedException {
         lock.lock();
         try {
@@ -95,12 +113,14 @@ public class Horno extends Thread {
                 actualizarBarraProgreso(progreso); // Actualizar la barra
             }
 
-            cantidadGalletasHorno = 0; // Resetear el horno después del horneado
-            listoParaRecoger.signalAll(); // Notificar que el horno está listo
+
+            listoParaRecoger.signal(); // Notificar que el horno está listo
         } finally {
             lock.unlock();
         }
     }
+
+ */
 
     private void actualizarBarraProgreso(int progreso) {
         SwingUtilities.invokeLater(() -> {
@@ -163,6 +183,7 @@ public class Horno extends Thread {
     public Condition getVacio() {
         return vacio;
     }
+
 
 
 }

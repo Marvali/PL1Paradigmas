@@ -48,6 +48,7 @@ public class Repostero extends Thread {
     public void run() {
         try {
             while (true) {
+
                 //El respostero produce galletas
                 tandasAProducir = 3 + rand.nextInt(3); // Generate a random number between 3 and 5
                 tandasProducidas = 0;
@@ -55,8 +56,10 @@ public class Repostero extends Thread {
                 fabrica.setTandasAProducir(idRespostero, tandasAProducir);
 
                 for (int i = 0; i < tandasAProducir; i++) {
-                    fabrica.setTandasProducidas(idRespostero, tandasProducidas);
                     sleep((long) (2000 + 2000 * Math.random())); // Between 2 and 4 seconds
+                    fabrica.setTandasProducidas(idRespostero, tandasProducidas);
+                    log.escribirLog("El repostero " + idRespostero + " lleva " + tandasProducidas + " tandas producidas de " + tandasAProducir);
+
                     producirGalletas();
                     tandasProducidas++;
 
@@ -79,6 +82,9 @@ public class Repostero extends Thread {
 
 
                 if (tandasProducidas == tandasAProducir) {
+                    tandasProducidas = 0;
+                    fabrica.setTandasProducidas(idRespostero, tandasProducidas);
+                    fabrica.setTandasAProducir(idRespostero, tandasAProducir);
 
                     hacerCafe();
                 }
@@ -160,8 +166,8 @@ public class Repostero extends Thread {
                             if (galletasPorTanda <= espacioVacio) {
                                 // Todas las galletas caben
                                 horno.setCantidadGalletasHorno(horno.getCantidadGalletasHorno() + galletasPorTanda);
-                                log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
-                                System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en " + horno.getId());
+                                log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en el horno " + horno.getId()) ;
+                                System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en el horno " + horno.getId());
                                 galletasPorTanda = 0;
 
                                 // Notifica a otros reposteros

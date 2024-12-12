@@ -218,7 +218,7 @@ public class InterfazServidor extends JFrame {
 
         iniciarHiloActualizacion();
     }
-
+/*
     private void iniciarHiloActualizacion() {
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         scheduler.scheduleAtFixedRate(() -> {
@@ -226,21 +226,45 @@ public class InterfazServidor extends JFrame {
         }, 0, 100, TimeUnit.MILLISECONDS); // Actualizar cada 100 milisegundos
     }
 
+ */
+private void iniciarHiloActualizacion() {
+    Timer timer = new Timer(100, e -> actualizarInterfaz()); // Update every 100 milliseconds
+    timer.start();
+}
+
     private void actualizarInterfaz() {
+
+        // Actualizar estado de los hornos
         for (int i = 0; i < txtGalletasHorno.length; i++) {
 
+            // Actualizar estado de las galletas en el horno
+            int galletas = fabrica.getGalletasHorno(i);
+            txtGalletasHorno[i].setText(String.valueOf(galletas));
 
+            // Actualizar estado de la barra de progreso
+            int progreso = fabrica.getBarraProgresoHorno(i);
+            pbHorneado[i].setValue(progreso);
 
-            //cafetera
-            txtCafetera.setText(fabrica.getReposteroEnCafetera());
+            // Actualizar estado del horno
+            if (progreso == 100) {
+                lblEstadoHorno[i].setText("Acabado");
+            } else if (progreso > 0) {
+                lblEstadoHorno[i].setText("Horneando");
+            } else {
+                lblEstadoHorno[i].setText("Esperando");
+            }
+        }
+        // Actualizar estado de la cafetera
+        txtCafetera.setText(fabrica.getReposteroEnCafetera());
 
-            //reposteros
+            // Actualizar estado de los reposteros
             for (int j = 0; j < 5; j++) {
                 int tandasProducidas = fabrica.getRepostero(j).getTandasProducidas();
                 int tandasAProducir = fabrica.getRepostero(j).getTandasAProducir();
                 txtReposteros[j].setText("Produciendo (" + tandasProducidas + "/" + tandasAProducir + ")");
 
                 if (fabrica.getReposteroEnCafetera().equals("repostero " + (j + 1))) {
+
                     lblEstadoCafé[j].setForeground(Color.RED);
                 } else {
                     lblEstadoCafé[j].setForeground(Color.WHITE);
@@ -249,35 +273,41 @@ public class InterfazServidor extends JFrame {
 
 
 
-
-            //galletas horno
-            int galletas = fabrica.getGalletasHorno(i);
-            txtGalletasHorno[i].setText(String.valueOf(galletas));
-
-
-
-            // Empaquetadores
-            // llenar cajas cambiando el color
-            for (int j = 0; j < 3; j++) {
-
-                //estado empaquetador
-                txtEstadoEmpaquetador[j].setText(fabrica.getEstadoEmpaquetador(j));
-                int cajasLlenas = fabrica.getLotesEmpaquetados(j);
-                for (int k = 0; k < 5; k++) {
-                    if (k < cajasLlenas) {
-                        lblCajasEmpaquetador[j][k].setBackground(Color.GREEN);
-                    } else {
-                        lblCajasEmpaquetador[j][k].setBackground(Color.DARK_GRAY);
-                    }
+// Actualizar estado de los empaquetadores
+        for (int j = 0; j < 3; j++) {
+            txtEstadoEmpaquetador[j].setText(fabrica.getEstadoEmpaquetador(j));
+            int cajasLlenas = fabrica.getLotesEmpaquetados(j);
+            for (int k = 0; k < 5; k++) {
+                if (k < cajasLlenas) {
+                    lblCajasEmpaquetador[j][k].setBackground(Color.GREEN);
+                } else {
+                    lblCajasEmpaquetador[j][k].setBackground(Color.DARK_GRAY);
                 }
-
-
             }
-
-
-
         }
+
+        //almacen
+         //actualizar las galletas del almacen
+        txtAlmacen.setText(String.valueOf(fabrica.getCantidadGalletasAlmacen()));
+        //actualizar el boton de comer galletas
+        if (fabrica.getCantidadGalletasAlmacen() >= 100) {
+            btnComerGalletas.setEnabled(true);
+        } else {
+            btnComerGalletas.setEnabled(false);
+        }
+        //boton de comer galletas
+        btnComerGalletas.addActionListener(e -> {
+            fabrica.comerGalletas();
+        });
+
+
+
+
+
+
     }
+    //
+
 
 
 

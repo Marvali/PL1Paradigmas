@@ -9,13 +9,12 @@ public class Fabrica {
     private Almacen almacen;
     private Cafetera cafetera;
     //crear un array de 5 elementos para guardar las tandas producidas por cada repostero
-    private int[] tandasProducidas ;
+    private int[] tandasProducidas;
     private int[] tandasAProducir;
     private String reposteroEnCafetera;
-    private int lotesEmpaquetados [];
-    private String estadoEmpaquetador [];
-
-
+    private int lotesEmpaquetados[];
+    private String estadoEmpaquetador[];
+    private int barraProgresoHorno[];
 
 
     // Contadores globales
@@ -36,6 +35,7 @@ public class Fabrica {
         this.reposteroEnCafetera = "vacio";
         this.lotesEmpaquetados = new int[3];
         this.estadoEmpaquetador = new String[3];
+        this.barraProgresoHorno = new int[3];
 
 
     }
@@ -78,6 +78,7 @@ public class Fabrica {
     public synchronized Repostero getRepostero(int id) {
         return reposteros[id];
     }
+
     public String getReposteroEnCafetera() {
         return reposteroEnCafetera;
     }
@@ -163,17 +164,17 @@ public class Fabrica {
         return tandasProducidas[idRepostero];
     }
 
-   public synchronized void setTandasProducidas(int idRepostero, int tandasProducidas) {
+    public synchronized void setTandasProducidas(int idRepostero, int tandasProducidas) {
         this.tandasProducidas[idRepostero] = tandasProducidas;
     }
 
-    public synchronized  void setTandasAProducir(int idRepostero, int tandasAProducir) {
+    public synchronized void setTandasAProducir(int idRepostero, int tandasAProducir) {
         this.tandasAProducir[idRepostero] = tandasAProducir;
 
 
-   }
+    }
 
-   public synchronized void setReposteroEnCafetera(String nombre) {
+    public synchronized void setReposteroEnCafetera(String nombre) {
         cafetera.setReposteroActual(nombre);
     }
 
@@ -201,6 +202,25 @@ public class Fabrica {
     public synchronized String getEstadoEmpaquetador(int idEmpaquetador) {
         return estadoEmpaquetador[idEmpaquetador];
     }
+
+    public int getGalletasAlmacen() {
+        return almacen.getCantidadGalletasAlmacen();
+    }
+
+
+    public void setBarraProgresoHorno(int idHorno, int progreso) {
+        barraProgresoHorno[idHorno] = progreso;
+    }
+
+    public int getBarraProgresoHorno(int idHorno) {
+        return barraProgresoHorno[idHorno];
+    }
+
+    public void comerGalletas() {
+        almacen.comerGalletas();
+
+    }
+
 
 }
 
