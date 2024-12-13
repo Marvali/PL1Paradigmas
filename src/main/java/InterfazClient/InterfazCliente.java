@@ -1,23 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package InterfazClient;
 
-/**
- *
- * @author Fer
- */
+import com.mycompany.pl1paradigmas.InterfazRemota;
+
 import javax.swing.*;
 import java.awt.*;
+import java.rmi.RemoteException;
+import java.util.HashMap;
+import java.util.Map;
 
-public class InterfazCliente {
-    public static void main(String[] args) {
-        // Crear el marco principal
-        JFrame frame = new JFrame("Fábrica de Galletas - Cliente");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(700, 600);
-        frame.setLayout(new BorderLayout());
+public class InterfazCliente extends JFrame {
+    private InterfazRemota servidorRMI; // Objeto remoto
+    private Map<String, JTextField> galletasGeneradasCampos = new HashMap<>();
+    private Map<String, JTextField> galletasDesperdiciadasCampos = new HashMap<>();
+    private JTextField galletasAlmacenadasCampo;
+    private JTextField galletasConsumidasCampo;
+
+    public InterfazCliente(InterfazRemota servidorRMI) {
+        this.servidorRMI = servidorRMI;
+        inicializarUI();
+        iniciarActualizador();
+    }
+
+    private void inicializarUI() {
+        // Configuración básica de la ventana
+        setTitle("Fábrica de Galletas - Cliente");
+        setSize(700, 600);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
 
         // Panel principal
         JPanel mainPanel = new JPanel(new BorderLayout());
@@ -34,6 +43,7 @@ public class InterfazCliente {
         headerPanel.add(new JLabel("Acción", SwingConstants.CENTER));
         reposterosPanel.add(headerPanel, BorderLayout.NORTH);
 
+        // Grid para los reposteros
         JPanel reposterosGridPanel = new JPanel(new GridLayout(5, 4, 10, 10));
         for (int i = 1; i <= 5; i++) {
             JLabel label = new JLabel("Repostero" + i, SwingConstants.CENTER);
@@ -44,82 +54,81 @@ public class InterfazCliente {
             galletasGeneradas.setEditable(false);
             galletasGeneradas.setHorizontalAlignment(JTextField.CENTER);
             reposterosGridPanel.add(galletasGeneradas);
+            galletasGeneradasCampos.put("Repostero" + i, galletasGeneradas);
 
             JTextField galletasDesperdiciadas = new JTextField("0", 5);
             galletasDesperdiciadas.setEditable(false);
             galletasDesperdiciadas.setHorizontalAlignment(JTextField.CENTER);
             reposterosGridPanel.add(galletasDesperdiciadas);
+            galletasDesperdiciadasCampos.put("Repostero" + i, galletasDesperdiciadas);
 
-            JButton actionButton = new JButton(i % 2 == 0 ? "Parar" : "Reanudar");
+            JButton actionButton = new JButton("Parar");
             actionButton.setForeground(Color.WHITE);
-            actionButton.setBackground(i % 2 == 0 ? Color.RED : Color.GREEN);
+            actionButton.setBackground(Color.RED);
+            int idRepostero = i - 1; // Ajustar índice para el servidor
+            actionButton.addActionListener(e -> {
+                try {
+                    if (actionButton.getText().equals("Parar")) {
+                        servidorRMI.pausarRepostero(idRepostero);
+                        actionButton.setText("Reanudar");
+                        actionButton.setBackground(Color.GREEN);
+                    } else {
+                        servidorRMI.reanudarRepostero(idRepostero);
+                        actionButton.setText("Parar");
+                        actionButton.setBackground(Color.RED);
+                    }
+                } catch (RemoteException ex) {
+                    ex.printStackTrace();
+                }
+            });
             reposterosGridPanel.add(actionButton);
         }
         reposterosPanel.add(reposterosGridPanel, BorderLayout.CENTER);
-
-        // Panel para los hornos
-        JPanel hornosPanel = new JPanel(new GridLayout(3, 2, 10, 10));
-        hornosPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.BLACK), "Hornos", 0, 0, new Font("Arial", Font.BOLD, 14)));
-        for (int i = 1; i <= 3; i++) {
-            JLabel label = new JLabel("Horno" + i);
-            label.setFont(new Font("Arial", Font.PLAIN, 12));
-            hornosPanel.add(label);
-
-            JPanel hornoDataPanel = new JPanel(new GridLayout(2, 1, 5, 5));
-
-            JTextField galletasHorneadas = new JTextField("0", 5);
-            galletasHorneadas.setEditable(false);
-            galletasHorneadas.setHorizontalAlignment(JTextField.CENTER);
-            hornoDataPanel.add(new JLabel("Galletas horneadas:"));
-            hornoDataPanel.add(galletasHorneadas);
-
-            JProgressBar horneandoBar = new JProgressBar(0, 100);
-            horneandoBar.setValue(0);
-            horneandoBar.setStringPainted(true);
-            horneandoBar.setForeground(Color.RED);
-            hornoDataPanel.add(new JLabel("Horneando:"));
-            hornoDataPanel.add(horneandoBar);
-
-            hornosPanel.add(hornoDataPanel);
-        }
 
         // Panel para el almacén
         JPanel almacenPanel = new JPanel(new GridLayout(2, 2, 10, 10));
         almacenPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.BLACK), "Almacén", 0, 0, new Font("Arial", Font.BOLD, 14)));
 
-        JPanel almacenInfoPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         JLabel almacenLabel = new JLabel("Galletas almacenadas:");
         almacenLabel.setFont(new Font("Arial", Font.PLAIN, 12));
-        almacenInfoPanel.add(almacenLabel);
+        almacenPanel.add(almacenLabel);
 
-        JTextField galletasAlmacenadas = new JTextField("0", 5);
-        galletasAlmacenadas.setEditable(false);
-        galletasAlmacenadas.setHorizontalAlignment(JTextField.CENTER);
-        almacenInfoPanel.add(galletasAlmacenadas);
+        galletasAlmacenadasCampo = new JTextField("0", 5);
+        galletasAlmacenadasCampo.setEditable(false);
+        galletasAlmacenadasCampo.setHorizontalAlignment(JTextField.CENTER);
+        almacenPanel.add(galletasAlmacenadasCampo);
 
         JLabel consumidasLabel = new JLabel("Galletas consumidas:");
         consumidasLabel.setFont(new Font("Arial", Font.PLAIN, 12));
-        almacenInfoPanel.add(consumidasLabel);
+        almacenPanel.add(consumidasLabel);
 
-        JTextField galletasConsumidas = new JTextField("0", 5);
-        galletasConsumidas.setEditable(false);
-        galletasConsumidas.setHorizontalAlignment(JTextField.CENTER);
-        almacenInfoPanel.add(galletasConsumidas);
-
-        almacenPanel.add(almacenInfoPanel);
+        galletasConsumidasCampo = new JTextField("0", 5);
+        galletasConsumidasCampo.setEditable(false);
+        galletasConsumidasCampo.setHorizontalAlignment(JTextField.CENTER);
+        almacenPanel.add(galletasConsumidasCampo);
 
         // Añadir los paneles al panel principal
         mainPanel.add(reposterosPanel, BorderLayout.NORTH);
-        mainPanel.add(hornosPanel, BorderLayout.CENTER);
         mainPanel.add(almacenPanel, BorderLayout.SOUTH);
 
         // Añadir el panel principal al marco
-        frame.add(mainPanel);
+        add(mainPanel);
+    }
 
-        // Mostrar la interfaz
-        frame.setVisible(true);
+    private void iniciarActualizador() {
+        Timer timer = new Timer(2000, e -> {
+            try {
+                // Actualiza datos del servidor
+                for (int i = 1; i <= 5; i++) {
+                    galletasGeneradasCampos.get("Repostero" + i).setText(String.valueOf(servidorRMI.getGalletasGeneradas(i - 1)));
+                    galletasDesperdiciadasCampos.get("Repostero" + i).setText(String.valueOf(servidorRMI.getGalletasDesperdiciadas(i - 1)));
+                }
+                galletasAlmacenadasCampo.setText(String.valueOf(servidorRMI.getGalletasAlmacenadas()));
+                galletasConsumidasCampo.setText(String.valueOf(servidorRMI.getGalletasComsumidas()));
+            } catch (RemoteException ex) {
+                ex.printStackTrace();
+            }
+        });
+        timer.start();
     }
 }
-
-
-

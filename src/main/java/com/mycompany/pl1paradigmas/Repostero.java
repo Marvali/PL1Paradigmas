@@ -7,6 +7,8 @@ package com.mycompany.pl1paradigmas;
 import InterfazServer.InterfazServidor;
 
 import java.util.Random;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
@@ -33,6 +35,11 @@ public class Repostero extends Thread {
     private InterfazServidor interfazServidor;
     private int tandasAProducir;
     private Fabrica fabrica;
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition pausarCondicion = lock.newCondition();
+    private boolean pausado = false;
+
+
 
     //Constructor
     public Repostero(int idRespostero, Horno[] hornos, Cafetera cafetera, Fabrica fabrica) {
@@ -48,6 +55,7 @@ public class Repostero extends Thread {
     public void run() {
         try {
             while (true) {
+                verificarPausa(); // Verificar si el hilo está pausado
 
                 //El respostero produce galletas
                 tandasAProducir = 3 + rand.nextInt(3); // Generate a random number between 3 and 5
@@ -168,6 +176,7 @@ public class Repostero extends Thread {
                                 horno.setCantidadGalletasHorno(horno.getCantidadGalletasHorno() + galletasPorTanda);
                                 log.escribirLog("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en el horno " + horno.getId()) ;
                                 System.out.println("El repostero " + idRespostero + " deposita " + galletasPorTanda + " galletas en el horno " + horno.getId());
+                                fabrica.setGalletasGeneradas(idRespostero, galletasPorTanda);
                                 galletasPorTanda = 0;
 
                                 // Notifica a otros reposteros
@@ -182,10 +191,12 @@ public class Repostero extends Thread {
                                 horno.setCantidadGalletasHorno(horno.getCapacidadMaxima());
                                 int galletasDepositadas = espacioVacio;
                                 int galletasDesperdiciadas = galletasPorTanda - espacioVacio;
+                                fabrica.setGalletasGeneradas(idRespostero, galletasDepositadas);
                                 galletasPorTanda = 0; // Todas las galletas restantes se descartan
 
                                 log.escribirLog("El repostero " + idRespostero + " deposita " + galletasDepositadas + " galletas en " + horno.getId() + " y desperdicia " + galletasDesperdiciadas + " galletas");
                                 System.out.println("El repostero " + idRespostero + " deposita " + galletasDepositadas + " galletas en " + horno.getId() + " y desperdicia " + galletasDesperdiciadas + " galletas");
+                                fabrica.setGallerasDesperdiciadas(idRespostero, galletasDesperdiciadas);
 
                                 // Notifica a otros reposteros
                                 horno.getVacio().signalAll();
@@ -204,6 +215,46 @@ public class Repostero extends Thread {
         } while (galletasPorTanda > 0);
     }
 
+    // Método para pausar el hilo
+    public void pausar() {
+        lock.lock();
+        try {
+            pausado = true;
+
+
+
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    // Método para reanudar el hilo
+    public void reanudar() {
+        lock.lock();
+        try {
+            pausado = false;
+            pausarCondicion.signal();
+
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    private void verificarPausa() throws InterruptedException {
+        lock.lock();
+        try {
+            while (pausado) {
+                System.out.println("--------------------");
+                System.out.println("Repostero " + idRespostero + " pausado");
+                System.out.println("--------------------");
+
+                pausarCondicion.await();
+            }
+        } finally {
+            lock.unlock();
+        }
+    }
+
 
     //Getters y Setters
     public int getTandasAProducir() {
@@ -213,6 +264,8 @@ public class Repostero extends Thread {
     public int getTandasProducidas() {
         return tandasProducidas;
     }
+
+
 
 
 }

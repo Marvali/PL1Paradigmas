@@ -89,7 +89,7 @@ public class InterfazServidor extends JFrame {
 
         for (int i = 0; i < 5; i++) {
             JPanel p = new JPanel(new BorderLayout());
-            p.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Repostero " + (i + 1), 0, 0, null, textoClaro));
+            p.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Repostero " + (i), 0, 0, null, textoClaro));
             p.setBackground(panelMarron);
 
             txtReposteros[i] = new JTextField("Produciendo (3/4)"); // Ejemplo de estado
@@ -269,7 +269,7 @@ private void iniciarHiloActualizacion() {
                 int tandasAProducir = fabrica.getRepostero(j).getTandasAProducir();
                 txtReposteros[j].setText("Produciendo (" + tandasProducidas + "/" + tandasAProducir + ")");
 
-                if (fabrica.getReposteroEnCafetera().equals("repostero " + (j + 1))) {
+                if (fabrica.getReposteroEnCafetera().equals("repostero " + (j))) {
 
                     lblEstadoCafé[j].setForeground(Color.RED);
                 } else {

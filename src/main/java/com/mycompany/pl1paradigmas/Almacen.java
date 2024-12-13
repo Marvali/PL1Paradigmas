@@ -30,6 +30,7 @@ public class Almacen {
     private int capacidadMaxima;       // Capacidad máxima del almacen
     private int cantidadGalletasAlmacen;       // Cantidad actual de galletas en el almacen
     private Semaphore emSemaforo;        // Semáforo para controlar el acceso
+    private int galletasComidas;        // Cantidad de galletas comidas
 
 
     // Constructor
@@ -72,6 +73,8 @@ public class Almacen {
             emSemaforo.acquire();
             if (cantidadGalletasAlmacen >= 100) {
                 cantidadGalletasAlmacen -= 100;
+                galletasComidas += 100;
+
             } else {
                 System.out.println("No hay suficientes galletas en el almacen");
             }
@@ -80,6 +83,7 @@ public class Almacen {
             e.printStackTrace();
         }
     }
+
 
     //Metodo para depositar galletas
     public void setCantidadGalletasAlmacen(int cantidad) {
@@ -101,6 +105,11 @@ public class Almacen {
             }
 
 
+    }
+
+    //Metodo para obtener la cantidad de galletas comidas
+    public int getGalletasComidas() {
+        return galletasComidas;
     }
 
 }

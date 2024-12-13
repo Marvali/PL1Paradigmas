@@ -15,10 +15,12 @@ public class Fabrica {
     private int lotesEmpaquetados[];
     private String estadoEmpaquetador[];
     private int barraProgresoHorno[];
+    private int galletasDesperdiciadas [];
+    private int galletasGeneradas [];
 
 
     // Contadores globales
-    private int galletasDesperdiciadas;
+
     private int galletasConsumidas;
 
     // Constructor que recibe las referencias a todas las entidades
@@ -28,7 +30,7 @@ public class Fabrica {
         this.empaquetadores = empaquetadores;
         this.almacen = almacen;
         this.cafetera = cafetera;
-        this.galletasDesperdiciadas = 0;
+
         this.galletasConsumidas = 0;
         this.tandasProducidas = new int[5];
         this.tandasAProducir = new int[5];
@@ -36,6 +38,9 @@ public class Fabrica {
         this.lotesEmpaquetados = new int[3];
         this.estadoEmpaquetador = new String[3];
         this.barraProgresoHorno = new int[3];
+        this.galletasDesperdiciadas = new int[5];
+        this.galletasGeneradas = new int[5];
+
 
 
     }
@@ -43,13 +48,11 @@ public class Fabrica {
     // Getters y setters sincronizados para acceso seguro
 
     // ****** Galletas Desperdiciadas ******
-    public synchronized void incrementarGalletasDesperdiciadas(int cantidad) {
-        this.galletasDesperdiciadas += cantidad;
+    public synchronized void incrementarGalletasDesperdiciadas(int idRepostero, int cantidad) {
+        this.galletasDesperdiciadas[idRepostero] += cantidad;
     }
 
-    public synchronized int getGalletasDesperdiciadas() {
-        return this.galletasDesperdiciadas;
-    }
+
 
     // ****** Galletas Consumidas ******
     public synchronized void incrementarGalletasConsumidas(int cantidad) {
@@ -219,7 +222,30 @@ public class Fabrica {
     public void comerGalletas() {
         almacen.comerGalletas();
 
+
+
     }
+
+    public synchronized void setGallerasDesperdiciadas(int idRepostero, int cantidad) {
+        this.galletasDesperdiciadas[idRepostero] += cantidad;
+    }
+
+    public synchronized int getGalletasDesperdiciadas(int idRepostero) {
+        return galletasDesperdiciadas[idRepostero];
+    }
+
+    public synchronized void setGalletasGeneradas(int idRepostero, int cantidad) {
+        this.galletasGeneradas[idRepostero] += cantidad;
+    }
+
+    public synchronized int getGalletasGeneradas(int idRepostero) {
+        return galletasGeneradas[idRepostero];
+    }
+
+    public int getGalletasComidas () {
+        return almacen.getGalletasComidas();
+    }
+
 
 
 }
