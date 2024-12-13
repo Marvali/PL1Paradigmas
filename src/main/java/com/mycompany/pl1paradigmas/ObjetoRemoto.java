@@ -21,13 +21,13 @@ public class ObjetoRemoto extends UnicastRemoteObject implements InterfazRemota 
     }
 
     @Override
-    public int getGalletasHorneadas() throws RemoteException {
-        return 0;
+    public int getGalletasHorneadas(int idRepostero) throws RemoteException {
+        return fabrica.getGalletasHorneadas(idRepostero);
     }
 
     @Override
-    public int getEstadoHorno() throws RemoteException {
-        return 0;
+    public int getEstadoHorno(int idHorno) throws RemoteException {
+        return fabrica.getBarraProgresoHorno(idHorno);
     }
 
     @Override

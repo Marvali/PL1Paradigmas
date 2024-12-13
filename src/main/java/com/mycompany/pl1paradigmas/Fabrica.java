@@ -17,6 +17,7 @@ public class Fabrica {
     private int barraProgresoHorno[];
     private int galletasDesperdiciadas [];
     private int galletasGeneradas [];
+    private int galletasHorneadas[];
 
 
     // Contadores globales
@@ -40,6 +41,7 @@ public class Fabrica {
         this.barraProgresoHorno = new int[3];
         this.galletasDesperdiciadas = new int[5];
         this.galletasGeneradas = new int[5];
+        this.galletasHorneadas = new int[3];
 
 
 
@@ -244,6 +246,14 @@ public class Fabrica {
 
     public int getGalletasComidas () {
         return almacen.getGalletasComidas();
+    }
+
+    public synchronized void setCantidadGalletasHorneadas(int idHorno, int cantidad) {
+        this.galletasHorneadas[idHorno] += cantidad;
+    }
+
+    public synchronized int getGalletasHorneadas(int idHorno) {
+        return galletasHorneadas[idHorno];
     }
 
 

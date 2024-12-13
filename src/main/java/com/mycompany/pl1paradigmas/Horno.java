@@ -87,8 +87,9 @@ public class Horno extends Thread {
 
             }
 
-
+            fabrica.setCantidadGalletasHorneadas(id, cantidadGalletasHorno);
             listoParaRecoger.signalAll(); // Indica que el horno está vacío
+
         } finally {
             lock.unlock();
             log.escribirLog("El horno " + id + " ha terminado de hornear");
