@@ -72,10 +72,3 @@ Basándose en la aplicación concurrente descrita, se incluirá un nuevo módulo
 La información mostrada será actualizada automáticamente en la interfaz del cliente con una periodicidad de 1 segundo, reflejando el estado real de la fábrica en todo momento.
 
 ---
-
-#### **Condiciones de Entrega**
-1. La práctica deberá ser entregada antes de la fecha indicada en el Aula Virtual, incluyendo:
-    - Una memoria explicativa (PDF o DOC).
-    - El proyecto NetBeans comprimido en formato ZIP (no usar `.rar`).
-
-2. El proyecto debe cumplir con las especificaciones de la convocatoria.

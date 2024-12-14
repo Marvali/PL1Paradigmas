@@ -1,4 +1,4 @@
-package com.mycompany.pl1paradigmas;
+package logicaServidor;
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
 
@@ -39,11 +39,7 @@ public class ObjetoRemoto extends UnicastRemoteObject implements InterfazRemota 
     public int getGalletasComsumidas() throws RemoteException {
         return fabrica.getGalletasComidas();
     }
-
-    @Override
-    public void pararRepostero(int idRepostero) throws RemoteException {
-
-    }
+    
 
     @Override
     public int ComprobarConexiones() throws RemoteException {

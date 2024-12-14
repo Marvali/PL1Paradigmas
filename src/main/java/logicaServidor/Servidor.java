@@ -1,4 +1,4 @@
-package com.mycompany.pl1paradigmas;
+package logicaServidor;
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;

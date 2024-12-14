@@ -1,6 +1,6 @@
 package InterfazClient;
 
-import com.mycompany.pl1paradigmas.InterfazRemota;
+import logicaServidor.InterfazRemota;
 
 import javax.swing.*;
 import java.awt.*;
@@ -73,6 +73,7 @@ public class InterfazCliente extends JFrame {
             reposterosGridPanel.add(galletasDesperdiciadas);
             galletasDesperdiciadasCampos.put("Repostero" + i, galletasDesperdiciadas);
 
+            // Botón para pausar/reanudar el repostero
             JButton actionButton = new JButton("Parar");
             actionButton.setForeground(textoClaro);
             actionButton.setBackground(botonColor);
@@ -151,7 +152,7 @@ public class InterfazCliente extends JFrame {
         // Añadir el panel principal al marco
         add(mainPanel);
     }
-
+    // Crear una etiqueta con el texto y color especificados
     private JLabel crearEtiqueta(String texto, Color colorTexto) {
         JLabel etiqueta = new JLabel(texto, SwingConstants.CENTER);
         etiqueta.setFont(new Font("Arial", Font.PLAIN, 12));
@@ -163,16 +164,19 @@ public class InterfazCliente extends JFrame {
         Timer timer = new Timer(2000, e -> {
             try {
                 // Actualiza datos del servidor
+                // Reposteros, galleras generadas y desperdiciadas
                 for (int i = 1; i <= 5; i++) {
                     galletasGeneradasCampos.get("Repostero" + i).setText(String.valueOf(servidorRMI.getGalletasGeneradas(i - 1)));
                     galletasDesperdiciadasCampos.get("Repostero" + i).setText(String.valueOf(servidorRMI.getGalletasDesperdiciadas(i - 1)));
                 }
+
+                // Hornos, galletas horneadas y barras de progreso
                 for (int i = 1; i <= 3; i++) {
                     galletasHorneadasCampos.get("Horno" + i).setText(String.valueOf(servidorRMI.getGalletasHorneadas(i - 1)));
                     int progreso = servidorRMI.getEstadoHorno(i - 1);
                     barrasProgresoHornos.get("Horno" + i).setValue(progreso);
                 }
-
+                // Almacén, galletas almacenadas y consumidas
                 galletasAlmacenadasCampo.setText(String.valueOf(servidorRMI.getGalletasAlmacenadas()));
                 galletasConsumidasCampo.setText(String.valueOf(servidorRMI.getGalletasComsumidas()));
             } catch (RemoteException ex) {

@@ -1,4 +1,4 @@
-package com.mycompany.pl1paradigmas;
+package logicaServidor;
 
 
 
@@ -179,9 +179,7 @@ public class Fabrica {
 
     }
 
-    public synchronized void setReposteroEnCafetera(String nombre) {
-        cafetera.setReposteroActual(nombre);
-    }
+
 
     public synchronized void setReposteroEnCafetera1(String repostero) {
         this.reposteroEnCafetera = repostero;

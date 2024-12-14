@@ -1,6 +1,6 @@
 package InterfazServer;
 
-import com.mycompany.pl1paradigmas.Fabrica;
+import logicaServidor.Fabrica;
 
 import javax.swing.*;
 import java.awt.*;

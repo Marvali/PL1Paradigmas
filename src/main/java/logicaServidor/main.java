@@ -1,4 +1,4 @@
-package com.mycompany.pl1paradigmas;
+package logicaServidor;
 
 import InterfazServer.InterfazServidor;
 import javax.swing.SwingUtilities;

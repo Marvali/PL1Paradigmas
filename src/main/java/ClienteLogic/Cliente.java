@@ -7,7 +7,7 @@ package ClienteLogic;
 import InterfazServer.InterfazServidor;
 //
 import InterfazClient.InterfazCliente;
-import com.mycompany.pl1paradigmas.InterfazRemota;
+import logicaServidor.InterfazRemota;
 import javax.swing.SwingUtilities;
 import javax.swing.*;
 import java.rmi.Naming;
