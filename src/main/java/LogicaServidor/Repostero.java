@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package logicaServidor;
+package LogicaServidor;
 
 import InterfazServer.InterfazServidor;
 
@@ -97,7 +97,7 @@ public class Repostero extends Thread {
                     hacerCafe();
                 }
 
-
+                log.escribirLog("El repostero " + idRespostero + " se va a tomar su descanso");
                 sleep((long) (3000 + 3000 * Math.random())); //entre 3 y 6 segundos
                 log.escribirLog("El repostero " + idRespostero + " ha terminado de descansar");
                 System.out.println("El repostero " + idRespostero + " ha terminado de descansar");
@@ -180,7 +180,7 @@ public class Repostero extends Thread {
                                 galletasPorTanda = 0;
 
                                 // Notifica a otros reposteros
-                                horno.getVacio().signalAll();
+                                horno.getVacio().signal();
 
                                 // Notifica al horneador si el horno está lleno
                                 if (horno.getCantidadGalletasHorno() == horno.getCapacidadMaxima()) {

@@ -1,12 +1,9 @@
 package InterfazServer;
 
-import logicaServidor.Fabrica;
+import LogicaServidor.Fabrica;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 public class InterfazServidor extends JFrame {
 
@@ -109,12 +106,12 @@ public class InterfazServidor extends JFrame {
 
         // Panel central: Hornos y Empaquetadores
         JPanel panelCentral = new JPanel(new GridLayout(1, 2));
-        panelCentral.setBackground(fondoAzul);
+        panelCentral.setBackground(panelMarron);
 
         // Panel Hornos
         panelHornos = new JPanel(new GridLayout(3, 1));
         panelHornos.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Hornos", 2, 2, null, textoClaro));
-        panelHornos.setBackground(fondoAzul);
+        panelHornos.setBackground(panelMarron);
 
         txtGalletasHorno = new JTextField[3];
         pbHorneado = new JProgressBar[3];
@@ -159,7 +156,7 @@ public class InterfazServidor extends JFrame {
         // Panel Empaquetadores
         panelEmpaquetadores = new JPanel(new GridLayout(3, 1));
         panelEmpaquetadores.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Empaquetadores", 2, 2, null, textoClaro));
-        panelEmpaquetadores.setBackground(fondoAzul);
+        panelEmpaquetadores.setBackground(panelMarron);
         txtEstadoEmpaquetador = new JTextField[3];
         panelCajasEmpaquetador = new JPanel[3];
         lblCajasEmpaquetador = new JLabel[3][5]; // 5 cajas de 20 galletas cada una
@@ -196,7 +193,7 @@ public class InterfazServidor extends JFrame {
         // Panel inferior: Almacén
         panelAlmacen = new JPanel(new FlowLayout(FlowLayout.LEFT));
         panelAlmacen.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(textoClaro), "Almacén", 0, 0, null, textoClaro));
-        panelAlmacen.setBackground(panelMarron);
+        panelAlmacen.setBackground(fondoAzul);
         JLabel lblAlmacen = new JLabel("Galletas en almacén:");
         lblAlmacen.setForeground(textoClaro);
         panelAlmacen.add(lblAlmacen);

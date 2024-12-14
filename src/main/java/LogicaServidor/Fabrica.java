@@ -1,4 +1,4 @@
-package logicaServidor;
+package LogicaServidor;
 
 
 

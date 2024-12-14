@@ -1,11 +1,11 @@
-package logicaServidor;
+package LogicaServidor;
 
 import InterfazServer.InterfazServidor;
 import javax.swing.SwingUtilities;
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         try {

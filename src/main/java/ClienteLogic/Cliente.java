@@ -4,14 +4,11 @@
  */
 package ClienteLogic;
 
-import InterfazServer.InterfazServidor;
 //
 import InterfazClient.InterfazCliente;
-import logicaServidor.InterfazRemota;
+import LogicaServidor.InterfazRemota;
 import javax.swing.SwingUtilities;
-import javax.swing.*;
-import java.rmi.Naming;
-import java.rmi.RemoteException;
+        import java.rmi.Naming;
 
 /**
  *

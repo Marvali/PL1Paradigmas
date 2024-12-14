@@ -1,6 +1,6 @@
 package InterfazClient;
 
-import logicaServidor.InterfazRemota;
+import LogicaServidor.InterfazRemota;
 
 import javax.swing.*;
 import java.awt.*;
@@ -161,7 +161,7 @@ public class InterfazCliente extends JFrame {
     }
 
     private void iniciarActualizador() {
-        Timer timer = new Timer(2000, e -> {
+        Timer timer = new Timer(1000, e -> {
             try {
                 // Actualiza datos del servidor
                 // Reposteros, galleras generadas y desperdiciadas

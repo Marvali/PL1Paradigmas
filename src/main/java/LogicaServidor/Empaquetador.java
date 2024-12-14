@@ -2,9 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package logicaServidor;
-
-import java.sql.SQLOutput;
+package LogicaServidor;
 
 import static java.lang.Thread.sleep;
 
@@ -108,6 +106,7 @@ public class Empaquetador extends Thread {
     private void llevarAlmacen(int galletasRecogidas) {
         try {
             fabrica.setEstadoEmpaquetador(idEmpaquetador, "Llevando galletas al almacén");
+            log.escribirLog("El empaquetador " + idEmpaquetador + "  Introduce galletas en el almacen " + horno.getId());
 
             sleep((long) (2000 + 2000 * Math.random())); //entre 2 y 4 segundos
 

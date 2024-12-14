@@ -1,4 +1,4 @@
-package logicaServidor;
+package LogicaServidor;
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
 
