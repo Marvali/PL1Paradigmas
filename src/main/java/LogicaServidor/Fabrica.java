@@ -61,14 +61,17 @@ public class Fabrica {
         this.galletasConsumidas += cantidad;
     }
 
+
     public synchronized int getGalletasConsumidas() {
         return this.galletasConsumidas;
     }
+
 
     // ****** Almacen ******
     public  int getCantidadGalletasAlmacen() {
         return almacen.getCantidadGalletasAlmacen();
     }
+
 
     // Si se requiere modificar el almacén desde aquí
     public synchronized void setCantidadGalletasAlmacen(int cantidad) {
